@@ -4,53 +4,23 @@
 
 class BigInt {
 private:
-    std::string Number;
+    std::string number;
     bool IsNegative;
 
 public:
-    BigInt() {
-        Number = "0";
-        IsNegative = false;
-    };
+    BigInt();
 
-    BigInt(int Number) {
-        this->Number = std::to_string(Number);
-        if (Number >= 0) {
-            IsNegative = false;
-        } else {
-            IsNegative = true;
-        }
-    };
+    BigInt(int number);
 
-    BigInt(std::string Number) {
-        if (Number[0] == '-') {
-            Number.erase(0,1);
-            this->IsNegative = true;
-        }
-        else{
-            this->IsNegative = false;
-        }
+    BigInt(std::string number);
 
-        for (int i = 0; i < std::size(Number); i++) {
-            if (Number[i] < '0' || Number[i] > '9' || Number[0] == '0' ) {
-                throw std::invalid_argument("Invalid argument");
-            }
-        }
-        this->Number = Number;
-    };
-    // бросать исключение std::invalid_argument при ошибке
+    BigInt(const BigInt &number);
 
-    BigInt(const BigInt &);
+    ~BigInt();
 
-    ~BigInt() {
-        std::cout << "Destructing " << this << std::endl;
-    };
+    std::string getBigInt() const;
 
-    BigInt &operator=(const BigInt &NewNumber) {
-        this->Number = NewNumber.Number;
-        this->IsNegative = NewNumber.IsNegative;
-        return *this;
-    };  //возможно присваивание самому себе!
+    BigInt &operator=(const BigInt &number);
 
     BigInt operator~() const;
 
@@ -100,6 +70,70 @@ public:
     size_t size() const;  // size in bytes
 };
 
+BigInt::BigInt() {
+    number = "0";
+    IsNegative = false;
+}
+
+BigInt::BigInt(int number) {
+    this->number = std::to_string(number);
+    if (number >= 0) {
+        IsNegative = false;
+    } else {
+        IsNegative = true;
+    }
+}
+
+BigInt::BigInt(std::string number) {
+    if (number[0] == '-') {
+        number.erase(0, 1);
+        this->IsNegative = true;
+    } else {
+        this->IsNegative = false;
+    }
+
+    for (int i = 0; i < std::size(number); i++) {
+        if (number[i] < '0' || number[i] > '9' || number[0] == '0') {
+            throw std::invalid_argument("Invalid argument");
+        }
+    }
+    this->number = number;
+}
+// бросать исключение std::invalid_argument при ошибке
+
+BigInt::~BigInt() {
+    std::cout << "Destructing " << this << std::endl;
+}
+
+BigInt::BigInt(const BigInt &number) {
+    this->number = number.number;
+    IsNegative = number.IsNegative;
+}
+
+std::string BigInt::getBigInt() const {
+    return number;
+}
+
+BigInt &BigInt::operator=(const BigInt &number) {
+    this->number = number.number;
+    this->IsNegative = number.IsNegative;
+    return *this;
+}; //возможно присваивание самому себе!
+
+BigInt &BigInt::operator++() {
+    uint32_t i = std::size(number) - 1;
+    number[i]++;
+    while (number[i] > '9' && i >= 0) {
+        number[i] -= 10;
+        i--;
+        number[i]++;
+    }
+    if (number[0] > '9') {
+        number[0] -= 10;
+        number = "1" + number;
+    }
+    return *this;
+};
 
 BigInt operator+(const BigInt &, const BigInt &);
 
@@ -123,8 +157,10 @@ std::ostream &operator<<(std::ostream &o, const BigInt &i);
 int main() {
     BigInt a;
     BigInt b(10);
-    BigInt c("21234866");
+    BigInt c("-21234866");
     a = c;
-
+    ++b;
+    std::cout << &a << " " << &c << std::endl;
+    std::cout << b.getBigInt() << std::endl;
     return 0;
 }
