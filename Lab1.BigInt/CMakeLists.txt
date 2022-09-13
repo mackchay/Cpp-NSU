@@ -3,4 +3,4 @@ project(Lab1_BigInt)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Lab1_BigInt main.cpp)
+add_executable(Lab1_BigInt main.cpp bigInt.h)

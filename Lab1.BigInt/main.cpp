@@ -1,74 +1,4 @@
-#include <iostream>
-#include <string>
-
-
-class BigInt {
-private:
-    std::string number;
-    bool IsNegative;
-
-public:
-    BigInt();
-
-    BigInt(int number);
-
-    BigInt(std::string number);
-
-    BigInt(const BigInt &number);
-
-    ~BigInt();
-
-    std::string getBigInt() const;
-
-    BigInt &operator=(const BigInt &number);
-
-    BigInt operator~() const;
-
-    BigInt &operator++();
-
-    const BigInt operator++(int) const;
-
-    BigInt &operator--();
-
-    const BigInt operator--(int) const;
-
-    BigInt &operator+=(const BigInt &);
-
-    BigInt &operator*=(const BigInt &);
-
-    BigInt &operator-=(const BigInt &);
-
-    BigInt &operator/=(const BigInt &);
-
-    BigInt &operator^=(const BigInt &);
-
-    BigInt &operator%=(const BigInt &);
-
-    BigInt &operator&=(const BigInt &);
-
-    BigInt &operator|=(const BigInt &);
-
-    BigInt operator+() const;  // unary +
-    BigInt operator-() const;  // unary -
-
-    bool operator==(const BigInt &) const;
-
-    bool operator!=(const BigInt &) const;
-
-    bool operator<(const BigInt &) const;
-
-    bool operator>(const BigInt &) const;
-
-    bool operator<=(const BigInt &) const;
-
-    bool operator>=(const BigInt &) const;
-
-    operator int() const;
-
-    operator std::string() const;
-
-    size_t size() const;  // size in bytes
-};
+#include "bigInt.h"
 
 BigInt::BigInt() {
     number = "0";
@@ -80,6 +10,7 @@ BigInt::BigInt(int number) {
     if (number >= 0) {
         IsNegative = false;
     } else {
+        this->number.erase(0,1);
         IsNegative = true;
     }
 }
@@ -111,6 +42,9 @@ BigInt::BigInt(const BigInt &number) {
 }
 
 std::string BigInt::getBigInt() const {
+    if (IsNegative) {
+        return ("-" + number);
+    }
     return number;
 }
 
@@ -122,18 +56,47 @@ BigInt &BigInt::operator=(const BigInt &number) {
 
 BigInt &BigInt::operator++() {
     uint32_t i = std::size(number) - 1;
-    number[i]++;
-    while (number[i] > '9' && i >= 0) {
-        number[i] -= 10;
+    number[i] += 1 - IsNegative * 2;
+    while ((number[i] > '9' || number[i] < '0') && i >= 1) {
+        number[i] -= 10 - IsNegative * 20;
         i--;
-        number[i]++;
+        number[i] += 1 - IsNegative * 2;
     }
     if (number[0] > '9') {
         number[0] -= 10;
         number = "1" + number;
     }
+    if (number[0] == '0') {
+        number.erase(0, 1);
+    }
     return *this;
 };
+
+BigInt &BigInt::operator--() {
+    uint32_t i = std::size(number) - 1;
+    number[i] -= 1 - IsNegative * 2;
+    while ((number[i] > '9' || number[i] < '0') && i > 0) {
+        number[i] += 10 - IsNegative * 20;
+        i--;
+        number[i] -= 1 - IsNegative * 2;
+    }
+    if (number[0] > '9') {
+        number[0] -= 10;
+        number = "1" + number;
+    }
+    if (number[0] == '0') {
+        number.erase(0, 1);
+    }
+    return *this;
+};
+
+/*BigInt &BigInt::operator+=(const BigInt &number) {
+    uint32_t i = std::size(number) - 1;
+    this->number += number.number[i];
+
+
+};*/
+
 
 BigInt operator+(const BigInt &, const BigInt &);
 
@@ -156,11 +119,11 @@ std::ostream &operator<<(std::ostream &o, const BigInt &i);
 
 int main() {
     BigInt a;
-    BigInt b(10);
-    BigInt c("-21234866");
+    BigInt b(-10);
+    BigInt c("-1099");
     a = c;
-    ++b;
+    --a;
     std::cout << &a << " " << &c << std::endl;
-    std::cout << b.getBigInt() << std::endl;
+    std::cout << a.getBigInt() << std::endl;
     return 0;
 }

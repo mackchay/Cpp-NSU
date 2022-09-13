@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/bigInt.h">
+			<Option target="Lab1_BigInt"/>
+		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/main.cpp">
 			<Option target="Lab1_BigInt"/>
 		</Unit>
