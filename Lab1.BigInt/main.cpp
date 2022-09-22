@@ -10,7 +10,7 @@ BigInt::BigInt(int number) {
     if (number >= 0) {
         IsNegative = false;
     } else {
-        this->number.erase(0,1);
+        this->number.erase(0, 1);
         IsNegative = true;
     }
 }
@@ -48,9 +48,12 @@ std::string BigInt::getBigInt() const {
     return number;
 }
 
-BigInt &BigInt::operator=(const BigInt &number) {
-    this->number = number.number;
-    this->IsNegative = number.IsNegative;
+BigInt &BigInt::operator=(const BigInt &numberOther) {
+    if (this == &numberOther) {
+        return *this;
+    }
+    this->number = numberOther.number;
+    this->IsNegative = numberOther.IsNegative;
     return *this;
 }; //возможно присваивание самому себе!
 
@@ -72,6 +75,12 @@ BigInt &BigInt::operator++() {
     return *this;
 };
 
+const BigInt BigInt::operator++(int) {
+    BigInt numberOld(*this);
+    ++(*this);
+    return numberOld;
+};
+
 BigInt &BigInt::operator--() {
     uint32_t i = std::size(number) - 1;
     number[i] -= 1 - IsNegative * 2;
@@ -89,6 +98,66 @@ BigInt &BigInt::operator--() {
     }
     return *this;
 };
+
+const BigInt BigInt::operator--(int) {
+    BigInt numberOld(*this);
+    --(*this);
+    return numberOld;
+}
+
+bool BigInt::operator==(const BigInt &other) const {
+    return (this->number == other.number && this->IsNegative == other.IsNegative);
+}
+
+bool BigInt::operator!=(const BigInt &other) const {
+    return !(*this == other);
+}
+
+bool BigInt::operator<(const BigInt &other) const {
+    if (this->IsNegative == other.IsNegative) {
+        return this->number < other.number;
+    }
+    return this->IsNegative;
+}
+
+
+
+bool BigInt::operator>(const BigInt &other) const {
+    return  !(*this < other);
+}
+
+
+
+BigInt &BigInt::operator+=(const BigInt &numberSum) {
+    uint32_t i = std::size(number) - 1;
+    uint64_t j = std::size(numberSum.number) - 1;
+    number[i] += numberSum.number[j] - '0';
+    while (i > 0 && j > 0) {
+        if (number[i] > '9') {
+            number[i] -= 10;
+            number[i - 1]++;
+        }
+        i--;
+        j--;
+        number[i] += numberSum.number[j] - '0';
+    }
+
+    if (number[i] > '9') {
+        number[i] -= 10;
+        if (i == 0)
+            number = "1" + number;
+        else
+            number[i - 1]++;
+    }
+
+    if (number[0] < '0') {
+        number.erase(0, 1);
+    }
+    return *this;
+
+
+};
+
 
 /*BigInt &BigInt::operator+=(const BigInt &number) {
     uint32_t i = std::size(number) - 1;
@@ -119,10 +188,10 @@ std::ostream &operator<<(std::ostream &o, const BigInt &i);
 
 int main() {
     BigInt a;
-    BigInt b(-10);
-    BigInt c("-1099");
+    BigInt b(10);
+    BigInt c("1099");
     a = c;
-    --a;
+    a += b;
     std::cout << &a << " " << &c << std::endl;
     std::cout << a.getBigInt() << std::endl;
     return 0;
