@@ -1,3 +1,4 @@
+#include <algorithm>
 #include "bigInt.h"
 
 BigInt::BigInt() {
@@ -43,7 +44,7 @@ BigInt::BigInt(const BigInt &number) {
 
 std::string BigInt::getBigInt() const {
     if (IsNegative) {
-        return ("-" + number);
+        return "-" + (number);
     }
     return number;
 }
@@ -56,6 +57,13 @@ BigInt &BigInt::operator=(const BigInt &numberOther) {
     this->IsNegative = numberOther.IsNegative;
     return *this;
 }; //возможно присваивание самому себе!
+
+
+BigInt BigInt::operator-() const {
+    BigInt NumberOld(*this);
+    NumberOld.IsNegative = !IsNegative;
+    return NumberOld;
+}
 
 BigInt &BigInt::operator++() {
     uint32_t i = std::size(number) - 1;
@@ -75,7 +83,7 @@ BigInt &BigInt::operator++() {
     return *this;
 };
 
-const BigInt BigInt::operator++(int) {
+BigInt BigInt::operator++(int) {
     BigInt numberOld(*this);
     ++(*this);
     return numberOld;
@@ -115,59 +123,151 @@ bool BigInt::operator!=(const BigInt &other) const {
 
 bool BigInt::operator<(const BigInt &other) const {
     if (this->IsNegative == other.IsNegative) {
-        return this->number < other.number;
+        if (other.size() != this->size()) {
+            if (!this->IsNegative) {
+                return this->size() < other.size();
+            }
+            return this->size() > other.size();
+        }
+        for (int i = 0; i < this->size(); i++) {
+            if (this->number[i] != other.number[i]) {
+                if (!this->IsNegative) {
+                    return this->number[i] < other.number[i];
+                }
+                return this->number[i] > other.number[i];
+            }
+
+        }
+        return false;
     }
     return this->IsNegative;
 }
 
+bool BigInt::operator<=(const BigInt &other) const {
+    return *this == other || *this < other;
+}
 
-
-bool BigInt::operator>(const BigInt &other) const {
-    return  !(*this < other);
+bool BigInt::operator>=(const BigInt &other) const {
+    return *this == other || *this > other;
 }
 
 
+bool BigInt::operator>(const BigInt &other) const {
+    return !(*this < other);
+}
 
-BigInt &BigInt::operator+=(const BigInt &numberSum) {
-    uint32_t i = std::size(number) - 1;
-    uint64_t j = std::size(numberSum.number) - 1;
-    number[i] += numberSum.number[j] - '0';
-    while (i > 0 && j > 0) {
-        if (number[i] > '9') {
-            number[i] -= 10;
-            number[i - 1]++;
+
+BigInt &BigInt::operator+=(const BigInt &other) {
+    if (this->IsNegative != other.IsNegative) {
+        this->IsNegative = !this->IsNegative;
+        *this -= other;
+        this->IsNegative = !this->IsNegative;
+        return *this;
+    }
+
+    std::string thisNumber = this->number;
+    std::string otherNumber = other.number;
+    std::reverse(otherNumber.begin(), otherNumber.end());
+    std::reverse(thisNumber.begin(), thisNumber.end());
+
+    for (int i = 0; i < std::max(std::size(thisNumber), std::size(otherNumber)); i++) {
+        if (i < std::size(otherNumber)) {
+            thisNumber[i] += otherNumber[i] - '0';
         }
-        i--;
-        j--;
-        number[i] += numberSum.number[j] - '0';
+        if (thisNumber[i] > '9') {
+            thisNumber[i] -= 10;
+            if (!thisNumber[i + 1])
+                thisNumber.append("0");
+            thisNumber[i + 1] += 1;
+        } else if (!thisNumber[i + 1] && i != (std::max(std::size(thisNumber), std::size(otherNumber)) - 1)) {
+            thisNumber.append("0");
+        }
     }
 
-    if (number[i] > '9') {
-        number[i] -= 10;
-        if (i == 0)
-            number = "1" + number;
-        else
-            number[i - 1]++;
-    }
+    std::reverse(thisNumber.begin(), thisNumber.end());
+    this->number = thisNumber;
 
-    if (number[0] < '0') {
-        number.erase(0, 1);
-    }
     return *this;
-
 
 };
 
+BigInt &BigInt::operator-=(const BigInt &other) {
+    if (this->IsNegative != other.IsNegative) {
+            this->IsNegative = !this->IsNegative;
+            *this += other;
+            this->IsNegative = !this->IsNegative;
+            return *this;
+    }
 
-/*BigInt &BigInt::operator+=(const BigInt &number) {
-    uint32_t i = std::size(number) - 1;
-    this->number += number.number[i];
+
+    std::string thisNumber;
+    std::string otherNumber;
+    if ((this->IsNegative && *this < other) || (!(this->IsNegative) && *this > other)) {
+        thisNumber = this->number;
+        otherNumber = other.number;
+
+    } else {
+        thisNumber = other.number;
+        otherNumber = this->number;
+        this->IsNegative = !this->IsNegative;
+    }
+
+    std::reverse(thisNumber.begin(), thisNumber.end());
+    std::reverse(otherNumber.begin(), otherNumber.end());
+
+    for (int i = 0; i < std::max(std::size(thisNumber), std::size(otherNumber)); i++) {
+        thisNumber[i] += '0' - otherNumber[i];
+        if (thisNumber[i] < '0' && i != std::max(std::size(thisNumber), std::size(otherNumber)) - 1) {
+            thisNumber[i] += 10;
+            thisNumber[i + 1] -= 1;
+        }
+        if (i == std::size(otherNumber) - 1 && i != std::max(std::size(thisNumber), std::size(otherNumber)) - 1) {
+            otherNumber.append("0");
+        }
+    }
 
 
-};*/
+    std::reverse(thisNumber.begin(), thisNumber.end());
 
 
-BigInt operator+(const BigInt &, const BigInt &);
+    int j = 0;
+
+    while (thisNumber[j] == '0' && j != std::size(thisNumber) - 1) {
+        thisNumber.erase(j, 1);
+    }
+
+    this->number = thisNumber;
+
+    return *this;
+
+};
+
+BigInt &BigInt::operator*=(const BigInt &other) {
+    for (BigInt i; i <= other; ++i) {
+        *this += *this;
+    }
+    return *this;
+};
+
+size_t BigInt::size() const {
+    return std::size(number);
+}
+
+
+BigInt operator+(const BigInt &first, const BigInt &second) {
+    BigInt res;
+    res += first;
+    res += second;
+    return res;
+
+};
+
+BigInt operator-(const BigInt &first, const BigInt &second) {
+    BigInt res;
+    res += first;
+    res -= second;
+    return res;
+};
 
 BigInt operator-(const BigInt &, const BigInt &);
 
@@ -188,10 +288,9 @@ std::ostream &operator<<(std::ostream &o, const BigInt &i);
 
 int main() {
     BigInt a;
-    BigInt b(10);
-    BigInt c("1099");
-    a = c;
-    a += b;
+    BigInt b("-10000");
+    BigInt c("-900");
+    a = b - c;
     std::cout << &a << " " << &c << std::endl;
     std::cout << a.getBigInt() << std::endl;
     return 0;

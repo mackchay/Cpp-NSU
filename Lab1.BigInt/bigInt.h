@@ -12,9 +12,9 @@ private:
 public:
     BigInt();
 
-    BigInt(int number);
+    explicit BigInt(int number);
 
-    BigInt(std::string number);
+    explicit BigInt(std::string number);
 
     BigInt(const BigInt &number);
 
@@ -24,17 +24,17 @@ public:
 
     BigInt &operator=(const BigInt &numberOther);
 
-     BigInt operator~() const;
+    BigInt operator~() const;
 
     BigInt &operator++();
 
-    const BigInt operator++(int);
+    BigInt operator++(int);
 
     BigInt &operator--();
 
     const BigInt operator--(int);
 
-    BigInt &operator+=(const BigInt &number);
+    BigInt &operator+=(const BigInt &);
 
     BigInt &operator*=(const BigInt &);
 
@@ -71,5 +71,23 @@ public:
 
     size_t size() const;  // size in bytes
 };
+
+BigInt operator+(const BigInt &, const BigInt &);
+
+BigInt operator-(const BigInt &, const BigInt &);
+
+BigInt operator*(const BigInt &, const BigInt &);
+
+BigInt operator/(const BigInt &, const BigInt &);
+
+BigInt operator^(const BigInt &, const BigInt &);
+
+BigInt operator%(const BigInt &, const BigInt &);
+
+BigInt operator&(const BigInt &, const BigInt &);
+
+BigInt operator|(const BigInt &, const BigInt &);
+
+std::ostream &operator<<(std::ostream &o, const BigInt &i);
 
 #endif //LAB1_BIGINT_BIGINT_H
