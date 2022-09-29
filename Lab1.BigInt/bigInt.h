@@ -12,17 +12,17 @@ private:
 public:
     BigInt();
 
-    explicit BigInt(int number);
+    BigInt(int);
 
-    explicit BigInt(std::string number);
+    BigInt(std::string);
 
-    BigInt(const BigInt &number);
+    BigInt(const BigInt &);
 
     ~BigInt();
 
     std::string getBigInt() const;
 
-    BigInt &operator=(const BigInt &numberOther);
+    BigInt &operator=(const BigInt &);
 
     BigInt operator~() const;
 
@@ -71,6 +71,12 @@ public:
 
     size_t size() const;  // size in bytes
 };
+
+int charToInt(char);
+
+void extraZeros(std::string &);
+
+int intToChar(int x);
 
 BigInt operator+(const BigInt &, const BigInt &);
 
