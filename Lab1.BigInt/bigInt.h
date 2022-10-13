@@ -1,13 +1,11 @@
 #ifndef LAB1_BIGINT_BIGINT_H
 #define LAB1_BIGINT_BIGINT_H
+
 #include <iostream>
 #include <string>
 
 
 class BigInt {
-private:
-    std::string number;
-    bool IsNegative;
 
 public:
     BigInt();
@@ -20,15 +18,13 @@ public:
 
     ~BigInt();
 
-    std::string getBigInt() const;
-
     BigInt &operator=(const BigInt &);
 
     BigInt operator~() const;
 
     BigInt &operator++();
 
-    BigInt operator++(int);
+    const BigInt operator++(int);
 
     BigInt &operator--();
 
@@ -65,18 +61,19 @@ public:
 
     bool operator>=(const BigInt &) const;
 
-    operator int() const;
+    explicit operator int() const;
 
-    operator std::string() const;
+    explicit operator std::string() const;
 
     size_t size() const;  // size in bytes
+
+
+private:
+
+    std::string number;
+    bool IsNegative;
 };
 
-int charToInt(char);
-
-void extraZeros(std::string &);
-
-int intToChar(int x);
 
 BigInt operator+(const BigInt &, const BigInt &);
 
@@ -95,5 +92,16 @@ BigInt operator&(const BigInt &, const BigInt &);
 BigInt operator|(const BigInt &, const BigInt &);
 
 std::ostream &operator<<(std::ostream &o, const BigInt &i);
+
+BigInt pow(const BigInt &, const BigInt &);
+
+int charToInt(char);
+
+void extraZeros(std::string &);
+
+std::string fromDecadeToBin(std::string );
+
+std::string fromBinToDecade(std::string );
+int intToChar(BigInt x);
 
 #endif //LAB1_BIGINT_BIGINT_H
