@@ -64,6 +64,40 @@ CMAKE_BINARY_DIR = C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\cmake-b
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -74,15 +108,26 @@ edit_cache:
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
 
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-.PHONY : rebuild_cache/fast
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -116,24 +161,150 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Lab1_BigInt
+# Target rules for targets named corelib
 
 # Build rule for target.
-Lab1_BigInt: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lab1_BigInt
-.PHONY : Lab1_BigInt
+corelib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 corelib
+.PHONY : corelib
 
 # fast build rule for target.
-Lab1_BigInt/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab1_BigInt.dir\build.make CMakeFiles/Lab1_BigInt.dir/build
-.PHONY : Lab1_BigInt/fast
+corelib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\corelib.dir\build.make CMakeFiles/corelib.dir/build
+.PHONY : corelib/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named Lab1.BigInt
+
+# Build rule for target.
+Lab1.BigInt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lab1.BigInt
+.PHONY : Lab1.BigInt
+
+# fast build rule for target.
+Lab1.BigInt/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab1.BigInt.dir\build.make CMakeFiles/Lab1.BigInt.dir/build
+.PHONY : Lab1.BigInt/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+bigint.obj: bigint.cpp.obj
+.PHONY : bigint.obj
+
+# target to build an object file
+bigint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\corelib.dir\build.make CMakeFiles/corelib.dir/bigint.cpp.obj
+.PHONY : bigint.cpp.obj
+
+bigint.i: bigint.cpp.i
+.PHONY : bigint.i
+
+# target to preprocess a source file
+bigint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\corelib.dir\build.make CMakeFiles/corelib.dir/bigint.cpp.i
+.PHONY : bigint.cpp.i
+
+bigint.s: bigint.cpp.s
+.PHONY : bigint.s
+
+# target to generate assembly for a file
+bigint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\corelib.dir\build.make CMakeFiles/corelib.dir/bigint.cpp.s
+.PHONY : bigint.cpp.s
+
+bigint_test.obj: bigint_test.cpp.obj
+.PHONY : bigint_test.obj
+
+# target to build an object file
+bigint_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/bigint_test.cpp.obj
+.PHONY : bigint_test.cpp.obj
+
+bigint_test.i: bigint_test.cpp.i
+.PHONY : bigint_test.i
+
+# target to preprocess a source file
+bigint_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/bigint_test.cpp.i
+.PHONY : bigint_test.cpp.i
+
+bigint_test.s: bigint_test.cpp.s
+.PHONY : bigint_test.s
+
+# target to generate assembly for a file
+bigint_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/bigint_test.cpp.s
+.PHONY : bigint_test.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab1_BigInt.dir\build.make CMakeFiles/Lab1_BigInt.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab1.BigInt.dir\build.make CMakeFiles/Lab1.BigInt.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -141,7 +312,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab1_BigInt.dir\build.make CMakeFiles/Lab1_BigInt.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab1.BigInt.dir\build.make CMakeFiles/Lab1.BigInt.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +320,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab1_BigInt.dir\build.make CMakeFiles/Lab1_BigInt.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab1.BigInt.dir\build.make CMakeFiles/Lab1.BigInt.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -159,8 +330,24 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... rebuild_cache
-	@echo ... Lab1_BigInt
+	@echo ... Lab1.BigInt
+	@echo ... corelib
+	@echo ... gmock
+	@echo ... gmock_main
+	@echo ... gtest
+	@echo ... gtest_main
+	@echo ... test
+	@echo ... bigint.obj
+	@echo ... bigint.i
+	@echo ... bigint.s
+	@echo ... bigint_test.obj
+	@echo ... bigint_test.i
+	@echo ... bigint_test.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -1,4 +1,5 @@
 #include "bigInt.h"
+#include <cmath>
 #include <algorithm>
 
 BigInt::BigInt() {
@@ -29,6 +30,7 @@ BigInt::BigInt(std::string number) {
             throw std::invalid_argument("Invalid argument");
         }
     }
+    extraZeros(number);
     this->number = number;
 }
 // бросать исключение std::invalid_argument при ошибке
@@ -90,7 +92,8 @@ const BigInt BigInt::operator--(int) {
 }
 
 bool BigInt::operator==(const BigInt &other) const {
-    return (this->number == other.number && this->IsNegative == other.IsNegative);
+    return ((this->number == other.number && this->IsNegative == other.IsNegative)
+    || (this->number == "0" && other.number == "0"));
 }
 
 bool BigInt::operator!=(const BigInt &other) const {
@@ -116,7 +119,7 @@ bool BigInt::operator<(const BigInt &other) const {
         }
         return false;
     }
-    return this->IsNegative;
+    return this->IsNegative && !(this->number == "0" && other.number == "0");
 }
 
 
@@ -165,7 +168,6 @@ BigInt &BigInt::operator+=(const BigInt &other) {
             resNumber[i] -= 10;
             resNumber[i + 1] += 1;
         }
-
     }
 
     std::reverse(resNumber.begin(), resNumber.end());
@@ -246,8 +248,9 @@ BigInt &BigInt::operator*=(const BigInt &other) {
             curNumber[i + j + 1] += result / 10;
 
             if (curNumber[i + j] > '9') {
-                curNumber[i + j] -= 10 * (charToInt(curNumber[i + j]) / 10);
-                curNumber[i + j + 1] += 1;
+                int a = charToInt(curNumber[i + j]) / 10;
+                curNumber[i + j] -= 10 * a;
+                curNumber[i + j + 1] += a;
             }
         }
     }
@@ -323,10 +326,10 @@ BigInt &BigInt::operator^=(const BigInt &other) {
                 binaryOther.append("1");
             }
         }
-        if (binaryThis[i] == binaryOther[i]) {
-            binaryThis[i] = '0';
-        } else {
+        if (binaryThis[i] != binaryOther[i]) {
             binaryThis[i] = '1';
+        } else {
+            binaryThis[i] = '0';
         }
     }
 
@@ -345,7 +348,12 @@ BigInt &BigInt::operator%=(const BigInt &other) {
         throw std::invalid_argument("Zero exception");
     }
 
-    this->IsNegative = (this->IsNegative != other.IsNegative);
+    if (*this == BigInt(0)) {
+        *this = other;
+        return *this;
+    }
+
+    this->IsNegative = false;
 
     BigInt cur;
     cur.number = "";
@@ -469,7 +477,10 @@ BigInt::operator std::string() const {
 BigInt::operator int() const {
     int res = 0;
     for (size_t i = 0; i < this->number.size(); i++) {
-        res += this->number[this->number.size() - i] * int(pow(10, i));
+        res += (this->number[this->number.size() - i] - '0') * int(pow(10, i));
+    }
+    if (this->IsNegative) {
+        res *= -1;
     }
     return res;
 }
@@ -557,8 +568,8 @@ std::string fromDecadeToBin(std::string number) {
         cur /= 2;
     }
 
-    while (cur < -BigInt(0)) {
-        binary.append(std::string(cur % BigInt(2)).erase(0, 1));
+    while (cur < BigInt(0)) {
+        binary.append(std::string(cur % BigInt(2)));
         cur /= 2;
     }
 

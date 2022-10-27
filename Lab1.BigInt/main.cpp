@@ -8,8 +8,10 @@ int main() {
     std::cin >> second;
     BigInt b(first);
     BigInt c(second);
+    //bool t;
+    //t = int(b) == int(c);
     a = b;
-    a ^= c;
+    a %= c;
     std::cout<<a<<std::endl;
     //std::cout << fromDecadeToBin(std::string(a)) << std::endl;
     //std::cout << fromBinToDecade(std::string (fromDecadeToBin(std::string(a)))) << std::endl;

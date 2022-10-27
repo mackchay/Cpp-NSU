@@ -26,7 +26,7 @@ endif()
 
 # описываем основную библиотеку, т.е. библиотеку, содержащую все cpp-файлы, кроме main.cpp
 # TODO: отредактировать список cpp-файлов
-add_library(corelib OBJECT bigint.cpp bigint_test.cpp)
+add_library(corelib OBJECT bigint.cpp)
 
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 

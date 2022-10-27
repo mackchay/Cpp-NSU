@@ -102,6 +102,7 @@ void extraZeros(std::string &);
 std::string fromDecadeToBin(std::string );
 
 std::string fromBinToDecade(std::string );
+
 int intToChar(BigInt x);
 
 #endif //LAB1_BIGINT_BIGINT_H
