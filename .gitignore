@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+/Lab1.BigInt/test.py
+/Lab1.BigInt/bigint.exe
+/lab2_dilemma/cmake-build-debug/
