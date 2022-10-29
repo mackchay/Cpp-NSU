@@ -7,8 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="004d15d1-9560-49f7-a505-bc6f35f7724c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1.BigInt/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2_dilemma" beforeDir="false" afterPath="$PROJECT_DIR$/lab2_dilemma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2_dilemma/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2_dilemma/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2_dilemma/.idea/lab2_dilemma.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2_dilemma/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2_dilemma/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2_dilemma/.idea/vcs.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +42,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab2_dilemma" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
@@ -56,6 +63,7 @@
       <workItem from="1662392495835" duration="382000" />
       <workItem from="1667053498157" duration="96000" />
       <workItem from="1667053742320" duration="102000" />
+      <workItem from="1667056619349" duration="119000" />
     </task>
     <servers />
   </component>
