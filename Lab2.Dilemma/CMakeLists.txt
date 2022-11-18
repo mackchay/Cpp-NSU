@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
-project(lab2_dilemma)
+project(Lab2.Dilemma)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Lab2.Dilemma main.cpp strategy_make.cpp strategy_make.h strategy_type.h strategy_type.cpp)
+add_executable(Lab2.Dilemma main.cpp strategyTypes/AlwaysCooperate.cpp strategyTypes/AlwaysCooperate.h strategyTypes/AlwaysDistrust.cpp strategyTypes/AlwaysDistrust.h strategyTypes/RandomAct.cpp strategyTypes/RandomAct.h strategyTypes/Strategy.h GameAtributes/InputData.cpp GameAtributes/InputData.h GameAtributes/GameResult.cpp GameAtributes/GameResult.h GameAtributes/StrategyFactory.cpp GameAtributes/StrategyFactory.h GameAtributes/Log.cpp GameAtributes/Log.h GameAtributes/ScoringMatrix.cpp GameAtributes/ScoringMatrix.h GameAtributes/Game.cpp GameAtributes/Game.h)

@@ -1,10 +1,17 @@
-#include "strategy_make.h"
 #include <memory>
 
-
 int main() {
-    auto strategyFactory = std::make_unique<StrategyFactory>();
-    std::string Ivan = "AlwaysCooperate";
-    strategyFactory->create(Ivan);
+    StrategyFactory<std::string, Strategy> strategyFactory;
+
+    strategyFactory.add<AlwaysBetray>("AlwaysBetray");
+    strategyFactory.add<AlwaysBetray>("AlwaysCooperate");
+
+    Strategy *Ivan = strategyFactory.get("AlwaysCooperate")();
+    Strategy *Igor = strategyFactory.get("AlwaysBetray")();
+    Igor -> info();
+    Matrix object;
+    object.readMatrix();
+    object.printMatrix();
+
     return 0;
 }
