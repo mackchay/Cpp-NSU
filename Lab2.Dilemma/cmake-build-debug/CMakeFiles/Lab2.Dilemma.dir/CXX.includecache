@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategy_make.cpp
+strategy_make.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategy_make.h
+
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategy_make.h
+iostream
+-
+map
+-
+vector
+-
+strategy_type.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategy_type.h
+
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategy_type.h
+fstream
+-
+
