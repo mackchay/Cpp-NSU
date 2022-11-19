@@ -1,9 +1,9 @@
 #include "GameResult.h"
 #include <fstream>
-#define FILE "matrix.txt"
+#define FILE "gameResult.txt"
 
 GameResult::GameResult() {
-    matrixSize = 3;
+    //matrixSize;
     matrix = {0,0,0};
 }
 

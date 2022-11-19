@@ -128,29 +128,29 @@ Lab2.Dilemma/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/build
 .PHONY : Lab2.Dilemma/fast
 
-Game.obj: Game.cpp.obj
-.PHONY : Game.obj
+GameAtributes/Game.obj: GameAtributes/Game.cpp.obj
+.PHONY : GameAtributes/Game.obj
 
 # target to build an object file
-Game.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/Game.cpp.obj
-.PHONY : Game.cpp.obj
+GameAtributes/Game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game.cpp.obj
+.PHONY : GameAtributes/Game.cpp.obj
 
-Game.i: Game.cpp.i
-.PHONY : Game.i
+GameAtributes/Game.i: GameAtributes/Game.cpp.i
+.PHONY : GameAtributes/Game.i
 
 # target to preprocess a source file
-Game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/Game.cpp.i
-.PHONY : Game.cpp.i
+GameAtributes/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game.cpp.i
+.PHONY : GameAtributes/Game.cpp.i
 
-Game.s: Game.cpp.s
-.PHONY : Game.s
+GameAtributes/Game.s: GameAtributes/Game.cpp.s
+.PHONY : GameAtributes/Game.s
 
 # target to generate assembly for a file
-Game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/Game.cpp.s
-.PHONY : Game.cpp.s
+GameAtributes/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game.cpp.s
+.PHONY : GameAtributes/Game.cpp.s
 
 GameAtributes/GameResult.obj: GameAtributes/GameResult.cpp.obj
 .PHONY : GameAtributes/GameResult.obj
@@ -272,6 +272,30 @@ GameAtributes/StrategyFactory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyFactory.cpp.s
 .PHONY : GameAtributes/StrategyFactory.cpp.s
 
+GameAtributes/StrategyParser.obj: GameAtributes/StrategyParser.cpp.obj
+.PHONY : GameAtributes/StrategyParser.obj
+
+# target to build an object file
+GameAtributes/StrategyParser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyParser.cpp.obj
+.PHONY : GameAtributes/StrategyParser.cpp.obj
+
+GameAtributes/StrategyParser.i: GameAtributes/StrategyParser.cpp.i
+.PHONY : GameAtributes/StrategyParser.i
+
+# target to preprocess a source file
+GameAtributes/StrategyParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyParser.cpp.i
+.PHONY : GameAtributes/StrategyParser.cpp.i
+
+GameAtributes/StrategyParser.s: GameAtributes/StrategyParser.cpp.s
+.PHONY : GameAtributes/StrategyParser.s
+
+# target to generate assembly for a file
+GameAtributes/StrategyParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyParser.cpp.s
+.PHONY : GameAtributes/StrategyParser.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -377,9 +401,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Lab2.Dilemma
-	@echo ... Game.obj
-	@echo ... Game.i
-	@echo ... Game.s
+	@echo ... GameAtributes/Game.obj
+	@echo ... GameAtributes/Game.i
+	@echo ... GameAtributes/Game.s
 	@echo ... GameAtributes/GameResult.obj
 	@echo ... GameAtributes/GameResult.i
 	@echo ... GameAtributes/GameResult.s
@@ -395,6 +419,9 @@ help:
 	@echo ... GameAtributes/StrategyFactory.obj
 	@echo ... GameAtributes/StrategyFactory.i
 	@echo ... GameAtributes/StrategyFactory.s
+	@echo ... GameAtributes/StrategyParser.obj
+	@echo ... GameAtributes/StrategyParser.i
+	@echo ... GameAtributes/StrategyParser.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

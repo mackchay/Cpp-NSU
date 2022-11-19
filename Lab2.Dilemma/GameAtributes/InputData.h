@@ -2,15 +2,16 @@
 #define LAB2_DILEMMA_INPUTDATA_H
 #include <iostream>
 #include "../strategyTypes/Strategy.h"
+#include "StrategyFactory.h"
 
 
 class InputData {
 public:
     InputData();
 
+
 private:
-    Matrix matrix;
-    StrategyFactory <std::string, Strategy> *list;
+    StrategyFactory<std::string, Strategy> strategyFactory;
 };
 
 

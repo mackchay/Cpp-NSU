@@ -17,7 +17,7 @@ public:
     void updateResult(ScoringMatrix &, std::string&);
 
 private:
-    const size_t matrixSize;
+    const size_t matrixSize = 3;
     std::vector<int> matrix;
 };
 

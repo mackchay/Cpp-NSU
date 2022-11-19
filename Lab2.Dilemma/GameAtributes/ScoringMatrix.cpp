@@ -1,15 +1,19 @@
+#include <fstream>
 #include "ScoringMatrix.h"
 
+#define MATRIX "scoringMatrix.txt"
+
 ScoringMatrix::ScoringMatrix() {
-    mapResult["ccc"] = {7, 7, 7};
-    mapResult["ccd"] = {3, 3, 3};
-    mapResult["cdc"] = {3, 9, 3};
-    mapResult["dcc"] = {9, 3, 3};
-    mapResult["dcc"] = {9, 3, 3};
-    mapResult["cdd"] = {0, 5, 5};
-    mapResult["dcd"] = {5, 0, 5};
-    mapResult["ddc"] = {5, 5, 0};
-    mapResult["ddd"] = {1, 1, 1};
+    std::string id;
+    std::ifstream fin;
+    fin.open(MATRIX);
+    while (!fin.eof()) {
+        fin >> id;
+        mapResult[id].resize(3);
+        fin >> mapResult[id][0] >> mapResult[id][1]
+        >> mapResult[id][2];
+    }
+    fin.close();
 }
 
 size_t ScoringMatrix::getScore(std::string &pattern, size_t id) {

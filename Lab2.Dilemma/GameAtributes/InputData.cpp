@@ -1,7 +1,6 @@
 #include "InputData.h"
 
 
-
 InputData::InputData() {
     std::string gameMode;
     size_t strategyNumber;
@@ -12,7 +11,6 @@ InputData::InputData() {
     if (gameMode == "Tournament") {
         std::cout << "Enter strategyNumber" << std::endl;
         std::cin >> strategyNumber;
-        matrix.resize(strategyNumber);
     }
     else {
         strategyNumber = 3;
@@ -24,3 +22,4 @@ InputData::InputData() {
 
     }
 }
+

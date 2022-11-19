@@ -4,7 +4,7 @@
 class Strategy {
 public:
     virtual ~Strategy() = default;
-    virtual bool act() = 0;
+    virtual char act() = 0;
     virtual void info() = 0;
 };
 
