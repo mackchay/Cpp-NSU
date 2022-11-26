@@ -4,6 +4,7 @@
 #include "../strategyTypes/RandomAct.h"
 #include "../strategyTypes/CoopUntilDefect.h"
 #include "../strategyTypes/CustomAct.h"
+#include "../strategyTypes/RatAct.h"
 
 Game::Game() {
     strategyFactory.add<AlwaysDefect>("AlwaysDefect");
@@ -11,6 +12,7 @@ Game::Game() {
     strategyFactory.add<RandomAct>("RandomAct");
     strategyFactory.add<CoopUntilDefect>("CoopUntilDefect");
     strategyFactory.add<CustomAct>("CustomAct");
+    strategyFactory.add<RatAct>("RatAct");
 
 }
 
@@ -42,5 +44,8 @@ void Game::round() {
 
     tmp.getResult(scoringMatrix, resultAct);
     gameResult.updateResult(scoringMatrix, resultAct);
+}
+
+void Game::printResult() {
     gameResult.printMatrix();
 }

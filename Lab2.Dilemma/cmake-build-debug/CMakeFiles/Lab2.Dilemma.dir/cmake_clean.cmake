@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect.cpp.obj"
   "CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct.cpp.obj"
   "CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct.cpp.obj"
+  "CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatAct.cpp.obj"
   "Lab2.Dilemma.exe"
   "Lab2.Dilemma.exe.manifest"
   "Lab2.Dilemma.pdb"

@@ -440,6 +440,30 @@ strategyTypes/RandomAct.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct.cpp.s
 .PHONY : strategyTypes/RandomAct.cpp.s
 
+strategyTypes/RatAct.obj: strategyTypes/RatAct.cpp.obj
+.PHONY : strategyTypes/RatAct.obj
+
+# target to build an object file
+strategyTypes/RatAct.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatAct.cpp.obj
+.PHONY : strategyTypes/RatAct.cpp.obj
+
+strategyTypes/RatAct.i: strategyTypes/RatAct.cpp.i
+.PHONY : strategyTypes/RatAct.i
+
+# target to preprocess a source file
+strategyTypes/RatAct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatAct.cpp.i
+.PHONY : strategyTypes/RatAct.cpp.i
+
+strategyTypes/RatAct.s: strategyTypes/RatAct.cpp.s
+.PHONY : strategyTypes/RatAct.s
+
+# target to generate assembly for a file
+strategyTypes/RatAct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatAct.cpp.s
+.PHONY : strategyTypes/RatAct.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -488,6 +512,9 @@ help:
 	@echo ... strategyTypes/RandomAct.obj
 	@echo ... strategyTypes/RandomAct.i
 	@echo ... strategyTypes/RandomAct.s
+	@echo ... strategyTypes/RatAct.obj
+	@echo ... strategyTypes/RatAct.i
+	@echo ... strategyTypes/RatAct.s
 .PHONY : help
 
 

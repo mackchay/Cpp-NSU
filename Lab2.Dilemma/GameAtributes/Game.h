@@ -11,6 +11,7 @@ public:
     Game();
     void add(std::string &);
     void round();
+    void printResult();
     ~Game();
 
 private:
