@@ -2,11 +2,11 @@
 #include <random>
 #include "RandomAct.h"
 
-void RandomAct::info() {
-    std::cout << "StrategyType: RandomAct";
+std::string RandomAct::info() {
+    return "RandomAct";
 }
 
-char RandomAct::act() {
+char RandomAct::act(Log &newLog) {
     std::random_device rd;
     std::mt19937 rng(rd());
     std::uniform_int_distribution<char> uni('c','d');

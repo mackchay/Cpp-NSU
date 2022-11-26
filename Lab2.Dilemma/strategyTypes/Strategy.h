@@ -1,11 +1,13 @@
 #ifndef LAB2_DILEMMA_STRATEGY_H
 #define LAB2_DILEMMA_STRATEGY_H
 
+#include "../GameAtributes/Log.h"
+
 class Strategy {
 public:
     virtual ~Strategy() = default;
-    virtual char act() = 0;
-    virtual void info() = 0;
+    virtual char act(Log &) = 0;
+    virtual std::string info() = 0;
 };
 
 

@@ -11,7 +11,8 @@ public:
     size_t getScore(std::string&, size_t);
 
 private:
-    std::map<std::string, std::vector<size_t>> mapResult;
+    typedef std::map<std::string, std::vector<size_t>> mapVector;
+    mapVector mapResult;
 };
 
 

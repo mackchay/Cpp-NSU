@@ -6,10 +6,13 @@ CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game.cpp.obj: \
  ../GameAtributes/Game.h \
  ../GameAtributes/GameResult.h \
  ../GameAtributes/InputData.h \
+ ../GameAtributes/Log.h \
  ../GameAtributes/ScoringMatrix.h \
  ../GameAtributes/StrategyFactory.h \
  ../strategyTypes/AlwaysCooperate.h \
- ../strategyTypes/AlwaysDistrust.h \
+ ../strategyTypes/AlwaysDefect.h \
+ ../strategyTypes/CoopUntilDefect.h \
+ ../strategyTypes/CustomAct.h \
  ../strategyTypes/RandomAct.h \
  ../strategyTypes/Strategy.h
 CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult.cpp.obj: \
@@ -17,13 +20,18 @@ CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult.cpp.obj: \
  ../GameAtributes/GameResult.h \
  ../GameAtributes/ScoringMatrix.h
 CMakeFiles/Lab2.Dilemma.dir/GameAtributes/InputData.cpp.obj: \
+ ../GameAtributes/GameResult.h \
  ../GameAtributes/InputData.cpp \
  ../GameAtributes/InputData.h \
+ ../GameAtributes/Log.h \
+ ../GameAtributes/ScoringMatrix.h \
  ../GameAtributes/StrategyFactory.h \
  ../strategyTypes/Strategy.h
 CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Log.cpp.obj: \
+ ../GameAtributes/GameResult.h \
  ../GameAtributes/Log.cpp \
- ../GameAtributes/Log.h
+ ../GameAtributes/Log.h \
+ ../GameAtributes/ScoringMatrix.h
 CMakeFiles/Lab2.Dilemma.dir/GameAtributes/ScoringMatrix.cpp.obj: \
  ../GameAtributes/ScoringMatrix.cpp \
  ../GameAtributes/ScoringMatrix.h
@@ -37,19 +45,43 @@ CMakeFiles/Lab2.Dilemma.dir/main.cpp.obj: \
  ../GameAtributes/Game.h \
  ../GameAtributes/GameResult.h \
  ../GameAtributes/InputData.h \
+ ../GameAtributes/Log.h \
  ../GameAtributes/ScoringMatrix.h \
  ../GameAtributes/StrategyFactory.h \
  ../main.cpp \
  ../strategyTypes/Strategy.h
 CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate.cpp.obj: \
+ ../GameAtributes/GameResult.h \
+ ../GameAtributes/Log.h \
+ ../GameAtributes/ScoringMatrix.h \
  ../strategyTypes/AlwaysCooperate.cpp \
  ../strategyTypes/AlwaysCooperate.h \
  ../strategyTypes/Strategy.h
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDistrust.cpp.obj: \
- ../strategyTypes/AlwaysDistrust.cpp \
- ../strategyTypes/AlwaysDistrust.h \
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect.cpp.obj: \
+ ../GameAtributes/GameResult.h \
+ ../GameAtributes/Log.h \
+ ../GameAtributes/ScoringMatrix.h \
+ ../strategyTypes/AlwaysDefect.cpp \
+ ../strategyTypes/AlwaysDefect.h \
+ ../strategyTypes/Strategy.h
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect.cpp.obj: \
+ ../GameAtributes/GameResult.h \
+ ../GameAtributes/Log.h \
+ ../GameAtributes/ScoringMatrix.h \
+ ../strategyTypes/CoopUntilDefect.cpp \
+ ../strategyTypes/CoopUntilDefect.h \
+ ../strategyTypes/Strategy.h
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct.cpp.obj: \
+ ../GameAtributes/GameResult.h \
+ ../GameAtributes/Log.h \
+ ../GameAtributes/ScoringMatrix.h \
+ ../strategyTypes/CustomAct.cpp \
+ ../strategyTypes/CustomAct.h \
  ../strategyTypes/Strategy.h
 CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct.cpp.obj: \
+ ../GameAtributes/GameResult.h \
+ ../GameAtributes/Log.h \
+ ../GameAtributes/ScoringMatrix.h \
  ../strategyTypes/RandomAct.cpp \
  ../strategyTypes/RandomAct.h \
  ../strategyTypes/Strategy.h

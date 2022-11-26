@@ -4,8 +4,9 @@
 #include "Strategy.h"
 
 class AlwaysCooperate : public Strategy {
-    void info() override;
-    char act() override;
+public:
+    std::string info() override;
+    char act(Log &) override;
 };
 
 

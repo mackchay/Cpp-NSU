@@ -5,17 +5,23 @@
 
 ScoringMatrix::ScoringMatrix() {
     std::string id;
+    std::vector<size_t> points(3);
     std::ifstream fin;
     fin.open(MATRIX);
     while (!fin.eof()) {
         fin >> id;
-        mapResult[id].resize(3);
-        fin >> mapResult[id][0] >> mapResult[id][1]
-        >> mapResult[id][2];
+        fin >> points[0] >> points[1]
+            >> points[2];
+        mapResult.insert(std::make_pair(id, points));
     }
     fin.close();
 }
 
 size_t ScoringMatrix::getScore(std::string &pattern, size_t id) {
-     return mapResult[pattern][id];
+    if (mapResult.contains(pattern)) {
+        return mapResult[pattern][id];
+    }
+    else {
+        throw std::invalid_argument("Invalid gameResult or ScoringMatrix data!");
+    }
 }

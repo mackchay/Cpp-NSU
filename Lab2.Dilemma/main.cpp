@@ -1,17 +1,28 @@
 #include <memory>
 #include "GameAtributes/Game.h"
 
-int main() {
+int main(int argc, char *argv[]) {
     Game dilemma;
-    std::string ivan = "AlwaysCooperate";
-    std::string gleb = "RandomAct";
-    std::string denis = "AlwaysDistrust";
+    std::string strategyName, mode, enter;
+    int steps;
     for (size_t i = 0; i < 3; i++) {
+        std::cin >> strategyName;
+        dilemma.add(strategyName);
     }
-    dilemma.add(ivan);
-    dilemma.add(gleb);
-    dilemma.add(denis);
-    dilemma.round();
+
+    std::cin >> mode;
+    if (mode == "fast") {
+        std::cin >> steps;
+        for (size_t i = 0; i < steps; i++) {
+            dilemma.round();
+        }
+    }
+    else {
+        while (enter != "Q") {
+            std::cin >> enter;
+            dilemma.round();
+        }
+    }
 
     return 0;
 }

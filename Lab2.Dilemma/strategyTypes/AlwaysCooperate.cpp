@@ -1,10 +1,10 @@
 #include <iostream>
 #include "AlwaysCooperate.h"
 
-void AlwaysCooperate::info() {
-    std::cout << "StrategyType: AlwaysCooperate";
+std::string AlwaysCooperate::info() {
+    return "AlwaysCooperate";
 }
 
-char AlwaysCooperate::act() {
+char AlwaysCooperate::act(Log &newLog) {
     return 'c';
 }
