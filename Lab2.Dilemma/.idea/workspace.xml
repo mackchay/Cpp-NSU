@@ -11,75 +11,44 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebfa33f9-dce7-47ed-86d6-33eed9e060a5" name="Changes" comment="All classes added. GameResult and">
-      <change afterPath="$PROJECT_DIR$/GameAtributes/GameResult.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAtributes/GameResult.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAtributes/InputData.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAtributes/InputData.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAtributes/Log.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAtributes/Log.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAtributes/ScoringMatrix.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAtributes/ScoringMatrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAtributes/StrategyFactory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAtributes/StrategyFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/linklibs.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/objects1.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Lab2.Dilemma.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/lab2_dilemma.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/matrix.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategyTypes/Strategy.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/Lab1.BigInt.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/Lab1.BigInt.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/gmock.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/gmock.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest-distribution.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest-distribution.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/gtest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/gtest.cbp" afterDir="false" />
+    <list default="true" id="ebfa33f9-dce7-47ed-86d6-33eed9e060a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/strategyTypes/CoopUntilDefect.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategyTypes/CoopUntilDefect.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategyTypes/CustomAct.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategyTypes/CustomAct.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/GameResult.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameResult.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/GameResult.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameResult.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/Log.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Log.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/Log.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Log.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/ScoringMatrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/ScoringMatrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/ScoringMatrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/ScoringMatrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/StrategyFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/StrategyFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab2.Dilemma.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab2.Dilemma.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/matrix.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy_make.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy_make.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy_type.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy_type.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/AlwaysCooperate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/AlwaysCooperate.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/AlwaysCooperate.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/AlwaysCooperate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/AlwaysDistrust.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/AlwaysDefect.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/AlwaysDistrust.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/AlwaysDefect.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/RandomAct.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/RandomAct.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/RandomAct.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/RandomAct.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/Strategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/Strategy.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,12 +101,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Lab2.Dilemma" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab2.Dilemma" TARGET_NAME="Lab2.Dilemma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab2.Dilemma" RUN_TARGET_NAME="Lab2.Dilemma">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab2.Dilemma" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab2.Dilemma" TARGET_NAME="Lab2.Dilemma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab2.Dilemma" RUN_TARGET_NAME="Lab2.Dilemma">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -165,8 +134,34 @@
       <workItem from="1668604656850" duration="8491000" />
       <workItem from="1668662109121" duration="9336000" />
       <workItem from="1668675382274" duration="6618000" />
-      <workItem from="1668744528389" duration="21462000" />
+      <workItem from="1668744528389" duration="21739000" />
+      <workItem from="1668836311157" duration="24064000" />
+      <workItem from="1669301272615" duration="3772000" />
+      <workItem from="1669349571387" duration="9933000" />
+      <workItem from="1669456936121" duration="16269000" />
     </task>
+    <task id="LOCAL-00001" summary="All classes added. GameResult and ScoringMatrix were implementation.">
+      <created>1668798400544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668798400544</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1 round completed successfully.">
+      <created>1668859938591</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668859938591</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1 round completed successfully.">
+      <created>1668860946217</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668860946217</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,5 +178,26 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="All classes added. GameResult and ScoringMatrix were implementation." />
+    <MESSAGE value="1 round completed successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="1 round completed successfully." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/GameAtributes/GameResult.cpp</url>
+          <line>9</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/strategyTypes/CustomAct.cpp</url>
+          <line>8</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

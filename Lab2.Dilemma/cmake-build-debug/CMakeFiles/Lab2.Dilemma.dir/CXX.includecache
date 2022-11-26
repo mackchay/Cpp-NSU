@@ -6,21 +6,37 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategy_make.cpp
-strategy_make.h
-C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategy_make.h
-
-C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategy_make.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameResult.h
 iostream
--
-map
 -
 vector
 -
-strategy_type.h
-C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategy_type.h
+ScoringMatrix.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/ScoringMatrix.h
 
-C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategy_type.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log.h
+GameResult.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameResult.h
+
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/ScoringMatrix.h
+map
+-
+iostream
+-
+vector
+-
+
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct.cpp
 fstream
 -
+CustomAct.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct.h
+
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct.h
+Strategy.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
+
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
+../GameAtributes/Log.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log.h
 

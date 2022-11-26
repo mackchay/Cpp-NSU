@@ -1,17 +1,27 @@
+#include <fstream>
 #include "ScoringMatrix.h"
 
+#define MATRIX "scoringMatrix.txt"
+
 ScoringMatrix::ScoringMatrix() {
-    mapResult["ccc"] = {7, 7, 7};
-    mapResult["ccd"] = {3, 3, 3};
-    mapResult["cdc"] = {3, 9, 3};
-    mapResult["dcc"] = {9, 3, 3};
-    mapResult["dcc"] = {9, 3, 3};
-    mapResult["cdd"] = {0, 5, 5};
-    mapResult["dcd"] = {5, 0, 5};
-    mapResult["ddc"] = {5, 5, 0};
-    mapResult["ddd"] = {1, 1, 1};
+    std::string id;
+    std::vector<size_t> points(3);
+    std::ifstream fin;
+    fin.open(MATRIX);
+    while (!fin.eof()) {
+        fin >> id;
+        fin >> points[0] >> points[1]
+            >> points[2];
+        mapResult.insert(std::make_pair(id, points));
+    }
+    fin.close();
 }
 
 size_t ScoringMatrix::getScore(std::string &pattern, size_t id) {
-     return mapResult[pattern][id];
+    if (mapResult.contains(pattern)) {
+        return mapResult[pattern][id];
+    }
+    else {
+        throw std::invalid_argument("Invalid gameResult or ScoringMatrix data!");
+    }
 }

@@ -1,17 +1,28 @@
 #include <memory>
+#include "GameAtributes/Game.h"
 
-int main() {
-    StrategyFactory<std::string, Strategy> strategyFactory;
+int main(int argc, char *argv[]) {
+    Game dilemma;
+    std::string strategyName, mode, enter;
+    int steps;
+    for (size_t i = 0; i < 3; i++) {
+        std::cin >> strategyName;
+        dilemma.add(strategyName);
+    }
 
-    strategyFactory.add<AlwaysBetray>("AlwaysBetray");
-    strategyFactory.add<AlwaysBetray>("AlwaysCooperate");
-
-    Strategy *Ivan = strategyFactory.get("AlwaysCooperate")();
-    Strategy *Igor = strategyFactory.get("AlwaysBetray")();
-    Igor -> info();
-    Matrix object;
-    object.readMatrix();
-    object.printMatrix();
+    std::cin >> mode;
+    if (mode == "fast") {
+        std::cin >> steps;
+        for (size_t i = 0; i < steps; i++) {
+            dilemma.round();
+        }
+    }
+    else {
+        while (enter != "Q") {
+            std::cin >> enter;
+            dilemma.round();
+        }
+    }
 
     return 0;
 }

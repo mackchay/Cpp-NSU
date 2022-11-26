@@ -9,7 +9,6 @@ private:
     typedef Base *(*creator)(Args...);
 
     std::map<ID, creator> strategyMap;
-
     template<class Derived>
     static Base *create(Args...args) {
         return new Derived(args...);
@@ -25,6 +24,12 @@ public:
 
     creator get(ID id) {
         return strategyMap[id];
+    }
+
+    bool isStrategy(ID id) {
+        if (strategyMap.contains(id))
+            return true;
+        return false;
     }
 };
 

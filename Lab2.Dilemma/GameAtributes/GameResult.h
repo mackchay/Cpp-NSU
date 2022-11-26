@@ -11,14 +11,16 @@ public:
 
     ~GameResult();
 
-    void readMatrix();
+    void addToMatrix(const std::string &);
     void printMatrix();
     size_t getMatrixSize() const;
-    void updateResult(ScoringMatrix &, std::string&);
+    GameResult &getResult(ScoringMatrix &, std::string&);
+
+    GameResult &updateResult(ScoringMatrix &, std::string&);
 
 private:
-    const size_t matrixSize;
-    std::vector<int> matrix;
+    const size_t matrixSize = 3;
+    std::map<std::string, size_t> matrix;
 };
 
 

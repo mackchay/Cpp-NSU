@@ -1,38 +1,39 @@
 #include "GameResult.h"
 #include <fstream>
-#define FILE "matrix.txt"
+#define FILE "gameResult.txt"
 
-GameResult::GameResult() {
-    matrixSize = 3;
-    matrix = {0,0,0};
-}
+GameResult::GameResult() = default;
 
 GameResult::~GameResult() = default;
 
 void GameResult::printMatrix() {
-    std::ofstream f;
-    f.open(FILE);
     for (auto it = matrix.begin(); it != matrix.end(); ++it) {
-        f << *it << " ";
+        std::cout << it->first << " - " << it->second << std::endl;
     }
-    f.close();
 }
 
-void GameResult::readMatrix() {
-    std::ifstream f;
-    f.open(FILE);
-    for (int i = 0; i < matrixSize; i++) {
-        f >> this->matrix[i];
-    }
-    f.close();
+void GameResult::addToMatrix(const std::string &strategyName) {
+    matrix.insert(std::make_pair(strategyName, 0));
 }
 
 size_t GameResult::getMatrixSize() const{
     return matrixSize;
 }
 
-void GameResult::updateResult(ScoringMatrix &score, std::string &id) {
-     for (size_t i = 0; i < matrixSize; i++) {
-         matrix[i] = score.getScore(id, i);
+GameResult &GameResult::getResult(ScoringMatrix &score, std::string &id) {
+    size_t i = 0;
+    for (auto it = matrix.begin(); it != matrix.end(); ++it) {
+        it->second = score.getScore(id, i);
+        i++;
+    }
+    return (*this);
+}
+
+GameResult &GameResult::updateResult(ScoringMatrix &score, std::string &id) {
+    size_t i = 0;
+    for (auto it = matrix.begin(); it != matrix.end(); ++it) {
+         it->second += score.getScore(id, i);
+         i++;
      }
+     return (*this);
 }

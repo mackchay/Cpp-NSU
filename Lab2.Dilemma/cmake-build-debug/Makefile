@@ -128,29 +128,29 @@ Lab2.Dilemma/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/build
 .PHONY : Lab2.Dilemma/fast
 
-Game.obj: Game.cpp.obj
-.PHONY : Game.obj
+GameAtributes/Game.obj: GameAtributes/Game.cpp.obj
+.PHONY : GameAtributes/Game.obj
 
 # target to build an object file
-Game.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/Game.cpp.obj
-.PHONY : Game.cpp.obj
+GameAtributes/Game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game.cpp.obj
+.PHONY : GameAtributes/Game.cpp.obj
 
-Game.i: Game.cpp.i
-.PHONY : Game.i
+GameAtributes/Game.i: GameAtributes/Game.cpp.i
+.PHONY : GameAtributes/Game.i
 
 # target to preprocess a source file
-Game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/Game.cpp.i
-.PHONY : Game.cpp.i
+GameAtributes/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game.cpp.i
+.PHONY : GameAtributes/Game.cpp.i
 
-Game.s: Game.cpp.s
-.PHONY : Game.s
+GameAtributes/Game.s: GameAtributes/Game.cpp.s
+.PHONY : GameAtributes/Game.s
 
 # target to generate assembly for a file
-Game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/Game.cpp.s
-.PHONY : Game.cpp.s
+GameAtributes/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game.cpp.s
+.PHONY : GameAtributes/Game.cpp.s
 
 GameAtributes/GameResult.obj: GameAtributes/GameResult.cpp.obj
 .PHONY : GameAtributes/GameResult.obj
@@ -272,6 +272,30 @@ GameAtributes/StrategyFactory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyFactory.cpp.s
 .PHONY : GameAtributes/StrategyFactory.cpp.s
 
+GameAtributes/StrategyParser.obj: GameAtributes/StrategyParser.cpp.obj
+.PHONY : GameAtributes/StrategyParser.obj
+
+# target to build an object file
+GameAtributes/StrategyParser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyParser.cpp.obj
+.PHONY : GameAtributes/StrategyParser.cpp.obj
+
+GameAtributes/StrategyParser.i: GameAtributes/StrategyParser.cpp.i
+.PHONY : GameAtributes/StrategyParser.i
+
+# target to preprocess a source file
+GameAtributes/StrategyParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyParser.cpp.i
+.PHONY : GameAtributes/StrategyParser.cpp.i
+
+GameAtributes/StrategyParser.s: GameAtributes/StrategyParser.cpp.s
+.PHONY : GameAtributes/StrategyParser.s
+
+# target to generate assembly for a file
+GameAtributes/StrategyParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyParser.cpp.s
+.PHONY : GameAtributes/StrategyParser.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -320,29 +344,77 @@ strategyTypes/AlwaysCooperate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate.cpp.s
 .PHONY : strategyTypes/AlwaysCooperate.cpp.s
 
-strategyTypes/AlwaysDistrust.obj: strategyTypes/AlwaysDistrust.cpp.obj
-.PHONY : strategyTypes/AlwaysDistrust.obj
+strategyTypes/AlwaysDefect.obj: strategyTypes/AlwaysDefect.cpp.obj
+.PHONY : strategyTypes/AlwaysDefect.obj
 
 # target to build an object file
-strategyTypes/AlwaysDistrust.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDistrust.cpp.obj
-.PHONY : strategyTypes/AlwaysDistrust.cpp.obj
+strategyTypes/AlwaysDefect.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect.cpp.obj
+.PHONY : strategyTypes/AlwaysDefect.cpp.obj
 
-strategyTypes/AlwaysDistrust.i: strategyTypes/AlwaysDistrust.cpp.i
-.PHONY : strategyTypes/AlwaysDistrust.i
+strategyTypes/AlwaysDefect.i: strategyTypes/AlwaysDefect.cpp.i
+.PHONY : strategyTypes/AlwaysDefect.i
 
 # target to preprocess a source file
-strategyTypes/AlwaysDistrust.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDistrust.cpp.i
-.PHONY : strategyTypes/AlwaysDistrust.cpp.i
+strategyTypes/AlwaysDefect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect.cpp.i
+.PHONY : strategyTypes/AlwaysDefect.cpp.i
 
-strategyTypes/AlwaysDistrust.s: strategyTypes/AlwaysDistrust.cpp.s
-.PHONY : strategyTypes/AlwaysDistrust.s
+strategyTypes/AlwaysDefect.s: strategyTypes/AlwaysDefect.cpp.s
+.PHONY : strategyTypes/AlwaysDefect.s
 
 # target to generate assembly for a file
-strategyTypes/AlwaysDistrust.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDistrust.cpp.s
-.PHONY : strategyTypes/AlwaysDistrust.cpp.s
+strategyTypes/AlwaysDefect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect.cpp.s
+.PHONY : strategyTypes/AlwaysDefect.cpp.s
+
+strategyTypes/CoopUntilDefect.obj: strategyTypes/CoopUntilDefect.cpp.obj
+.PHONY : strategyTypes/CoopUntilDefect.obj
+
+# target to build an object file
+strategyTypes/CoopUntilDefect.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect.cpp.obj
+.PHONY : strategyTypes/CoopUntilDefect.cpp.obj
+
+strategyTypes/CoopUntilDefect.i: strategyTypes/CoopUntilDefect.cpp.i
+.PHONY : strategyTypes/CoopUntilDefect.i
+
+# target to preprocess a source file
+strategyTypes/CoopUntilDefect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect.cpp.i
+.PHONY : strategyTypes/CoopUntilDefect.cpp.i
+
+strategyTypes/CoopUntilDefect.s: strategyTypes/CoopUntilDefect.cpp.s
+.PHONY : strategyTypes/CoopUntilDefect.s
+
+# target to generate assembly for a file
+strategyTypes/CoopUntilDefect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect.cpp.s
+.PHONY : strategyTypes/CoopUntilDefect.cpp.s
+
+strategyTypes/CustomAct.obj: strategyTypes/CustomAct.cpp.obj
+.PHONY : strategyTypes/CustomAct.obj
+
+# target to build an object file
+strategyTypes/CustomAct.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct.cpp.obj
+.PHONY : strategyTypes/CustomAct.cpp.obj
+
+strategyTypes/CustomAct.i: strategyTypes/CustomAct.cpp.i
+.PHONY : strategyTypes/CustomAct.i
+
+# target to preprocess a source file
+strategyTypes/CustomAct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct.cpp.i
+.PHONY : strategyTypes/CustomAct.cpp.i
+
+strategyTypes/CustomAct.s: strategyTypes/CustomAct.cpp.s
+.PHONY : strategyTypes/CustomAct.s
+
+# target to generate assembly for a file
+strategyTypes/CustomAct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct.cpp.s
+.PHONY : strategyTypes/CustomAct.cpp.s
 
 strategyTypes/RandomAct.obj: strategyTypes/RandomAct.cpp.obj
 .PHONY : strategyTypes/RandomAct.obj
@@ -377,9 +449,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Lab2.Dilemma
-	@echo ... Game.obj
-	@echo ... Game.i
-	@echo ... Game.s
+	@echo ... GameAtributes/Game.obj
+	@echo ... GameAtributes/Game.i
+	@echo ... GameAtributes/Game.s
 	@echo ... GameAtributes/GameResult.obj
 	@echo ... GameAtributes/GameResult.i
 	@echo ... GameAtributes/GameResult.s
@@ -395,15 +467,24 @@ help:
 	@echo ... GameAtributes/StrategyFactory.obj
 	@echo ... GameAtributes/StrategyFactory.i
 	@echo ... GameAtributes/StrategyFactory.s
+	@echo ... GameAtributes/StrategyParser.obj
+	@echo ... GameAtributes/StrategyParser.i
+	@echo ... GameAtributes/StrategyParser.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... strategyTypes/AlwaysCooperate.obj
 	@echo ... strategyTypes/AlwaysCooperate.i
 	@echo ... strategyTypes/AlwaysCooperate.s
-	@echo ... strategyTypes/AlwaysDistrust.obj
-	@echo ... strategyTypes/AlwaysDistrust.i
-	@echo ... strategyTypes/AlwaysDistrust.s
+	@echo ... strategyTypes/AlwaysDefect.obj
+	@echo ... strategyTypes/AlwaysDefect.i
+	@echo ... strategyTypes/AlwaysDefect.s
+	@echo ... strategyTypes/CoopUntilDefect.obj
+	@echo ... strategyTypes/CoopUntilDefect.i
+	@echo ... strategyTypes/CoopUntilDefect.s
+	@echo ... strategyTypes/CustomAct.obj
+	@echo ... strategyTypes/CustomAct.i
+	@echo ... strategyTypes/CustomAct.s
 	@echo ... strategyTypes/RandomAct.obj
 	@echo ... strategyTypes/RandomAct.i
 	@echo ... strategyTypes/RandomAct.s
