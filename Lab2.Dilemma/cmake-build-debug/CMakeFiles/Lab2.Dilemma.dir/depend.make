@@ -14,6 +14,7 @@ CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game.cpp.obj: \
  ../strategyTypes/CoopUntilDefect.h \
  ../strategyTypes/CustomAct.h \
  ../strategyTypes/RandomAct.h \
+ ../strategyTypes/RatAct.h \
  ../strategyTypes/Strategy.h
 CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult.cpp.obj: \
  ../GameAtributes/GameResult.cpp \
@@ -84,4 +85,11 @@ CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct.cpp.obj: \
  ../GameAtributes/ScoringMatrix.h \
  ../strategyTypes/RandomAct.cpp \
  ../strategyTypes/RandomAct.h \
+ ../strategyTypes/Strategy.h
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatAct.cpp.obj: \
+ ../GameAtributes/GameResult.h \
+ ../GameAtributes/Log.h \
+ ../GameAtributes/ScoringMatrix.h \
+ ../strategyTypes/RatAct.cpp \
+ ../strategyTypes/RatAct.h \
  ../strategyTypes/Strategy.h

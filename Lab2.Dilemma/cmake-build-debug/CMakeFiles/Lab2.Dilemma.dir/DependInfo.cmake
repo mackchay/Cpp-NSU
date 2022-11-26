@@ -21,6 +21,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CoopUntilDefect.cpp" "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect.cpp.obj"
   "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct.cpp" "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct.cpp.obj"
   "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RandomAct.cpp" "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct.cpp.obj"
+  "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RatAct.cpp" "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatAct.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

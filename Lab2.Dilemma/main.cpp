@@ -16,11 +16,13 @@ int main(int argc, char *argv[]) {
         for (size_t i = 0; i < steps; i++) {
             dilemma.round();
         }
+        dilemma.printResult();
     }
     else {
         while (enter != "Q") {
             std::cin >> enter;
             dilemma.round();
+            dilemma.printResult();
         }
     }
 

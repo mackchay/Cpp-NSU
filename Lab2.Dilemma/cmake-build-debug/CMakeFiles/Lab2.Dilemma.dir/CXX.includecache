@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game.h
+GameResult.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameResult.h
+StrategyFactory.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/StrategyFactory.h
+../strategyTypes/Strategy.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
+InputData.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/InputData.h
+Log.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log.h
+
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameResult.h
 iostream
 -
@@ -13,6 +25,14 @@ vector
 -
 ScoringMatrix.h
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/ScoringMatrix.h
+
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/InputData.h
+iostream
+-
+../strategyTypes/Strategy.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
+StrategyFactory.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/StrategyFactory.h
 
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log.h
 GameResult.h
@@ -26,15 +46,15 @@ iostream
 vector
 -
 
-C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct.cpp
-fstream
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/StrategyFactory.h
+map
 -
-CustomAct.h
-C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct.h
 
-C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct.h
-Strategy.h
-C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/main.cpp
+memory
+-
+GameAtributes/Game.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game.h
 
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
 ../GameAtributes/Log.h
