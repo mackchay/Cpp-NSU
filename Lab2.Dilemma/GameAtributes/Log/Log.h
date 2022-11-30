@@ -1,7 +1,7 @@
 #ifndef LAB2_DILEMMA_LOG_H
 #define LAB2_DILEMMA_LOG_H
 
-#include "GameResult.h"
+#include "../GameResult/GameResult.h"
 
 class Log {
 private:

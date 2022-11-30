@@ -128,149 +128,221 @@ Lab2.Dilemma/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/build
 .PHONY : Lab2.Dilemma/fast
 
-GameAtributes/Game.obj: GameAtributes/Game.cpp.obj
-.PHONY : GameAtributes/Game.obj
+GameAtributes/Factory/Factory.obj: GameAtributes/Factory/Factory.cpp.obj
+.PHONY : GameAtributes/Factory/Factory.obj
 
 # target to build an object file
-GameAtributes/Game.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game.cpp.obj
-.PHONY : GameAtributes/Game.cpp.obj
+GameAtributes/Factory/Factory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Factory/Factory.cpp.obj
+.PHONY : GameAtributes/Factory/Factory.cpp.obj
 
-GameAtributes/Game.i: GameAtributes/Game.cpp.i
-.PHONY : GameAtributes/Game.i
+GameAtributes/Factory/Factory.i: GameAtributes/Factory/Factory.cpp.i
+.PHONY : GameAtributes/Factory/Factory.i
 
 # target to preprocess a source file
-GameAtributes/Game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game.cpp.i
-.PHONY : GameAtributes/Game.cpp.i
+GameAtributes/Factory/Factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Factory/Factory.cpp.i
+.PHONY : GameAtributes/Factory/Factory.cpp.i
 
-GameAtributes/Game.s: GameAtributes/Game.cpp.s
-.PHONY : GameAtributes/Game.s
+GameAtributes/Factory/Factory.s: GameAtributes/Factory/Factory.cpp.s
+.PHONY : GameAtributes/Factory/Factory.s
 
 # target to generate assembly for a file
-GameAtributes/Game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game.cpp.s
-.PHONY : GameAtributes/Game.cpp.s
+GameAtributes/Factory/Factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Factory/Factory.cpp.s
+.PHONY : GameAtributes/Factory/Factory.cpp.s
 
-GameAtributes/GameResult.obj: GameAtributes/GameResult.cpp.obj
-.PHONY : GameAtributes/GameResult.obj
+GameAtributes/Game/Game.obj: GameAtributes/Game/Game.cpp.obj
+.PHONY : GameAtributes/Game/Game.obj
 
 # target to build an object file
-GameAtributes/GameResult.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult.cpp.obj
-.PHONY : GameAtributes/GameResult.cpp.obj
+GameAtributes/Game/Game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game/Game.cpp.obj
+.PHONY : GameAtributes/Game/Game.cpp.obj
 
-GameAtributes/GameResult.i: GameAtributes/GameResult.cpp.i
-.PHONY : GameAtributes/GameResult.i
+GameAtributes/Game/Game.i: GameAtributes/Game/Game.cpp.i
+.PHONY : GameAtributes/Game/Game.i
 
 # target to preprocess a source file
-GameAtributes/GameResult.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult.cpp.i
-.PHONY : GameAtributes/GameResult.cpp.i
+GameAtributes/Game/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game/Game.cpp.i
+.PHONY : GameAtributes/Game/Game.cpp.i
 
-GameAtributes/GameResult.s: GameAtributes/GameResult.cpp.s
-.PHONY : GameAtributes/GameResult.s
+GameAtributes/Game/Game.s: GameAtributes/Game/Game.cpp.s
+.PHONY : GameAtributes/Game/Game.s
 
 # target to generate assembly for a file
-GameAtributes/GameResult.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult.cpp.s
-.PHONY : GameAtributes/GameResult.cpp.s
+GameAtributes/Game/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game/Game.cpp.s
+.PHONY : GameAtributes/Game/Game.cpp.s
 
-GameAtributes/InputData.obj: GameAtributes/InputData.cpp.obj
-.PHONY : GameAtributes/InputData.obj
+GameAtributes/GameModes/DetailedMode.obj: GameAtributes/GameModes/DetailedMode.cpp.obj
+.PHONY : GameAtributes/GameModes/DetailedMode.obj
 
 # target to build an object file
-GameAtributes/InputData.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/InputData.cpp.obj
-.PHONY : GameAtributes/InputData.cpp.obj
+GameAtributes/GameModes/DetailedMode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode.cpp.obj
+.PHONY : GameAtributes/GameModes/DetailedMode.cpp.obj
 
-GameAtributes/InputData.i: GameAtributes/InputData.cpp.i
-.PHONY : GameAtributes/InputData.i
+GameAtributes/GameModes/DetailedMode.i: GameAtributes/GameModes/DetailedMode.cpp.i
+.PHONY : GameAtributes/GameModes/DetailedMode.i
 
 # target to preprocess a source file
-GameAtributes/InputData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/InputData.cpp.i
-.PHONY : GameAtributes/InputData.cpp.i
+GameAtributes/GameModes/DetailedMode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode.cpp.i
+.PHONY : GameAtributes/GameModes/DetailedMode.cpp.i
 
-GameAtributes/InputData.s: GameAtributes/InputData.cpp.s
-.PHONY : GameAtributes/InputData.s
+GameAtributes/GameModes/DetailedMode.s: GameAtributes/GameModes/DetailedMode.cpp.s
+.PHONY : GameAtributes/GameModes/DetailedMode.s
 
 # target to generate assembly for a file
-GameAtributes/InputData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/InputData.cpp.s
-.PHONY : GameAtributes/InputData.cpp.s
+GameAtributes/GameModes/DetailedMode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode.cpp.s
+.PHONY : GameAtributes/GameModes/DetailedMode.cpp.s
 
-GameAtributes/Log.obj: GameAtributes/Log.cpp.obj
-.PHONY : GameAtributes/Log.obj
+GameAtributes/GameModes/FastMode.obj: GameAtributes/GameModes/FastMode.cpp.obj
+.PHONY : GameAtributes/GameModes/FastMode.obj
 
 # target to build an object file
-GameAtributes/Log.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Log.cpp.obj
-.PHONY : GameAtributes/Log.cpp.obj
+GameAtributes/GameModes/FastMode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode.cpp.obj
+.PHONY : GameAtributes/GameModes/FastMode.cpp.obj
 
-GameAtributes/Log.i: GameAtributes/Log.cpp.i
-.PHONY : GameAtributes/Log.i
+GameAtributes/GameModes/FastMode.i: GameAtributes/GameModes/FastMode.cpp.i
+.PHONY : GameAtributes/GameModes/FastMode.i
 
 # target to preprocess a source file
-GameAtributes/Log.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Log.cpp.i
-.PHONY : GameAtributes/Log.cpp.i
+GameAtributes/GameModes/FastMode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode.cpp.i
+.PHONY : GameAtributes/GameModes/FastMode.cpp.i
 
-GameAtributes/Log.s: GameAtributes/Log.cpp.s
-.PHONY : GameAtributes/Log.s
+GameAtributes/GameModes/FastMode.s: GameAtributes/GameModes/FastMode.cpp.s
+.PHONY : GameAtributes/GameModes/FastMode.s
 
 # target to generate assembly for a file
-GameAtributes/Log.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Log.cpp.s
-.PHONY : GameAtributes/Log.cpp.s
+GameAtributes/GameModes/FastMode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode.cpp.s
+.PHONY : GameAtributes/GameModes/FastMode.cpp.s
 
-GameAtributes/ScoringMatrix.obj: GameAtributes/ScoringMatrix.cpp.obj
-.PHONY : GameAtributes/ScoringMatrix.obj
+GameAtributes/GameModes/TournamentMode.obj: GameAtributes/GameModes/TournamentMode.cpp.obj
+.PHONY : GameAtributes/GameModes/TournamentMode.obj
 
 # target to build an object file
-GameAtributes/ScoringMatrix.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/ScoringMatrix.cpp.obj
-.PHONY : GameAtributes/ScoringMatrix.cpp.obj
+GameAtributes/GameModes/TournamentMode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode.cpp.obj
+.PHONY : GameAtributes/GameModes/TournamentMode.cpp.obj
 
-GameAtributes/ScoringMatrix.i: GameAtributes/ScoringMatrix.cpp.i
-.PHONY : GameAtributes/ScoringMatrix.i
+GameAtributes/GameModes/TournamentMode.i: GameAtributes/GameModes/TournamentMode.cpp.i
+.PHONY : GameAtributes/GameModes/TournamentMode.i
 
 # target to preprocess a source file
-GameAtributes/ScoringMatrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/ScoringMatrix.cpp.i
-.PHONY : GameAtributes/ScoringMatrix.cpp.i
+GameAtributes/GameModes/TournamentMode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode.cpp.i
+.PHONY : GameAtributes/GameModes/TournamentMode.cpp.i
 
-GameAtributes/ScoringMatrix.s: GameAtributes/ScoringMatrix.cpp.s
-.PHONY : GameAtributes/ScoringMatrix.s
+GameAtributes/GameModes/TournamentMode.s: GameAtributes/GameModes/TournamentMode.cpp.s
+.PHONY : GameAtributes/GameModes/TournamentMode.s
 
 # target to generate assembly for a file
-GameAtributes/ScoringMatrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/ScoringMatrix.cpp.s
-.PHONY : GameAtributes/ScoringMatrix.cpp.s
+GameAtributes/GameModes/TournamentMode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode.cpp.s
+.PHONY : GameAtributes/GameModes/TournamentMode.cpp.s
 
-GameAtributes/StrategyFactory.obj: GameAtributes/StrategyFactory.cpp.obj
-.PHONY : GameAtributes/StrategyFactory.obj
+GameAtributes/GameResult/GameResult.obj: GameAtributes/GameResult/GameResult.cpp.obj
+.PHONY : GameAtributes/GameResult/GameResult.obj
 
 # target to build an object file
-GameAtributes/StrategyFactory.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyFactory.cpp.obj
-.PHONY : GameAtributes/StrategyFactory.cpp.obj
+GameAtributes/GameResult/GameResult.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult/GameResult.cpp.obj
+.PHONY : GameAtributes/GameResult/GameResult.cpp.obj
 
-GameAtributes/StrategyFactory.i: GameAtributes/StrategyFactory.cpp.i
-.PHONY : GameAtributes/StrategyFactory.i
+GameAtributes/GameResult/GameResult.i: GameAtributes/GameResult/GameResult.cpp.i
+.PHONY : GameAtributes/GameResult/GameResult.i
 
 # target to preprocess a source file
-GameAtributes/StrategyFactory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyFactory.cpp.i
-.PHONY : GameAtributes/StrategyFactory.cpp.i
+GameAtributes/GameResult/GameResult.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult/GameResult.cpp.i
+.PHONY : GameAtributes/GameResult/GameResult.cpp.i
 
-GameAtributes/StrategyFactory.s: GameAtributes/StrategyFactory.cpp.s
-.PHONY : GameAtributes/StrategyFactory.s
+GameAtributes/GameResult/GameResult.s: GameAtributes/GameResult/GameResult.cpp.s
+.PHONY : GameAtributes/GameResult/GameResult.s
 
 # target to generate assembly for a file
-GameAtributes/StrategyFactory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyFactory.cpp.s
-.PHONY : GameAtributes/StrategyFactory.cpp.s
+GameAtributes/GameResult/GameResult.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult/GameResult.cpp.s
+.PHONY : GameAtributes/GameResult/GameResult.cpp.s
+
+GameAtributes/InputData/InputData.obj: GameAtributes/InputData/InputData.cpp.obj
+.PHONY : GameAtributes/InputData/InputData.obj
+
+# target to build an object file
+GameAtributes/InputData/InputData.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/InputData/InputData.cpp.obj
+.PHONY : GameAtributes/InputData/InputData.cpp.obj
+
+GameAtributes/InputData/InputData.i: GameAtributes/InputData/InputData.cpp.i
+.PHONY : GameAtributes/InputData/InputData.i
+
+# target to preprocess a source file
+GameAtributes/InputData/InputData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/InputData/InputData.cpp.i
+.PHONY : GameAtributes/InputData/InputData.cpp.i
+
+GameAtributes/InputData/InputData.s: GameAtributes/InputData/InputData.cpp.s
+.PHONY : GameAtributes/InputData/InputData.s
+
+# target to generate assembly for a file
+GameAtributes/InputData/InputData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/InputData/InputData.cpp.s
+.PHONY : GameAtributes/InputData/InputData.cpp.s
+
+GameAtributes/Log/Log.obj: GameAtributes/Log/Log.cpp.obj
+.PHONY : GameAtributes/Log/Log.obj
+
+# target to build an object file
+GameAtributes/Log/Log.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Log/Log.cpp.obj
+.PHONY : GameAtributes/Log/Log.cpp.obj
+
+GameAtributes/Log/Log.i: GameAtributes/Log/Log.cpp.i
+.PHONY : GameAtributes/Log/Log.i
+
+# target to preprocess a source file
+GameAtributes/Log/Log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Log/Log.cpp.i
+.PHONY : GameAtributes/Log/Log.cpp.i
+
+GameAtributes/Log/Log.s: GameAtributes/Log/Log.cpp.s
+.PHONY : GameAtributes/Log/Log.s
+
+# target to generate assembly for a file
+GameAtributes/Log/Log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Log/Log.cpp.s
+.PHONY : GameAtributes/Log/Log.cpp.s
+
+GameAtributes/ScoringMatrix/ScoringMatrix.obj: GameAtributes/ScoringMatrix/ScoringMatrix.cpp.obj
+.PHONY : GameAtributes/ScoringMatrix/ScoringMatrix.obj
+
+# target to build an object file
+GameAtributes/ScoringMatrix/ScoringMatrix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/ScoringMatrix/ScoringMatrix.cpp.obj
+.PHONY : GameAtributes/ScoringMatrix/ScoringMatrix.cpp.obj
+
+GameAtributes/ScoringMatrix/ScoringMatrix.i: GameAtributes/ScoringMatrix/ScoringMatrix.cpp.i
+.PHONY : GameAtributes/ScoringMatrix/ScoringMatrix.i
+
+# target to preprocess a source file
+GameAtributes/ScoringMatrix/ScoringMatrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/ScoringMatrix/ScoringMatrix.cpp.i
+.PHONY : GameAtributes/ScoringMatrix/ScoringMatrix.cpp.i
+
+GameAtributes/ScoringMatrix/ScoringMatrix.s: GameAtributes/ScoringMatrix/ScoringMatrix.cpp.s
+.PHONY : GameAtributes/ScoringMatrix/ScoringMatrix.s
+
+# target to generate assembly for a file
+GameAtributes/ScoringMatrix/ScoringMatrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/ScoringMatrix/ScoringMatrix.cpp.s
+.PHONY : GameAtributes/ScoringMatrix/ScoringMatrix.cpp.s
 
 GameAtributes/StrategyParser.obj: GameAtributes/StrategyParser.cpp.obj
 .PHONY : GameAtributes/StrategyParser.obj
@@ -473,24 +545,33 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Lab2.Dilemma
-	@echo ... GameAtributes/Game.obj
-	@echo ... GameAtributes/Game.i
-	@echo ... GameAtributes/Game.s
-	@echo ... GameAtributes/GameResult.obj
-	@echo ... GameAtributes/GameResult.i
-	@echo ... GameAtributes/GameResult.s
-	@echo ... GameAtributes/InputData.obj
-	@echo ... GameAtributes/InputData.i
-	@echo ... GameAtributes/InputData.s
-	@echo ... GameAtributes/Log.obj
-	@echo ... GameAtributes/Log.i
-	@echo ... GameAtributes/Log.s
-	@echo ... GameAtributes/ScoringMatrix.obj
-	@echo ... GameAtributes/ScoringMatrix.i
-	@echo ... GameAtributes/ScoringMatrix.s
-	@echo ... GameAtributes/StrategyFactory.obj
-	@echo ... GameAtributes/StrategyFactory.i
-	@echo ... GameAtributes/StrategyFactory.s
+	@echo ... GameAtributes/Factory/Factory.obj
+	@echo ... GameAtributes/Factory/Factory.i
+	@echo ... GameAtributes/Factory/Factory.s
+	@echo ... GameAtributes/Game/Game.obj
+	@echo ... GameAtributes/Game/Game.i
+	@echo ... GameAtributes/Game/Game.s
+	@echo ... GameAtributes/GameModes/DetailedMode.obj
+	@echo ... GameAtributes/GameModes/DetailedMode.i
+	@echo ... GameAtributes/GameModes/DetailedMode.s
+	@echo ... GameAtributes/GameModes/FastMode.obj
+	@echo ... GameAtributes/GameModes/FastMode.i
+	@echo ... GameAtributes/GameModes/FastMode.s
+	@echo ... GameAtributes/GameModes/TournamentMode.obj
+	@echo ... GameAtributes/GameModes/TournamentMode.i
+	@echo ... GameAtributes/GameModes/TournamentMode.s
+	@echo ... GameAtributes/GameResult/GameResult.obj
+	@echo ... GameAtributes/GameResult/GameResult.i
+	@echo ... GameAtributes/GameResult/GameResult.s
+	@echo ... GameAtributes/InputData/InputData.obj
+	@echo ... GameAtributes/InputData/InputData.i
+	@echo ... GameAtributes/InputData/InputData.s
+	@echo ... GameAtributes/Log/Log.obj
+	@echo ... GameAtributes/Log/Log.i
+	@echo ... GameAtributes/Log/Log.s
+	@echo ... GameAtributes/ScoringMatrix/ScoringMatrix.obj
+	@echo ... GameAtributes/ScoringMatrix/ScoringMatrix.i
+	@echo ... GameAtributes/ScoringMatrix/ScoringMatrix.s
 	@echo ... GameAtributes/StrategyParser.obj
 	@echo ... GameAtributes/StrategyParser.i
 	@echo ... GameAtributes/StrategyParser.s

@@ -11,13 +11,30 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebfa33f9-dce7-47ed-86d6-33eed9e060a5" name="Changes" comment="CustomAct was added.">
-      <change afterPath="$PROJECT_DIR$/strategyTypes/RatAct.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategyTypes/RatAct.h" afterDir="false" />
+    <list default="true" id="ebfa33f9-dce7-47ed-86d6-33eed9e060a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/GameAtributes/Factory/Factory.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAtributes/GameModes/DetailedMode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAtributes/GameModes/DetailedMode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAtributes/GameModes/FastMode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAtributes/GameModes/FastMode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAtributes/GameModes/GameMode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAtributes/GameModes/TournamentMode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAtributes/GameModes/TournamentMode.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Game/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Game/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/GameResult.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameResult/GameResult.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/GameResult.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameResult/GameResult.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/InputData.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/InputData/InputData.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/InputData.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/InputData/InputData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/Log.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Log/Log.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/Log.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Log/Log.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/ScoringMatrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/ScoringMatrix/ScoringMatrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/ScoringMatrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/ScoringMatrix/ScoringMatrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/StrategyFactory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/StrategyFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Factory/Factory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/scoringMatrix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/ScoringMatrix/scoringMatrix.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/build.make" afterDir="false" />
@@ -32,6 +49,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/Strategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/Strategy.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +88,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab1.BigInt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
@@ -79,8 +97,11 @@
       <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes" />
       <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes" />
-      <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma" />
+      <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\ScoringMatrix" />
+      <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\InputData" />
+      <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameResult" />
     </key>
   </component>
   <component name="RunManager">
@@ -121,7 +142,9 @@
       <workItem from="1668836311157" duration="24064000" />
       <workItem from="1669301272615" duration="3772000" />
       <workItem from="1669349571387" duration="9933000" />
-      <workItem from="1669456936121" duration="21016000" />
+      <workItem from="1669456936121" duration="21313000" />
+      <workItem from="1669734185105" duration="12846000" />
+      <workItem from="1669776626153" duration="13940000" />
     </task>
     <task id="LOCAL-00001" summary="All classes added. GameResult and ScoringMatrix were implementation.">
       <created>1668798400544</created>
@@ -151,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669481544588</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="All smart strategies were added.">
+      <created>1669488189190</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669488189190</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,16 +203,12 @@
     <MESSAGE value="All classes added. GameResult and ScoringMatrix were implementation." />
     <MESSAGE value="1 round completed successfully." />
     <MESSAGE value="First non-trivial strategy was added." />
-    <option name="LAST_COMMIT_MESSAGE" value="First non-trivial strategy was added." />
+    <MESSAGE value="All smart strategies were added." />
+    <option name="LAST_COMMIT_MESSAGE" value="All smart strategies were added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/GameAtributes/GameResult.cpp</url>
-          <line>9</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/strategyTypes/CustomAct.cpp</url>
           <line>8</line>
@@ -193,7 +219,22 @@
           <line>14</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/GameAtributes/GameModes/DetailedMode.cpp</url>
+          <line>20</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/GameAtributes/GameModes/DetailedMode.cpp</url>
+          <line>12</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="listAll[19]" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

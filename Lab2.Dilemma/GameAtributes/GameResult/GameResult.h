@@ -2,7 +2,7 @@
 #define LAB2_DILEMMA_GAMERESULT_H
 #include <iostream>
 #include <vector>
-#include "ScoringMatrix.h"
+#include "../ScoringMatrix/ScoringMatrix.h"
 
 class GameResult {
 public:

@@ -1,7 +1,7 @@
 #ifndef LAB2_DILEMMA_STRATEGY_H
 #define LAB2_DILEMMA_STRATEGY_H
 
-#include "../GameAtributes/Log.h"
+#include "../GameAtributes/Log/Log.h"
 
 class Strategy {
 public:
