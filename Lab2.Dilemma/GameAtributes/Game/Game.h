@@ -9,7 +9,6 @@ class Game {
 public:
     typedef std::vector<std::string> VectorString;
     Game();
-    Game& operator=(Game &);
 
     void add(std::string &);
     void round();

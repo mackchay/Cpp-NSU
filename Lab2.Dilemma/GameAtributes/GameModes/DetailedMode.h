@@ -7,12 +7,11 @@ class DetailedMode: public GameMode {
 public:
     DetailedMode();
     DetailedMode(size_t);
-    void init(Game ) override;
-    void start() override;
+    void init(Game &) override;
+    void start(Game &) override;
 
 private:
     size_t strategyNumber;
-    GamePtr gamePtr;
 };
 
 

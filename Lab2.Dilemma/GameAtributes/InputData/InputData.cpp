@@ -6,7 +6,6 @@ InputData::InputData() {
     gameModeFactory.add<FastMode>("--fast");
     gameModeFactory.add<TournamentMode>("--tournament");
 
-    std::shared_ptr<Game> gamePtr(&game);
 
     std::string strategyName, gameMode;
     std::cin >> gameMode;
@@ -18,7 +17,7 @@ InputData::InputData() {
         mode.reset(gameModeFactory.get("--detailed")());
     }
     mode->init(game);
-    mode->start();
+    mode->start(game);
 
 }
 

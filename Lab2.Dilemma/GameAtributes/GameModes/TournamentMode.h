@@ -7,12 +7,11 @@ class TournamentMode: public GameMode {
 public:
     typedef std::shared_ptr<Game> GamePtr;
     TournamentMode();
-    void init(Game) override;
-    void start() override;
+    void init(Game &) override;
+    void start(Game &) override;
 
 private:
     size_t strategyNumber;
-    GamePtr gamePtr;
 };
 
 

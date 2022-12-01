@@ -23,7 +23,6 @@ Game::~Game() {
 }
 
 
-
 void Game::add(std::string &id) {
     if (strategyFactory.contains(id)) {
         userData[id] = strategyFactory.get(id)();

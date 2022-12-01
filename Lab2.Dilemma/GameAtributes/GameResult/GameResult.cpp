@@ -16,10 +16,6 @@ void GameResult::addToMatrix(const std::string &strategyName) {
     matrix.insert(std::make_pair(strategyName, 0));
 }
 
-size_t GameResult::getMatrixSize() const{
-    return matrixSize;
-}
-
 GameResult &GameResult::getResult(ScoringMatrix &score, std::string &id) {
     size_t i = 0;
     for (auto it = matrix.begin(); it != matrix.end(); ++it) {

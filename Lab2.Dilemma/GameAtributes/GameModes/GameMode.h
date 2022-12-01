@@ -7,8 +7,8 @@
 class GameMode {
 public:
     typedef std::shared_ptr<Game> GamePtr;
-    virtual void init(Game ) = 0;
-    virtual void start() = 0;
+    virtual void init(Game &) = 0;
+    virtual void start(Game &) = 0;
     virtual ~GameMode() = default;
 };
 

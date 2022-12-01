@@ -4,18 +4,17 @@ FastMode::FastMode() {
     std::cin >> steps;
 }
 
-void FastMode::init(Game game) {
-    this -> gamePtr.reset(&game);
+void FastMode::init(Game &game) {
     std::string strategyName;
     for (size_t i = 0; i < strategyNumber; i++) {
         std::cin >> strategyName;
-        gamePtr->add(strategyName);
+        game.add(strategyName);
     }
 }
 
-void FastMode::start() {
+void FastMode::start(Game &game) {
     for (size_t i = 0; i < steps; i++) {
-        gamePtr->round();
+        game.round();
     }
-    gamePtr->printResult();
+    game.printResult();
 }
