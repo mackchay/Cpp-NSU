@@ -80,85 +80,100 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game.cpp">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Factory/Factory.cpp">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game.h">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Factory/Factory.h">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameResult.cpp">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.cpp">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameResult.h">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.h">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/InputData.cpp">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/InputData.h">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/DetailedMode/DetailedMode.h">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log.cpp">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/FastMode/FastMode.cpp">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log.h">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/FastMode/FastMode.h">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/ScoringMatrix.cpp">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/GameMode.h">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/ScoringMatrix.h">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/StrategyFactory.cpp">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/TournamentMode/TournamentMode.h">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/StrategyFactory.h">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameResult/GameResult.cpp">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/StrategyParser.cpp">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameResult/GameResult.h">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/StrategyParser.h">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/InputData/InputData.cpp">
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/InputData/InputData.h">
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log/Log.cpp">
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log/Log.h">
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/ScoringMatrix/ScoringMatrix.cpp">
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/ScoringMatrix/ScoringMatrix.h">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/main.cpp">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysCooperate.cpp">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysCooperate.h">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysCooperate/AlwaysCooperate.h">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysDefect.cpp">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysDefect/AlwaysDefect.cpp">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysDefect.h">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysDefect/AlwaysDefect.h">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CoopUntilDefect.cpp">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CoopUntilDefect.h">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CoopUntilDefect/CoopUntilDefect.h">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct.cpp">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct/CustomAct.cpp">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct.h">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct/CustomAct.h">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RandomAct.cpp">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RandomAct/RandomAct.cpp">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RandomAct.h">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RandomAct/RandomAct.h">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RatAct.cpp">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RatCat/RatAct.cpp">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RatAct.h">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RatCat/RatAct.h">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h">

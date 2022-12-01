@@ -11,27 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebfa33f9-dce7-47ed-86d6-33eed9e060a5" name="Changes" comment="CustomAct was added.">
-      <change afterPath="$PROJECT_DIR$/strategyTypes/RatAct.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategyTypes/RatAct.h" afterDir="false" />
+    <list default="true" id="ebfa33f9-dce7-47ed-86d6-33eed9e060a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/ScoringMatrix/ScoringMatrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/ScoringMatrix/ScoringMatrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/ScoringMatrix/ScoringMatrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/ScoringMatrix/ScoringMatrix.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab2.Dilemma.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab2.Dilemma.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +55,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab1.BigInt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
@@ -79,17 +64,20 @@
       <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes" />
-      <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma" />
+      <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\TournamentMode" />
+      <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\FastMode" />
+      <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\DetailedMode" />
+      <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\RandomAct" />
+      <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\RatCat" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Lab2.Dilemma" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab2.Dilemma" TARGET_NAME="Lab2.Dilemma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab2.Dilemma" RUN_TARGET_NAME="Lab2.Dilemma">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Lab2.Dilemma" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab2.Dilemma" TARGET_NAME="Lab2.Dilemma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab2.Dilemma" RUN_TARGET_NAME="Lab2.Dilemma">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -121,7 +109,10 @@
       <workItem from="1668836311157" duration="24064000" />
       <workItem from="1669301272615" duration="3772000" />
       <workItem from="1669349571387" duration="9933000" />
-      <workItem from="1669456936121" duration="21016000" />
+      <workItem from="1669456936121" duration="21313000" />
+      <workItem from="1669734185105" duration="12846000" />
+      <workItem from="1669776626153" duration="14196000" />
+      <workItem from="1669884554974" duration="21128000" />
     </task>
     <task id="LOCAL-00001" summary="All classes added. GameResult and ScoringMatrix were implementation.">
       <created>1668798400544</created>
@@ -151,7 +142,35 @@
       <option name="project" value="LOCAL" />
       <updated>1669481544588</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="All smart strategies were added.">
+      <created>1669488189190</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669488189190</updated>
+    </task>
+    <task id="LOCAL-00006" summary="All game modes added.">
+      <created>1669818569306</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669818569306</updated>
+    </task>
+    <task id="LOCAL-00007" summary="All game modes added without pointer exceptions.">
+      <created>1669886379564</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669886379564</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Dilemma in pre-released version.">
+      <created>1669918030024</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669918030024</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,27 +192,39 @@
     <MESSAGE value="All classes added. GameResult and ScoringMatrix were implementation." />
     <MESSAGE value="1 round completed successfully." />
     <MESSAGE value="First non-trivial strategy was added." />
-    <option name="LAST_COMMIT_MESSAGE" value="First non-trivial strategy was added." />
+    <MESSAGE value="All smart strategies were added." />
+    <MESSAGE value="All game modes added." />
+    <MESSAGE value="All game modes added without pointer exceptions." />
+    <MESSAGE value="Dilemma in pre-released version." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dilemma in pre-released version." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/GameAtributes/GameResult.cpp</url>
-          <line>9</line>
-          <option name="timeStamp" value="19" />
+          <url>file://$PROJECT_DIR$/strategyTypes/CustomAct/CustomAct.cpp</url>
+          <line>39</line>
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/strategyTypes/CustomAct.cpp</url>
-          <line>8</line>
-          <option name="timeStamp" value="24" />
+          <url>file://$PROJECT_DIR$/GameAtributes/GameResult/GameResult.cpp</url>
+          <line>58</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/strategyTypes/CustomAct.cpp</url>
-          <line>14</line>
-          <option name="timeStamp" value="25" />
+          <url>file://$PROJECT_DIR$/GameAtributes/GameResult/GameResult.cpp</url>
+          <line>57</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="listAll[19]" />
+        <watch expression="newLog.mapLog[1].second" />
+        <watch expression="this-&gt;mapLog[0]" />
+        <watch expression="this-&gt;mapLog[2]" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
