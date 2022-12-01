@@ -2,6 +2,9 @@
 
 TournamentMode::TournamentMode() {
     std::cin >> strategyNumber;
+    if (strategyNumber < 3) {
+        throw std::invalid_argument("Number of Strategies incorrect ( < 3 ).");
+    }
 }
 
 void TournamentMode::init(Game &game) {

@@ -1,4 +1,3 @@
-#include <iostream>
 #include <random>
 #include "RandomAct.h"
 
