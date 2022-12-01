@@ -13,48 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ebfa33f9-dce7-47ed-86d6-33eed9e060a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/Game/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Game/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/Game/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Game/Game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/GameModes/DetailedMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/GameModes/DetailedMode.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameModes/DetailedMode/DetailedMode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/GameModes/FastMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameModes/FastMode/FastMode.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/GameModes/FastMode.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameModes/FastMode/FastMode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/GameModes/TournamentMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/GameModes/TournamentMode.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameModes/TournamentMode/TournamentMode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/GameResult/GameResult.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameResult/GameResult.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/GameResult/GameResult.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameResult/GameResult.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/InputData/InputData.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/InputData/InputData.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/InputData/InputData.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/InputData/InputData.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/Log/Log.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Log/Log.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/Log/Log.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Log/Log.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/StrategyParser.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/StrategyParser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/ScoringMatrix/ScoringMatrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/ScoringMatrix/ScoringMatrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/ScoringMatrix/ScoringMatrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/ScoringMatrix/ScoringMatrix.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab2.Dilemma.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab2.Dilemma.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategyTypes/AlwaysCooperate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategyTypes/AlwaysCooperate.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/AlwaysCooperate/AlwaysCooperate.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategyTypes/AlwaysDefect.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/AlwaysDefect/AlwaysDefect.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategyTypes/AlwaysDefect.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/AlwaysDefect/AlwaysDefect.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategyTypes/CoopUntilDefect.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategyTypes/CoopUntilDefect.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/CoopUntilDefect/CoopUntilDefect.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategyTypes/CustomAct.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/CustomAct/CustomAct.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategyTypes/CustomAct.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/CustomAct/CustomAct.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategyTypes/RandomAct.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/RandomAct/RandomAct.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategyTypes/RandomAct.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/RandomAct/RandomAct.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategyTypes/RatAct.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/RatCat/RatAct.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategyTypes/RatAct.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/RatCat/RatAct.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +112,7 @@
       <workItem from="1669456936121" duration="21313000" />
       <workItem from="1669734185105" duration="12846000" />
       <workItem from="1669776626153" duration="14196000" />
-      <workItem from="1669884554974" duration="19709000" />
+      <workItem from="1669884554974" duration="21128000" />
     </task>
     <task id="LOCAL-00001" summary="All classes added. GameResult and ScoringMatrix were implementation.">
       <created>1668798400544</created>
@@ -201,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669886379564</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Dilemma in pre-released version.">
+      <created>1669918030024</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669918030024</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +195,8 @@
     <MESSAGE value="All smart strategies were added." />
     <MESSAGE value="All game modes added." />
     <MESSAGE value="All game modes added without pointer exceptions." />
-    <option name="LAST_COMMIT_MESSAGE" value="All game modes added without pointer exceptions." />
+    <MESSAGE value="Dilemma in pre-released version." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dilemma in pre-released version." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

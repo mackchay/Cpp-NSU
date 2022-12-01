@@ -12,7 +12,7 @@ public:
 
 private:
     typedef std::map<std::string, std::vector<size_t>> mapVector;
-    mapVector mapResult;
+    mapVector mapScore;
 };
 
 
