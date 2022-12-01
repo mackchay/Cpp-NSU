@@ -1,7 +1,7 @@
 #ifndef LAB2_DILEMMA_ALWAYSCOOPERATE_H
 #define LAB2_DILEMMA_ALWAYSCOOPERATE_H
 
-#include "Strategy.h"
+#include "../Strategy.h"
 
 class AlwaysCooperate : public Strategy {
 public:

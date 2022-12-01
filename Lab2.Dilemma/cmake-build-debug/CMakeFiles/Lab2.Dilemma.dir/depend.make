@@ -11,39 +11,39 @@ CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game/Game.cpp.obj: \
  ../GameAtributes/GameResult/GameResult.h \
  ../GameAtributes/Log/Log.h \
  ../GameAtributes/ScoringMatrix/ScoringMatrix.h \
- ../strategyTypes/AlwaysCooperate.h \
- ../strategyTypes/AlwaysDefect.h \
- ../strategyTypes/CoopUntilDefect.h \
- ../strategyTypes/CustomAct.h \
- ../strategyTypes/RandomAct.h \
- ../strategyTypes/RatAct.h \
+ ../strategyTypes/AlwaysCooperate/AlwaysCooperate.h \
+ ../strategyTypes/AlwaysDefect/AlwaysDefect.h \
+ ../strategyTypes/CoopUntilDefect/CoopUntilDefect.h \
+ ../strategyTypes/CustomAct/CustomAct.h \
+ ../strategyTypes/RandomAct/RandomAct.h \
+ ../strategyTypes/RatCat/RatAct.h \
  ../strategyTypes/Strategy.h
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode.cpp.obj: \
+CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp.obj: \
  ../GameAtributes/Factory/Factory.h \
  ../GameAtributes/Game/Game.h \
- ../GameAtributes/GameModes/DetailedMode.cpp \
- ../GameAtributes/GameModes/DetailedMode.h \
+ ../GameAtributes/GameModes/DetailedMode/DetailedMode.cpp \
+ ../GameAtributes/GameModes/DetailedMode/DetailedMode.h \
  ../GameAtributes/GameModes/GameMode.h \
  ../GameAtributes/GameResult/GameResult.h \
  ../GameAtributes/Log/Log.h \
  ../GameAtributes/ScoringMatrix/ScoringMatrix.h \
  ../strategyTypes/Strategy.h
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode.cpp.obj: \
+CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.obj: \
  ../GameAtributes/Factory/Factory.h \
  ../GameAtributes/Game/Game.h \
- ../GameAtributes/GameModes/FastMode.cpp \
- ../GameAtributes/GameModes/FastMode.h \
+ ../GameAtributes/GameModes/FastMode/FastMode.cpp \
+ ../GameAtributes/GameModes/FastMode/FastMode.h \
  ../GameAtributes/GameModes/GameMode.h \
  ../GameAtributes/GameResult/GameResult.h \
  ../GameAtributes/Log/Log.h \
  ../GameAtributes/ScoringMatrix/ScoringMatrix.h \
  ../strategyTypes/Strategy.h
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode.cpp.obj: \
+CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.obj: \
  ../GameAtributes/Factory/Factory.h \
  ../GameAtributes/Game/Game.h \
  ../GameAtributes/GameModes/GameMode.h \
- ../GameAtributes/GameModes/TournamentMode.cpp \
- ../GameAtributes/GameModes/TournamentMode.h \
+ ../GameAtributes/GameModes/TournamentMode/TournamentMode.cpp \
+ ../GameAtributes/GameModes/TournamentMode/TournamentMode.h \
  ../GameAtributes/GameResult/GameResult.h \
  ../GameAtributes/Log/Log.h \
  ../GameAtributes/ScoringMatrix/ScoringMatrix.h \
@@ -55,10 +55,10 @@ CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult/GameResult.cpp.obj: \
 CMakeFiles/Lab2.Dilemma.dir/GameAtributes/InputData/InputData.cpp.obj: \
  ../GameAtributes/Factory/Factory.h \
  ../GameAtributes/Game/Game.h \
- ../GameAtributes/GameModes/DetailedMode.h \
- ../GameAtributes/GameModes/FastMode.h \
+ ../GameAtributes/GameModes/DetailedMode/DetailedMode.h \
+ ../GameAtributes/GameModes/FastMode/FastMode.h \
  ../GameAtributes/GameModes/GameMode.h \
- ../GameAtributes/GameModes/TournamentMode.h \
+ ../GameAtributes/GameModes/TournamentMode/TournamentMode.h \
  ../GameAtributes/GameResult/GameResult.h \
  ../GameAtributes/InputData/InputData.cpp \
  ../GameAtributes/InputData/InputData.h \
@@ -73,14 +73,11 @@ CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Log/Log.cpp.obj: \
 CMakeFiles/Lab2.Dilemma.dir/GameAtributes/ScoringMatrix/ScoringMatrix.cpp.obj: \
  ../GameAtributes/ScoringMatrix/ScoringMatrix.cpp \
  ../GameAtributes/ScoringMatrix/ScoringMatrix.h
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyParser.cpp.obj: \
- ../GameAtributes/StrategyParser.cpp \
- ../GameAtributes/StrategyParser.h
 CMakeFiles/Lab2.Dilemma.dir/main.cpp.obj: \
  ../GameAtributes/Factory/Factory.h \
  ../GameAtributes/Game/Game.h \
- ../GameAtributes/GameModes/DetailedMode.h \
- ../GameAtributes/GameModes/FastMode.h \
+ ../GameAtributes/GameModes/DetailedMode/DetailedMode.h \
+ ../GameAtributes/GameModes/FastMode/FastMode.h \
  ../GameAtributes/GameModes/GameMode.h \
  ../GameAtributes/GameResult/GameResult.h \
  ../GameAtributes/InputData/InputData.h \
@@ -88,45 +85,45 @@ CMakeFiles/Lab2.Dilemma.dir/main.cpp.obj: \
  ../GameAtributes/ScoringMatrix/ScoringMatrix.h \
  ../main.cpp \
  ../strategyTypes/Strategy.h
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate.cpp.obj: \
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp.obj: \
  ../GameAtributes/GameResult/GameResult.h \
  ../GameAtributes/Log/Log.h \
  ../GameAtributes/ScoringMatrix/ScoringMatrix.h \
- ../strategyTypes/AlwaysCooperate.cpp \
- ../strategyTypes/AlwaysCooperate.h \
+ ../strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp \
+ ../strategyTypes/AlwaysCooperate/AlwaysCooperate.h \
  ../strategyTypes/Strategy.h
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect.cpp.obj: \
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect/AlwaysDefect.cpp.obj: \
  ../GameAtributes/GameResult/GameResult.h \
  ../GameAtributes/Log/Log.h \
  ../GameAtributes/ScoringMatrix/ScoringMatrix.h \
- ../strategyTypes/AlwaysDefect.cpp \
- ../strategyTypes/AlwaysDefect.h \
+ ../strategyTypes/AlwaysDefect/AlwaysDefect.cpp \
+ ../strategyTypes/AlwaysDefect/AlwaysDefect.h \
  ../strategyTypes/Strategy.h
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect.cpp.obj: \
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp.obj: \
  ../GameAtributes/GameResult/GameResult.h \
  ../GameAtributes/Log/Log.h \
  ../GameAtributes/ScoringMatrix/ScoringMatrix.h \
- ../strategyTypes/CoopUntilDefect.cpp \
- ../strategyTypes/CoopUntilDefect.h \
+ ../strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp \
+ ../strategyTypes/CoopUntilDefect/CoopUntilDefect.h \
  ../strategyTypes/Strategy.h
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct.cpp.obj: \
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct/CustomAct.cpp.obj: \
  ../GameAtributes/GameResult/GameResult.h \
  ../GameAtributes/Log/Log.h \
  ../GameAtributes/ScoringMatrix/ScoringMatrix.h \
- ../strategyTypes/CustomAct.cpp \
- ../strategyTypes/CustomAct.h \
+ ../strategyTypes/CustomAct/CustomAct.cpp \
+ ../strategyTypes/CustomAct/CustomAct.h \
  ../strategyTypes/Strategy.h
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct.cpp.obj: \
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct/RandomAct.cpp.obj: \
  ../GameAtributes/GameResult/GameResult.h \
  ../GameAtributes/Log/Log.h \
  ../GameAtributes/ScoringMatrix/ScoringMatrix.h \
- ../strategyTypes/RandomAct.cpp \
- ../strategyTypes/RandomAct.h \
+ ../strategyTypes/RandomAct/RandomAct.cpp \
+ ../strategyTypes/RandomAct/RandomAct.h \
  ../strategyTypes/Strategy.h
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatAct.cpp.obj: \
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatCat/RatAct.cpp.obj: \
  ../GameAtributes/GameResult/GameResult.h \
  ../GameAtributes/Log/Log.h \
  ../GameAtributes/ScoringMatrix/ScoringMatrix.h \
- ../strategyTypes/RatAct.cpp \
- ../strategyTypes/RatAct.h \
+ ../strategyTypes/RatCat/RatAct.cpp \
+ ../strategyTypes/RatCat/RatAct.h \
  ../strategyTypes/Strategy.h

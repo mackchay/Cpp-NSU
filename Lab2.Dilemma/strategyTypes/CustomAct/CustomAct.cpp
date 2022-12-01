@@ -1,5 +1,6 @@
 #include <fstream>
 #include "CustomAct.h"
+
 #define FIN "custom.txt"
 
 CustomAct::CustomAct() {
@@ -32,10 +33,10 @@ char CustomAct::act(Log &newLog) {
     std::vector<std::string> list = newLog.opponentList((*this).info());
     instructions.erase(instructions.begin());
     for (auto it = list.begin(); it != list.end(); it++) {
-        if (newLog.lastAct((*it)) == 'c') {
+        if (newLog.isCooperating((*it))) {
             countCoop++;
         }
-        else {
+        if (newLog.isDefecting((*it))){
             countDefect++;
         }
     }

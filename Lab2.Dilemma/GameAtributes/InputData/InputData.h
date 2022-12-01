@@ -1,8 +1,8 @@
 #ifndef LAB2_DILEMMA_INPUTDATA_H
 #define LAB2_DILEMMA_INPUTDATA_H
 #include "../Game/Game.h"
-#include "../GameModes/DetailedMode.h"
-#include "../GameModes/FastMode.h"
+#include "../GameModes/DetailedMode/DetailedMode.h"
+#include "../GameModes/FastMode/FastMode.h"
 
 class InputData {
 public:

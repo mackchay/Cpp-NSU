@@ -1,7 +1,7 @@
 #ifndef LAB2_DILEMMA_COOPUNTILDEFECT_H
 #define LAB2_DILEMMA_COOPUNTILDEFECT_H
 
-#include "Strategy.h"
+#include "../Strategy.h"
 
 class CoopUntilDefect : public Strategy {
 public:
@@ -11,7 +11,7 @@ public:
     char act(Log &) override;
 
 private:
-    int patience;
+    bool patience;
 };
 
 

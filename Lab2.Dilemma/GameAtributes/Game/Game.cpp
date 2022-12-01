@@ -1,12 +1,13 @@
 #include "Game.h"
-#include "../../strategyTypes/AlwaysCooperate.h"
-#include "../../strategyTypes/AlwaysDefect.h"
-#include "../../strategyTypes/RandomAct.h"
-#include "../../strategyTypes/CoopUntilDefect.h"
-#include "../../strategyTypes/CustomAct.h"
-#include "../../strategyTypes/RatAct.h"
+#include "../../strategyTypes/AlwaysCooperate/AlwaysCooperate.h"
+#include "../../strategyTypes/AlwaysDefect/AlwaysDefect.h"
+#include "../../strategyTypes/RandomAct/RandomAct.h"
+#include "../../strategyTypes/CoopUntilDefect/CoopUntilDefect.h"
+#include "../../strategyTypes/CustomAct/CustomAct.h"
+#include "../../strategyTypes/RatCat/RatAct.h"
 
 Game::Game() {
+    rounds = 0;
     strategyFactory.add<AlwaysDefect>("AlwaysDefect");
     strategyFactory.add<AlwaysCooperate>("AlwaysCooperate");
     strategyFactory.add<RandomAct>("RandomAct");
@@ -34,31 +35,45 @@ void Game::add(std::string &id) {
 }
 
 void Game::round() {
+    rounds++;
     std::string resultAct;
+    std::map<std::string, char> allActions;
     char action;
     GameResult tmp;
     for (auto it = userData.begin(); it != userData.end(); it++) {
         action = it->second->act(log);
         resultAct += action;
-        log.add(it->first, action);
+        allActions[it->first] = action;
     }
 
     tmp.getResult(scoringMatrix, resultAct);
     gameResult.updateResult(scoringMatrix, resultAct);
+    gameResult.updateCurResult(scoringMatrix, resultAct);
+
+    for (auto it = allActions.begin(); it != allActions.end(); it++) {
+        log.add(it->first, it->second);
+    }
 }
 
 void Game::round(VectorString &vectorString) {
+    rounds++;
     std::string resultAct;
+    std::map<std::string, char> allActions;
     char action;
     GameResult tmp;
     for (auto it = vectorString.begin(); it != vectorString.end(); it++) {
         action = userData[*it]->act(log);
         resultAct += action;
-        log.add(*it, action);
+        allActions[*it] = action;
     }
 
     tmp.getResult(scoringMatrix, resultAct);
-    gameResult.updateResult(scoringMatrix, resultAct);
+    gameResult.updateResult(scoringMatrix, resultAct, vectorString);
+    gameResult.updateCurResult(scoringMatrix, resultAct, vectorString);
+
+    for (auto it = allActions.begin(); it != allActions.end(); it++) {
+        log.add(it->first, it->second);
+    }
 }
 
 Game::VectorString Game::listOfPlayers() {
@@ -70,5 +85,13 @@ Game::VectorString Game::listOfPlayers() {
 }
 
 void Game::printResult() {
-    gameResult.printMatrix();
+    gameResult.printMatrixOverall();
+}
+
+void Game::printResultCur() {
+    gameResult.printMatrixCur(rounds);
+}
+
+void Game::printResultCur(VectorString &vectorString) {
+    gameResult.printMatrixCur(rounds, vectorString);
 }

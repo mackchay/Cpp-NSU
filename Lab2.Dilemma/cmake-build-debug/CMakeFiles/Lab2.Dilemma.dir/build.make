@@ -78,44 +78,44 @@ CMakeFiles/Lab2.Dilemma.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/main.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\main.cpp -o CMakeFiles\Lab2.Dilemma.dir\main.cpp.s
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate.cpp.obj: ../strategyTypes/AlwaysCooperate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\AlwaysCooperate.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\AlwaysCooperate.cpp
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp.obj: ../strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\AlwaysCooperate\AlwaysCooperate.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\AlwaysCooperate\AlwaysCooperate.cpp
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\AlwaysCooperate.cpp > CMakeFiles\Lab2.Dilemma.dir\strategyTypes\AlwaysCooperate.cpp.i
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\AlwaysCooperate\AlwaysCooperate.cpp > CMakeFiles\Lab2.Dilemma.dir\strategyTypes\AlwaysCooperate\AlwaysCooperate.cpp.i
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\AlwaysCooperate.cpp -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\AlwaysCooperate.cpp.s
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\AlwaysCooperate\AlwaysCooperate.cpp -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\AlwaysCooperate\AlwaysCooperate.cpp.s
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect.cpp.obj: ../strategyTypes/AlwaysDefect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\AlwaysDefect.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\AlwaysDefect.cpp
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect/AlwaysDefect.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect/AlwaysDefect.cpp.obj: ../strategyTypes/AlwaysDefect/AlwaysDefect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect/AlwaysDefect.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\AlwaysDefect\AlwaysDefect.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\AlwaysDefect\AlwaysDefect.cpp
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\AlwaysDefect.cpp > CMakeFiles\Lab2.Dilemma.dir\strategyTypes\AlwaysDefect.cpp.i
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect/AlwaysDefect.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect/AlwaysDefect.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\AlwaysDefect\AlwaysDefect.cpp > CMakeFiles\Lab2.Dilemma.dir\strategyTypes\AlwaysDefect\AlwaysDefect.cpp.i
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\AlwaysDefect.cpp -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\AlwaysDefect.cpp.s
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect/AlwaysDefect.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect/AlwaysDefect.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\AlwaysDefect\AlwaysDefect.cpp -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\AlwaysDefect\AlwaysDefect.cpp.s
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct.cpp.obj: ../strategyTypes/RandomAct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\RandomAct.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\RandomAct.cpp
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct/RandomAct.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct/RandomAct.cpp.obj: ../strategyTypes/RandomAct/RandomAct.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct/RandomAct.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\RandomAct\RandomAct.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\RandomAct\RandomAct.cpp
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\RandomAct.cpp > CMakeFiles\Lab2.Dilemma.dir\strategyTypes\RandomAct.cpp.i
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct/RandomAct.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct/RandomAct.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\RandomAct\RandomAct.cpp > CMakeFiles\Lab2.Dilemma.dir\strategyTypes\RandomAct\RandomAct.cpp.i
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\RandomAct.cpp -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\RandomAct.cpp.s
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct/RandomAct.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct/RandomAct.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\RandomAct\RandomAct.cpp -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\RandomAct\RandomAct.cpp.s
 
 CMakeFiles/Lab2.Dilemma.dir/GameAtributes/InputData/InputData.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
 CMakeFiles/Lab2.Dilemma.dir/GameAtributes/InputData/InputData.cpp.obj: ../GameAtributes/InputData/InputData.cpp
@@ -195,142 +195,127 @@ CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game/Game.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\Game\Game.cpp -o CMakeFiles\Lab2.Dilemma.dir\GameAtributes\Game\Game.cpp.s
 
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyParser.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyParser.cpp.obj: ../GameAtributes/StrategyParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyParser.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\GameAtributes\StrategyParser.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\StrategyParser.cpp
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp.obj: ../strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\CoopUntilDefect\CoopUntilDefect.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\CoopUntilDefect\CoopUntilDefect.cpp
 
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyParser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyParser.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\StrategyParser.cpp > CMakeFiles\Lab2.Dilemma.dir\GameAtributes\StrategyParser.cpp.i
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\CoopUntilDefect\CoopUntilDefect.cpp > CMakeFiles\Lab2.Dilemma.dir\strategyTypes\CoopUntilDefect\CoopUntilDefect.cpp.i
 
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyParser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyParser.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\StrategyParser.cpp -o CMakeFiles\Lab2.Dilemma.dir\GameAtributes\StrategyParser.cpp.s
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\CoopUntilDefect\CoopUntilDefect.cpp -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\CoopUntilDefect\CoopUntilDefect.cpp.s
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect.cpp.obj: ../strategyTypes/CoopUntilDefect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\CoopUntilDefect.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\CoopUntilDefect.cpp
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct/CustomAct.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct/CustomAct.cpp.obj: ../strategyTypes/CustomAct/CustomAct.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct/CustomAct.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\CustomAct\CustomAct.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\CustomAct\CustomAct.cpp
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\CoopUntilDefect.cpp > CMakeFiles\Lab2.Dilemma.dir\strategyTypes\CoopUntilDefect.cpp.i
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct/CustomAct.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct/CustomAct.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\CustomAct\CustomAct.cpp > CMakeFiles\Lab2.Dilemma.dir\strategyTypes\CustomAct\CustomAct.cpp.i
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\CoopUntilDefect.cpp -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\CoopUntilDefect.cpp.s
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct/CustomAct.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct/CustomAct.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\CustomAct\CustomAct.cpp -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\CustomAct\CustomAct.cpp.s
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct.cpp.obj: ../strategyTypes/CustomAct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\CustomAct.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\CustomAct.cpp
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatCat/RatAct.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatCat/RatAct.cpp.obj: ../strategyTypes/RatCat/RatAct.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatCat/RatAct.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\RatCat\RatAct.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\RatCat\RatAct.cpp
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\CustomAct.cpp > CMakeFiles\Lab2.Dilemma.dir\strategyTypes\CustomAct.cpp.i
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatCat/RatAct.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatCat/RatAct.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\RatCat\RatAct.cpp > CMakeFiles\Lab2.Dilemma.dir\strategyTypes\RatCat\RatAct.cpp.i
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\CustomAct.cpp -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\CustomAct.cpp.s
+CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatCat/RatAct.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatCat/RatAct.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\RatCat\RatAct.cpp -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\RatCat\RatAct.cpp.s
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatAct.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatAct.cpp.obj: ../strategyTypes/RatAct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatAct.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\RatAct.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\RatAct.cpp
+CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
+CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp.obj: ../GameAtributes/GameModes/DetailedMode/DetailedMode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\DetailedMode\DetailedMode.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\DetailedMode\DetailedMode.cpp
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatAct.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatAct.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\RatAct.cpp > CMakeFiles\Lab2.Dilemma.dir\strategyTypes\RatAct.cpp.i
+CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\DetailedMode\DetailedMode.cpp > CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\DetailedMode\DetailedMode.cpp.i
 
-CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatAct.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatAct.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\RatAct.cpp -o CMakeFiles\Lab2.Dilemma.dir\strategyTypes\RatAct.cpp.s
+CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\DetailedMode\DetailedMode.cpp -o CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\DetailedMode\DetailedMode.cpp.s
 
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode.cpp.obj: ../GameAtributes/GameModes/DetailedMode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\DetailedMode.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\DetailedMode.cpp
+CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
+CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.obj: ../GameAtributes/GameModes/FastMode/FastMode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\FastMode\FastMode.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\FastMode\FastMode.cpp
 
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\DetailedMode.cpp > CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\DetailedMode.cpp.i
+CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\FastMode\FastMode.cpp > CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\FastMode\FastMode.cpp.i
 
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\DetailedMode.cpp -o CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\DetailedMode.cpp.s
+CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\FastMode\FastMode.cpp -o CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\FastMode\FastMode.cpp.s
 
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode.cpp.obj: ../GameAtributes/GameModes/FastMode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\FastMode.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\FastMode.cpp
+CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
+CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.obj: ../GameAtributes/GameModes/TournamentMode/TournamentMode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\TournamentMode\TournamentMode.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\TournamentMode\TournamentMode.cpp
 
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\FastMode.cpp > CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\FastMode.cpp.i
+CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\TournamentMode\TournamentMode.cpp > CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\TournamentMode\TournamentMode.cpp.i
 
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\FastMode.cpp -o CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\FastMode.cpp.s
-
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode.cpp.obj: CMakeFiles/Lab2.Dilemma.dir/flags.make
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode.cpp.obj: ../GameAtributes/GameModes/TournamentMode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\TournamentMode.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\TournamentMode.cpp
-
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\TournamentMode.cpp > CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\TournamentMode.cpp.i
-
-CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\TournamentMode.cpp -o CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\TournamentMode.cpp.s
+CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\TournamentMode\TournamentMode.cpp -o CMakeFiles\Lab2.Dilemma.dir\GameAtributes\GameModes\TournamentMode\TournamentMode.cpp.s
 
 # Object files for target Lab2.Dilemma
 Lab2_Dilemma_OBJECTS = \
 "CMakeFiles/Lab2.Dilemma.dir/main.cpp.obj" \
-"CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate.cpp.obj" \
-"CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect.cpp.obj" \
-"CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct.cpp.obj" \
+"CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp.obj" \
+"CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect/AlwaysDefect.cpp.obj" \
+"CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct/RandomAct.cpp.obj" \
 "CMakeFiles/Lab2.Dilemma.dir/GameAtributes/InputData/InputData.cpp.obj" \
 "CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult/GameResult.cpp.obj" \
 "CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Factory/Factory.cpp.obj" \
 "CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Log/Log.cpp.obj" \
 "CMakeFiles/Lab2.Dilemma.dir/GameAtributes/ScoringMatrix/ScoringMatrix.cpp.obj" \
 "CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game/Game.cpp.obj" \
-"CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyParser.cpp.obj" \
-"CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect.cpp.obj" \
-"CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct.cpp.obj" \
-"CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatAct.cpp.obj" \
-"CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode.cpp.obj" \
-"CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode.cpp.obj" \
-"CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode.cpp.obj"
+"CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp.obj" \
+"CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct/CustomAct.cpp.obj" \
+"CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatCat/RatAct.cpp.obj" \
+"CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp.obj" \
+"CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.obj" \
+"CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.obj"
 
 # External object files for target Lab2.Dilemma
 Lab2_Dilemma_EXTERNAL_OBJECTS =
 
 Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/main.cpp.obj
-Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate.cpp.obj
-Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect.cpp.obj
-Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct.cpp.obj
+Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp.obj
+Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect/AlwaysDefect.cpp.obj
+Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct/RandomAct.cpp.obj
 Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/GameAtributes/InputData/InputData.cpp.obj
 Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult/GameResult.cpp.obj
 Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Factory/Factory.cpp.obj
 Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Log/Log.cpp.obj
 Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/GameAtributes/ScoringMatrix/ScoringMatrix.cpp.obj
 Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game/Game.cpp.obj
-Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/GameAtributes/StrategyParser.cpp.obj
-Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect.cpp.obj
-Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct.cpp.obj
-Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatAct.cpp.obj
-Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode.cpp.obj
-Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode.cpp.obj
-Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode.cpp.obj
+Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp.obj
+Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct/CustomAct.cpp.obj
+Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatCat/RatAct.cpp.obj
+Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp.obj
+Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.obj
+Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.obj
 Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/build.make
 Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/linklibs.rsp
 Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/objects1.rsp
 Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable Lab2.Dilemma.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable Lab2.Dilemma.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Lab2.Dilemma.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -22,6 +22,7 @@ void TournamentMode::start(Game &game) {
                 listThree.push_back(listAll[itB]);
                 listThree.push_back(listAll[itC]);
                 game.round(listThree);
+                game.printResultCur(listThree);
                 listThree.clear();
             }
         }

@@ -2,7 +2,7 @@
 #define LAB2_DILEMMA_RATACT_H
 
 
-#include "Strategy.h"
+#include "../Strategy.h"
 
 class RatAct: public Strategy {
 public:
@@ -10,7 +10,7 @@ public:
     std::string info() override;
     char act(Log &) override;
 private:
-    bool patience;
+    int patience;
     int defectTime;
 };
 

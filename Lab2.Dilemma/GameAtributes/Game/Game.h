@@ -14,6 +14,8 @@ public:
     void round();
     void round(VectorString &);
     void printResult();
+    void printResultCur();
+    void printResultCur(VectorString &);
     VectorString listOfPlayers();
     ~Game();
 
@@ -23,6 +25,7 @@ private:
     GameResult gameResult;
     std::map<std::string, Strategy*> userData;
     Log log;
+    size_t rounds;
 };
 
 

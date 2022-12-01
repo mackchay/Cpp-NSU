@@ -1,8 +1,7 @@
 #include "CoopUntilDefect.h"
 
 CoopUntilDefect::CoopUntilDefect() {
-    patience = 2;
-
+    patience = true;
 }
 std::string CoopUntilDefect::info() {
     return "CoopUntilDefect";
@@ -14,8 +13,9 @@ char CoopUntilDefect::act(Log &newLog) {
     }
     std::vector<std::string> list = newLog.opponentList((*this).info());
     for (auto it = list.begin(); it != list.end(); it++) {
-        if (newLog.lastAct(*it) == 'd') {
-            patience--;
+        if (newLog.isDefecting(*it)) {
+            patience = false;
+            return 'd';
         }
     }
     return 'c';

@@ -4,15 +4,27 @@ Log::Log() = default;
 
 void Log::add(const std::string &pattern, char action) {
     if (!mapLog.contains(pattern)) {
-        mapLog.insert(std::make_pair(pattern, action));
+        std::string newPlay;
+        newPlay.push_back(action);
+        mapLog.insert(std::make_pair(pattern, newPlay));
     }
     else {
         mapLog[pattern].push_back(action);
     }
 }
 
-char Log::lastAct(const std::string &strategyName) {
-    return mapLog[strategyName].back();
+bool Log::isCooperating(const std::string &strategyName) {
+    if (mapLog[strategyName].back() == 'c') {
+        return true;
+    }
+    return false;
+}
+
+bool Log::isDefecting(const std::string &strategyName) {
+    if (mapLog[strategyName].back() == 'd') {
+        return true;
+    }
+    return false;
 }
 
 std::vector<std::string> Log::opponentList(const std::string &strategyName) {

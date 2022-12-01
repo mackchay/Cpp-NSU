@@ -1,7 +1,7 @@
 #ifndef LAB2_DILEMMA_ALWAYSDEFECT_H
 #define LAB2_DILEMMA_ALWAYSDEFECT_H
 
-#include "Strategy.h"
+#include "../Strategy.h"
 
 class AlwaysDefect: public Strategy {
 public:

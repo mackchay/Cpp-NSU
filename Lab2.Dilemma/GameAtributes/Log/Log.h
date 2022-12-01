@@ -5,13 +5,15 @@
 
 class Log {
 private:
-    typedef std::map<std::string, std::vector<char>> MapLog;
+    typedef std::map<std::string, std::string> MapLog;
     MapLog mapLog;
 public:
 
     Log();
     void add(const std::string &, char);
-    char lastAct(const std::string &);
+    bool isCooperating(const std::string &);
+    bool isDefecting(const std::string &);
+
     std::vector<std::string> opponentList(const std::string &);
 
 };

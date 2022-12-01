@@ -1,7 +1,7 @@
 #ifndef LAB2_DILEMMA_CUSTOMACT_H
 #define LAB2_DILEMMA_CUSTOMACT_H
 
-#include "Strategy.h"
+#include "../Strategy.h"
 
 class CustomAct: public Strategy {
 public:

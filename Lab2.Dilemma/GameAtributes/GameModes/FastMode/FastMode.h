@@ -1,7 +1,7 @@
 #ifndef LAB2_DILEMMA_FASTMODE_H
 #define LAB2_DILEMMA_FASTMODE_H
 
-#include "GameMode.h"
+#include "../GameMode.h"
 
 class FastMode : public GameMode {
 public:
