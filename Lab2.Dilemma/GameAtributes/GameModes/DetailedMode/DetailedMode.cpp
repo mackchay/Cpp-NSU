@@ -1,22 +1,11 @@
 #include "DetailedMode.h"
 
-DetailedMode::DetailedMode() {
-    strategyNumber = 3;
+
+void DetailedMode::addData(size_t, size_t) {
+
 }
 
-DetailedMode::DetailedMode(size_t defaultSize) {
-    strategyNumber = defaultSize;
-}
-
-void DetailedMode::init(Game &game) {
-    std::string strategyName;
-    for (size_t i = 0; i < strategyNumber; i++) {
-        std::cin >> strategyName;
-        game.add(strategyName);
-    }
-}
-
-void DetailedMode::start(Game &game) {
+void DetailedMode::start(GameBuild &game) {
     std::string enter = "0";
     while (enter != "q") {
         game.round();

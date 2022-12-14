@@ -8,3 +8,4 @@ std::string AlwaysCooperate::info() {
 char AlwaysCooperate::act(Log &newLog) {
     return 'c';
 }
+

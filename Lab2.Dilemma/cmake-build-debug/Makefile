@@ -176,6 +176,30 @@ GameAtributes/Game/Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game/Game.cpp.s
 .PHONY : GameAtributes/Game/Game.cpp.s
 
+GameAtributes/GameBuild/GameBuild.obj: GameAtributes/GameBuild/GameBuild.cpp.obj
+.PHONY : GameAtributes/GameBuild/GameBuild.obj
+
+# target to build an object file
+GameAtributes/GameBuild/GameBuild.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameBuild/GameBuild.cpp.obj
+.PHONY : GameAtributes/GameBuild/GameBuild.cpp.obj
+
+GameAtributes/GameBuild/GameBuild.i: GameAtributes/GameBuild/GameBuild.cpp.i
+.PHONY : GameAtributes/GameBuild/GameBuild.i
+
+# target to preprocess a source file
+GameAtributes/GameBuild/GameBuild.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameBuild/GameBuild.cpp.i
+.PHONY : GameAtributes/GameBuild/GameBuild.cpp.i
+
+GameAtributes/GameBuild/GameBuild.s: GameAtributes/GameBuild/GameBuild.cpp.s
+.PHONY : GameAtributes/GameBuild/GameBuild.s
+
+# target to generate assembly for a file
+GameAtributes/GameBuild/GameBuild.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameBuild/GameBuild.cpp.s
+.PHONY : GameAtributes/GameBuild/GameBuild.cpp.s
+
 GameAtributes/GameModes/DetailedMode/DetailedMode.obj: GameAtributes/GameModes/DetailedMode/DetailedMode.cpp.obj
 .PHONY : GameAtributes/GameModes/DetailedMode/DetailedMode.obj
 
@@ -527,6 +551,9 @@ help:
 	@echo ... GameAtributes/Game/Game.obj
 	@echo ... GameAtributes/Game/Game.i
 	@echo ... GameAtributes/Game/Game.s
+	@echo ... GameAtributes/GameBuild/GameBuild.obj
+	@echo ... GameAtributes/GameBuild/GameBuild.i
+	@echo ... GameAtributes/GameBuild/GameBuild.s
 	@echo ... GameAtributes/GameModes/DetailedMode/DetailedMode.obj
 	@echo ... GameAtributes/GameModes/DetailedMode/DetailedMode.i
 	@echo ... GameAtributes/GameModes/DetailedMode/DetailedMode.s

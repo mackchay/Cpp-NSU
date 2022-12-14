@@ -1,32 +1,21 @@
 #ifndef LAB2_DILEMMA_GAME_H
 #define LAB2_DILEMMA_GAME_H
-#include "../GameResult/GameResult.h"
-#include "../Factory/Factory.h"
-#include "../../strategyTypes/Strategy.h"
-#include "../Log/Log.h"
+
+#include "../GameModes/GameMode.h"
 
 class Game {
 public:
-    typedef std::vector<std::string> VectorString;
-    Game();
 
-    void add(std::string &);
-    void round();
-    void round(VectorString &);
-    void printResult();
-    void printResultCur();
-    void printResultCur(VectorString &);
-    VectorString listOfPlayers();
+    Game();
+    size_t addStrategy(Strategy*);
+    void setMode(GameMode*);
+    void run();
     ~Game();
 
 private:
-    Factory<std::string, Strategy> strategyFactory;
-    ScoringMatrix scoringMatrix;
-    GameResult gameResult;
-    std::map<std::string, Strategy*> userData;
-    Log log;
-    size_t rounds;
+    std::vector<Strategy*> strategyList;
+    GameMode* mode;
 };
 
 
-#endif
+#endif //LAB2_DILEMMA_GAME_H

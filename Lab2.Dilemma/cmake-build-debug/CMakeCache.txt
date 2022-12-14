@@ -253,6 +253,12 @@ Lab2.Dilemma_BINARY_DIR:STATIC=C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Di
 //Value Computed by CMake
 Lab2.Dilemma_SOURCE_DIR:STATIC=C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma
 
+//Value Computed by CMake
+lab2_dilemma_BINARY_DIR:STATIC=C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug
+
+//Value Computed by CMake
+lab2_dilemma_SOURCE_DIR:STATIC=C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma
+
 
 ########################
 # INTERNAL cache entries

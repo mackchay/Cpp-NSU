@@ -1,31 +1,33 @@
 #include "TournamentMode.h"
 
 TournamentMode::TournamentMode() {
-    std::cin >> strategyNumber;
+    steps = 1;
 }
 
-void TournamentMode::init(Game &game) {
-    std::string strategyName;
+void TournamentMode::addData(size_t newSteps, size_t strategies) {
+    steps = newSteps;
+    strategyNumber = strategies;
+}
+
+void TournamentMode::start(GameBuild &game) {
+    std::vector<size_t> listThree, listAll;
     for (size_t i = 0; i < strategyNumber; i++) {
-        std::cin >> strategyName;
-        game.add(strategyName);
+        listAll.push_back(i);
     }
-}
 
-void TournamentMode::start(Game &game) {
-    std::vector<std::string> listAll, listThree;
-    listAll = game.listOfPlayers();
     for (size_t itA = 0; itA < strategyNumber - 2; itA++) {
         for (size_t itB = itA+1; itB < strategyNumber - 1; itB++){
             for (size_t itC = itB + 1; itC < strategyNumber; itC++) {
-                listThree.push_back(listAll[itA]);
-                listThree.push_back(listAll[itB]);
-                listThree.push_back(listAll[itC]);
-                game.round(listThree);
-                game.printResultCur(listThree);
-                listThree.clear();
+                for (size_t j = 0; j < steps; j++) {
+                    game.round({itA, itB, itC});
+                    listThree.clear();
+                }
+                std::cout << "Round " << itA + itB + itC << ":" << std::endl;
+                game.printLastActions({itA, itB, itC}, steps);
+                game.reset();
             }
         }
     }
-    game.printResult();
+
+    game.printResult(listAll);
 }

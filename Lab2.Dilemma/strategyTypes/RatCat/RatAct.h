@@ -9,9 +9,13 @@ public:
     RatAct();
     std::string info() override;
     char act(Log &) override;
+    void reset() override;
+    void setIndex(size_t) override;
+
 private:
     int patience;
     int defectTime;
+    size_t index;
 };
 
 

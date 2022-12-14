@@ -2,36 +2,40 @@
 
 Log::Log() = default;
 
-void Log::add(const std::string &pattern, char action) {
-    if (!mapLog.contains(pattern)) {
+void Log::add(size_t index, char action) {
+    if (vectorLog.size() <= index) {
         std::string newPlay;
         newPlay.push_back(action);
-        mapLog.insert(std::make_pair(pattern, newPlay));
+        vectorLog.push_back(newPlay);
     }
     else {
-        mapLog[pattern].push_back(action);
+        vectorLog[index].push_back(action);
     }
 }
 
-bool Log::isCooperating(const std::string &strategyName) {
-    if (mapLog[strategyName].back() == 'c') {
+bool Log::isCooperating(size_t strategyIndex) {
+    if (vectorLog[strategyIndex].back() == 'c') {
         return true;
     }
     return false;
 }
 
-bool Log::isDefecting(const std::string &strategyName) {
-    if (mapLog[strategyName].back() == 'd') {
+bool Log::isDefecting(size_t strategyIndex) {
+    if (vectorLog[strategyIndex].back() == 'd') {
         return true;
     }
     return false;
 }
 
-std::vector<std::string> Log::opponentList(const std::string &strategyName) {
+size_t Log::opponentNumber() {
+    return vectorLog.size();
+}
+
+std::vector<std::string> Log::opponentList(size_t index) {
     std::vector<std::string> res;
-    for (auto it = mapLog.begin(); it != mapLog.end(); it++) {
-        if (it->first != strategyName) {
-            res.push_back(it->first);
+    for (size_t it = 0; it < vectorLog.size(); it++) {
+        if (it != index) {
+            res.push_back(vectorLog[it]);
         }
     }
     return res;

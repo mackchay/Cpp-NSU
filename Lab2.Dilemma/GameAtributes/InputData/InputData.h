@@ -1,18 +1,18 @@
 #ifndef LAB2_DILEMMA_INPUTDATA_H
 #define LAB2_DILEMMA_INPUTDATA_H
-#include "../Game/Game.h"
 #include "../GameModes/DetailedMode/DetailedMode.h"
 #include "../GameModes/FastMode/FastMode.h"
+#include "../GameBuild/GameBuild.h"
+#include "../Game/Game.h"
 
 class InputData {
 public:
-    InputData();
+    InputData(int, char **, Game &);
     ~InputData();
 
 private:
-    Game game;
     Factory <std::string, GameMode> gameModeFactory;
-    std::unique_ptr<GameMode> mode;
+    Factory<std::string, Strategy> strategyFactory;
 };
 
 

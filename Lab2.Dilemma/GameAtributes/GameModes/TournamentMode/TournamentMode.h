@@ -5,12 +5,13 @@
 
 class TournamentMode: public GameMode {
 public:
-    typedef std::shared_ptr<Game> GamePtr;
+    typedef std::shared_ptr<GameBuild> GamePtr;
     TournamentMode();
-    void init(Game &) override;
-    void start(Game &) override;
+    void addData(size_t, size_t) override;
+    void start(GameBuild &) override;
 
 private:
+    size_t steps;
     size_t strategyNumber;
 };
 

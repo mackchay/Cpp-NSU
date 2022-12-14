@@ -7,7 +7,9 @@ class Strategy {
 public:
     virtual ~Strategy() = default;
     virtual char act(Log &) = 0;
+    virtual void reset() = 0;
     virtual std::string info() = 0;
+    virtual void setIndex(size_t) = 0;
 };
 
 

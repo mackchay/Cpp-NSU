@@ -1,18 +1,14 @@
 #include "FastMode.h"
 
 FastMode::FastMode() {
-    std::cin >> steps;
+    steps = 1;
 }
 
-void FastMode::init(Game &game) {
-    std::string strategyName;
-    for (size_t i = 0; i < strategyNumber; i++) {
-        std::cin >> strategyName;
-        game.add(strategyName);
-    }
+void FastMode::addData(size_t newSteps, size_t) {
+    steps = newSteps;
 }
 
-void FastMode::start(Game &game) {
+void FastMode::start(GameBuild &game) {
     for (size_t i = 0; i < steps; i++) {
         game.round();
     }

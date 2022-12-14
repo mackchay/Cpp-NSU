@@ -11,22 +11,22 @@ public:
 
     ~GameResult();
 
-    void addToMatrix(const std::string &);
-    void printMatrixOverall();
-    void printMatrixCur(size_t);
-    void printMatrixCur(size_t, std::vector<std::string> &);
+    void resize(size_t);
 
-    GameResult &getResult(ScoringMatrix &, std::string&);
+    void printMatrixOverall(std::vector<std::string> &, std::vector<size_t> &);
 
-    GameResult &updateResult(ScoringMatrix &, std::string&);
-    GameResult &updateResult(ScoringMatrix &, std::string &, std::vector<std::string> &);
+    void printMatrixCur(size_t, std::vector<std::string> &, std::vector<size_t> &);
 
-    GameResult &updateCurResult(ScoringMatrix &, std::string&);
-    GameResult &updateCurResult(ScoringMatrix &, std::string &, std::vector<std::string> &);
+    void printLastActions(size_t, std::vector<std::string> &, std::vector<size_t> &);
+
+    GameResult &updateResult(std::string &, std::vector<size_t> &);
+
+    GameResult &updateCurResult(std::string &, std::vector<size_t> &);
 
 private:
-    std::map<std::string, size_t> matrixResAll;
-    std::map<std::string, std::vector<size_t>> matrixResCur;
+    std::vector<size_t> matrixResAll;
+    std::vector<std::vector<size_t>> matrixResCur;
+    ScoringMatrix scoringMatrix;
 };
 
 

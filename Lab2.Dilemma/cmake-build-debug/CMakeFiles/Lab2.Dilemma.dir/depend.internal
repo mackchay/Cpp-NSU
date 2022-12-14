@@ -8,19 +8,24 @@ CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game/Game.cpp.obj
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Factory/Factory.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.cpp
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/DetailedMode/DetailedMode.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/GameMode.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameResult/GameResult.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log/Log.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/ScoringMatrix/ScoringMatrix.h
- C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysCooperate/AlwaysCooperate.h
- C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysDefect/AlwaysDefect.h
- C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CoopUntilDefect/CoopUntilDefect.h
- C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct/CustomAct.h
- C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RandomAct/RandomAct.h
- C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RatCat/RatAct.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
+CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameBuild/GameBuild.cpp.obj
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Factory/Factory.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.cpp
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameResult/GameResult.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log/Log.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/ScoringMatrix/ScoringMatrix.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
 CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp.obj
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Factory/Factory.h
- C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/DetailedMode/DetailedMode.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/GameMode.h
@@ -30,7 +35,7 @@ CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode/DetailedMode.cp
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
 CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.obj
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Factory/Factory.h
- C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/FastMode/FastMode.cpp
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/FastMode/FastMode.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/GameMode.h
@@ -40,7 +45,7 @@ CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.obj
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
 CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.obj
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Factory/Factory.h
- C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/GameMode.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/TournamentMode/TournamentMode.h
@@ -55,6 +60,7 @@ CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult/GameResult.cpp.obj
 CMakeFiles/Lab2.Dilemma.dir/GameAtributes/InputData/InputData.cpp.obj
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Factory/Factory.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/DetailedMode/DetailedMode.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/FastMode/FastMode.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/GameMode.h
@@ -64,6 +70,12 @@ CMakeFiles/Lab2.Dilemma.dir/GameAtributes/InputData/InputData.cpp.obj
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/InputData/InputData.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log/Log.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/ScoringMatrix/ScoringMatrix.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysCooperate/AlwaysCooperate.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysDefect/AlwaysDefect.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CoopUntilDefect/CoopUntilDefect.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct/CustomAct.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RandomAct/RandomAct.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RatCat/RatAct.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
 CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Log/Log.cpp.obj
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameResult/GameResult.h
@@ -76,6 +88,7 @@ CMakeFiles/Lab2.Dilemma.dir/GameAtributes/ScoringMatrix/ScoringMatrix.cpp.obj
 CMakeFiles/Lab2.Dilemma.dir/main.cpp.obj
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Factory/Factory.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.h
+ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/DetailedMode/DetailedMode.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/FastMode/FastMode.h
  C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/GameMode.h
