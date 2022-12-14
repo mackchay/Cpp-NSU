@@ -6,8 +6,8 @@
 class FastMode : public GameMode {
 public:
     FastMode();
-    void init(Game &) override;
-    void start(Game &) override;
+    void addData(size_t, size_t) override;
+    void start(GameBuild &) override;
 
 private:
     size_t steps;

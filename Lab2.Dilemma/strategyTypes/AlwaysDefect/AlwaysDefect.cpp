@@ -3,7 +3,7 @@
 #include <iostream>
 
 std::string AlwaysDefect::info() {
-     return "AlwaysDistrust";
+     return "AlwaysDefect";
 }
 
 char AlwaysDefect::act(Log &newLog) {

@@ -92,6 +92,12 @@
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.h">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.cpp">
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.h">
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>

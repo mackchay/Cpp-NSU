@@ -1,0 +1,1 @@
+Enter: (GameModes: (--detailed, --fast, --tournament, (None: default = --detailed)); (--steps, (uint); None(default = 1); strategy_1; strategy_2, ...).  Strategy Types: -AlwaysCooperate, -AlwaysDefect, -RandomAct, CoopUntilDefect, RatAct, CustomAct).

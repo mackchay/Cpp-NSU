@@ -1,12 +1,11 @@
 #include <fstream>
 #include "CustomAct.h"
 
-#define FIN "custom.txt"
 
 CustomAct::CustomAct() {
     std::ifstream fin;
     char action;
-    fin.open(FIN);
+    fin.open("custom.txt");
     while (!fin.eof()) {
         fin >> action;
         if (action == 'c' || action == 'd') {
@@ -16,6 +15,10 @@ CustomAct::CustomAct() {
     fin.close();
     countCoop = 0;
     countDefect = 0;
+}
+
+void CustomAct::reset() {
+    (*this) = CustomAct();
 }
 
 std::string CustomAct::info() {
@@ -30,15 +33,19 @@ char CustomAct::act(Log &newLog) {
         return 'c';
     }
     char res = instructions.front();
-    std::vector<std::string> list = newLog.opponentList((*this).info());
+    size_t opponentNumber = newLog.opponentNumber();
     instructions.erase(instructions.begin());
-    for (auto it = list.begin(); it != list.end(); it++) {
-        if (newLog.isCooperating((*it))) {
+    for (size_t i = 0; i < opponentNumber; i++) {
+        if (newLog.isCooperating(i) && i != index) {
             countCoop++;
         }
-        if (newLog.isDefecting((*it))){
+        if (newLog.isDefecting(i) && i != index){
             countDefect++;
         }
     }
     return res;
+}
+
+void CustomAct::setIndex(size_t number) {
+    index = number;
 }

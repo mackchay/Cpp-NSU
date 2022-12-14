@@ -2,13 +2,13 @@
 #define LAB2_DILEMMA_GAMEMODE_H
 #include <iostream>
 #include <memory>
-#include "../Game/Game.h"
+#include "../GameBuild/GameBuild.h"
 
 class GameMode {
 public:
-    typedef std::shared_ptr<Game> GamePtr;
-    virtual void init(Game &) = 0;
-    virtual void start(Game &) = 0;
+
+    virtual void addData(size_t, size_t) = 0;
+    virtual void start(GameBuild &) = 0;
     virtual ~GameMode() = default;
 };
 

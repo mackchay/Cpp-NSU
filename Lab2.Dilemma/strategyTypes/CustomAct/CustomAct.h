@@ -8,11 +8,14 @@ public:
     CustomAct();
     std::string info() override;
     char act(Log &) override;
+    void reset() override;
+    void setIndex(size_t) override;
 
 private:
     std::vector<char> instructions;
     int countCoop;
     int countDefect;
+    size_t index;
 };
 
 

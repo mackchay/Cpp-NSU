@@ -5,13 +5,12 @@
 
 class DetailedMode: public GameMode {
 public:
-    DetailedMode();
-    explicit DetailedMode(size_t);
-    void init(Game &) override;
-    void start(Game &) override;
+
+    void addData(size_t, size_t) override;
+    void start(GameBuild &) override;
 
 private:
-    size_t strategyNumber;
+    const size_t strategyNumber = 3;
 };
 
 

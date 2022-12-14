@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Factory/Factory.cpp.obj"
   "CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game/Game.cpp.obj"
+  "CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameBuild/GameBuild.cpp.obj"
   "CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp.obj"
   "CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.obj"
   "CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.obj"

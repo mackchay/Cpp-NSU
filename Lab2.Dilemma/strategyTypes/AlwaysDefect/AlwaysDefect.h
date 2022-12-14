@@ -7,6 +7,8 @@ class AlwaysDefect: public Strategy {
 public:
     std::string info() override;
     char act(Log &) override;
+    void reset() override {};
+    void setIndex(size_t) override {};
 };
 
 

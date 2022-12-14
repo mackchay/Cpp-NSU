@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Factory/Factory.cpp" "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Factory/Factory.cpp.obj"
   "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.cpp" "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game/Game.cpp.obj"
+  "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.cpp" "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameBuild/GameBuild.cpp.obj"
   "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp" "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp.obj"
   "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/FastMode/FastMode.cpp" "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.obj"
   "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp" "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.obj"
