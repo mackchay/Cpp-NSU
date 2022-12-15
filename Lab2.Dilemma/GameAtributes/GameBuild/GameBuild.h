@@ -1,6 +1,6 @@
 #ifndef LAB2_DILEMMA_GAMEBUILD_H
 #define LAB2_DILEMMA_GAMEBUILD_H
-#include "../GameResult/GameResult.h"
+
 #include "../Factory/Factory.h"
 #include "../../strategyTypes/Strategy.h"
 #include "../Log/Log.h"
@@ -19,7 +19,6 @@ public:
     VectorString listOfPlayers();
 
 private:
-    GameResult gameResult;
     std::vector<Strategy*> userData;
     Log log;
     size_t rounds;

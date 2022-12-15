@@ -170,6 +170,12 @@
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct/CustomAct.h">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/MetaStrategy/MetaStrategy.cpp">
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/MetaStrategy/MetaStrategy.h">
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RandomAct/RandomAct.cpp">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>

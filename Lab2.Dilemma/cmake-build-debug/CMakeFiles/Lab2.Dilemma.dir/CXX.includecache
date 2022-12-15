@@ -10,6 +10,22 @@ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Factory/Fac
 map
 -
 
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.cpp
+Game.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.h
+../GameModes/DetailedMode/DetailedMode.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/DetailedMode/DetailedMode.h
+
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.h
+../GameModes/GameMode.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/GameMode.h
+../InputData/InputData.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/InputData/InputData.h
+
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.cpp
+GameBuild.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.h
+
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.h
 ../GameResult/GameResult.h
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameResult/GameResult.h
@@ -20,9 +36,17 @@ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
 ../Log/Log.h
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log/Log.h
 
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp
+DetailedMode.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/DetailedMode/DetailedMode.h
+
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/DetailedMode/DetailedMode.h
 ../GameMode.h
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/GameMode.h
+
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/FastMode/FastMode.cpp
+FastMode.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/FastMode/FastMode.h
 
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/FastMode/FastMode.h
 ../GameMode.h
@@ -36,17 +60,13 @@ memory
 ../GameBuild/GameBuild.h
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.h
 
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp
+TournamentMode.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/TournamentMode/TournamentMode.h
+
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/TournamentMode/TournamentMode.h
 ../GameMode.h
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/GameMode.h
-
-C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameResult/GameResult.h
-iostream
--
-vector
--
-../ScoringMatrix/ScoringMatrix.h
-C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/ScoringMatrix/ScoringMatrix.h
 
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/InputData/InputData.cpp
 fstream
@@ -78,37 +98,77 @@ C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/F
 ../GameBuild/GameBuild.h
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.h
 
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log/Log.cpp
+Log.h
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log/Log.h
-../GameResult/GameResult.h
-C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameResult/GameResult.h
 
-C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/ScoringMatrix/ScoringMatrix.h
-map
--
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log/Log.h
 iostream
 -
 vector
 -
 
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/main.cpp
+GameAtributes/InputData/InputData.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/InputData/InputData.h
+GameAtributes/Game/Game.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.h
+memory
+-
+
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp
+iostream
+-
+AlwaysCooperate.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysCooperate/AlwaysCooperate.h
+
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysCooperate/AlwaysCooperate.h
 ../Strategy.h
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
+
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysDefect/AlwaysDefect.cpp
+AlwaysDefect.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysDefect/AlwaysDefect.h
+random
+-
+iostream
+-
 
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysDefect/AlwaysDefect.h
 ../Strategy.h
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
 
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp
+CoopUntilDefect.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CoopUntilDefect/CoopUntilDefect.h
+
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CoopUntilDefect/CoopUntilDefect.h
 ../Strategy.h
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
+
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct/CustomAct.cpp
+fstream
+-
+CustomAct.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct/CustomAct.h
 
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct/CustomAct.h
 ../Strategy.h
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
 
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RandomAct/RandomAct.cpp
+random
+-
+RandomAct.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RandomAct/RandomAct.h
+
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RandomAct/RandomAct.h
 ../Strategy.h
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h
+
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RatCat/RatAct.cpp
+RatAct.h
+C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RatCat/RatAct.h
 
 C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RatCat/RatAct.h
 ../Strategy.h
