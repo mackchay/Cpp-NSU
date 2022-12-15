@@ -11,6 +11,7 @@ void TournamentMode::addData(size_t newSteps, size_t strategies) {
 
 void TournamentMode::start(GameBuild &game) {
     std::vector<size_t> listThree, listAll;
+    size_t z = 1;
     for (size_t i = 0; i < strategyNumber; i++) {
         listAll.push_back(i);
     }
@@ -22,7 +23,7 @@ void TournamentMode::start(GameBuild &game) {
                     game.round({itA, itB, itC});
                     listThree.clear();
                 }
-                std::cout << "Round " << itA + itB + itC << ":" << std::endl;
+                std::cout << "Round " << z++ << ":" << std::endl;
                 game.printLastActions({itA, itB, itC}, steps);
                 game.reset();
             }

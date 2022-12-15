@@ -4,8 +4,7 @@
 
 
 int main(int argc, char *argv[]) {
-    Game dilemma;
-    InputData inputData(argc, argv, dilemma);
+    Game dilemma(InputData(argc, argv));
     dilemma.run();
     return 0;
 }

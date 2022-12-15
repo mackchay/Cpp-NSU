@@ -10,8 +10,10 @@ CMakeFiles/Lab2.Dilemma.dir/GameAtributes/Game/Game.cpp.obj: \
  ../GameAtributes/Game/Game.h \
  ../GameAtributes/GameBuild/GameBuild.h \
  ../GameAtributes/GameModes/DetailedMode/DetailedMode.h \
+ ../GameAtributes/GameModes/FastMode/FastMode.h \
  ../GameAtributes/GameModes/GameMode.h \
  ../GameAtributes/GameResult/GameResult.h \
+ ../GameAtributes/InputData/InputData.h \
  ../GameAtributes/Log/Log.h \
  ../GameAtributes/ScoringMatrix/ScoringMatrix.h \
  ../strategyTypes/Strategy.h
@@ -59,7 +61,6 @@ CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult/GameResult.cpp.obj: \
  ../GameAtributes/ScoringMatrix/ScoringMatrix.h
 CMakeFiles/Lab2.Dilemma.dir/GameAtributes/InputData/InputData.cpp.obj: \
  ../GameAtributes/Factory/Factory.h \
- ../GameAtributes/Game/Game.h \
  ../GameAtributes/GameBuild/GameBuild.h \
  ../GameAtributes/GameModes/DetailedMode/DetailedMode.h \
  ../GameAtributes/GameModes/FastMode/FastMode.h \
