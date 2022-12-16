@@ -11,19 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebfa33f9-dce7-47ed-86d6-33eed9e060a5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/Game/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Game/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/Game/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Game/Game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/InputData/InputData.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/InputData/InputData.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/InputData/InputData.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/InputData/InputData.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="ebfa33f9-dce7-47ed-86d6-33eed9e060a5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +79,11 @@
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -234,5 +227,9 @@
         <watch expression="strategyList" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
