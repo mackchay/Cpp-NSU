@@ -1,4 +1,5 @@
 #include <fstream>
+#include <memory>
 #include "InputData.h"
 #include "../GameModes/TournamentMode/TournamentMode.h"
 #include "../../strategyTypes/AlwaysCooperate/AlwaysCooperate.h"
@@ -9,7 +10,7 @@
 #include "../../strategyTypes/RatCat/RatAct.h"
 
 
-InputData::InputData(int argc, char *argv[], Game &game) {
+InputData::InputData(int argc, char *argv[]) {
     gameModeFactory.add<DetailedMode>("detailed");
     gameModeFactory.add<FastMode>("fast");
     gameModeFactory.add<TournamentMode>("tournament");
@@ -21,25 +22,22 @@ InputData::InputData(int argc, char *argv[], Game &game) {
     strategyFactory.add<CustomAct>("CustomAct");
     strategyFactory.add<RatAct>("RatAct");
 
-    Strategy *strategy = new AlwaysCooperate();
-    GameMode *gameMode = new DetailedMode();
-    size_t strategyNumber = 0, steps = 0;
+    gameMode = std::make_shared_for_overwrite<DetailedMode>();
+    steps = 1;
 
     try {
         std::string data = argv[1];
         if (data.substr(0, 7) == "--mode=" &&
             gameModeFactory.contains(data.substr(7, data.size() - 7))) {
-            gameMode = gameModeFactory.get(data.substr(7, data.size() - 7))();
+            gameMode.reset(gameModeFactory.get(data.substr(7, data.size() - 7))());
         } else if (strategyFactory.contains(data)) {
-            strategy = strategyFactory.get(data)();
-            strategyNumber = game.addStrategy(strategy);
+            strategyList.push_back(strategyFactory.get(data)());
+            (*strategyList.end())->setIndex(strategyList.size() - 1);
         } else if (data == "--help") {
 
             std::ifstream fin;
             std::getline(fin, data);
             std::cout << data;
-            delete gameMode;
-            delete strategy;
             return;
 
         } else {
@@ -54,25 +52,36 @@ InputData::InputData(int argc, char *argv[], Game &game) {
                     throw std::invalid_argument("Invalid steps number.");
                 }
             } else if (strategyFactory.contains(data)) {
-                strategy = strategyFactory.get(data)();
-                strategyNumber = game.addStrategy(strategy);
+                strategyList.push_back(strategyFactory.get(data)());
+                (*(strategyList.end() - 1))->setIndex(strategyList.size() - 1);
             } else {
                 throw std::invalid_argument("Invalid name of strategy.");
             }
         }
-        if (strategyNumber < 3) {
+        if (strategyList.size() < 3) {
             throw std::invalid_argument("Invalid strategy number");
         }
-        gameMode->addData(steps, strategyNumber);
-        game.setMode(gameMode);
     }
     catch (const std::exception &e) {
-        delete gameMode;
-        delete strategy;
+        for (auto it = strategyList.begin(); it < strategyList.end(); it++) {
+            delete *it;
+        }
         std::cerr << e.what();
         exit(1);
     }
 
+}
+
+size_t InputData::getSteps(){
+    return steps;
+}
+
+std::vector<Strategy *> InputData::getStrategyList() {
+    return strategyList;
+}
+
+std::shared_ptr<GameMode> InputData::getGameMode() {
+    return gameMode;
 }
 
 InputData::~InputData() = default;

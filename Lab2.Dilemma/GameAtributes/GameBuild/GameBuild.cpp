@@ -7,7 +7,6 @@ GameBuild::GameBuild() {
 GameBuild::GameBuild(std::vector<Strategy *> &strategyList) {
     rounds = 0;
     userData = strategyList;
-    gameResult.resize(userData.size());
 }
 
 
@@ -22,9 +21,6 @@ void GameBuild::round(std::vector<size_t> vectorInt) {
         resultAct += action;
         allActions[i] = action;
     }
-
-    gameResult.updateResult(resultAct, vectorInt);
-    gameResult.updateCurResult(resultAct, vectorInt);
 
     for (size_t i = 0; i < allActions.size(); i++) {
         log.add(i, allActions[i]);
@@ -48,15 +44,12 @@ void GameBuild::reset() {
 
 void GameBuild::printResult(std::vector<size_t> numbers) {
     VectorString list = listOfPlayers();
-    gameResult.printMatrixOverall(list, numbers);
 }
 
 void GameBuild::printResultCur(std::vector<size_t> numbers) {
     VectorString list = listOfPlayers();
-    gameResult.printMatrixCur(rounds, list, numbers);
 }
 
 void GameBuild::printLastActions(std::vector<size_t> numbers, size_t steps) {
     VectorString list = listOfPlayers();
-    gameResult.printLastActions(steps, list, numbers);
 }

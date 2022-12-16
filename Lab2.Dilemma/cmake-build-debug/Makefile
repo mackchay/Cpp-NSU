@@ -488,6 +488,30 @@ strategyTypes/CustomAct/CustomAct.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct/CustomAct.cpp.s
 .PHONY : strategyTypes/CustomAct/CustomAct.cpp.s
 
+strategyTypes/MetaStrategy/MetaStrategy.obj: strategyTypes/MetaStrategy/MetaStrategy.cpp.obj
+.PHONY : strategyTypes/MetaStrategy/MetaStrategy.obj
+
+# target to build an object file
+strategyTypes/MetaStrategy/MetaStrategy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/MetaStrategy/MetaStrategy.cpp.obj
+.PHONY : strategyTypes/MetaStrategy/MetaStrategy.cpp.obj
+
+strategyTypes/MetaStrategy/MetaStrategy.i: strategyTypes/MetaStrategy/MetaStrategy.cpp.i
+.PHONY : strategyTypes/MetaStrategy/MetaStrategy.i
+
+# target to preprocess a source file
+strategyTypes/MetaStrategy/MetaStrategy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/MetaStrategy/MetaStrategy.cpp.i
+.PHONY : strategyTypes/MetaStrategy/MetaStrategy.cpp.i
+
+strategyTypes/MetaStrategy/MetaStrategy.s: strategyTypes/MetaStrategy/MetaStrategy.cpp.s
+.PHONY : strategyTypes/MetaStrategy/MetaStrategy.s
+
+# target to generate assembly for a file
+strategyTypes/MetaStrategy/MetaStrategy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/strategyTypes/MetaStrategy/MetaStrategy.cpp.s
+.PHONY : strategyTypes/MetaStrategy/MetaStrategy.cpp.s
+
 strategyTypes/RandomAct/RandomAct.obj: strategyTypes/RandomAct/RandomAct.cpp.obj
 .PHONY : strategyTypes/RandomAct/RandomAct.obj
 
@@ -590,6 +614,9 @@ help:
 	@echo ... strategyTypes/CustomAct/CustomAct.obj
 	@echo ... strategyTypes/CustomAct/CustomAct.i
 	@echo ... strategyTypes/CustomAct/CustomAct.s
+	@echo ... strategyTypes/MetaStrategy/MetaStrategy.obj
+	@echo ... strategyTypes/MetaStrategy/MetaStrategy.i
+	@echo ... strategyTypes/MetaStrategy/MetaStrategy.s
 	@echo ... strategyTypes/RandomAct/RandomAct.obj
 	@echo ... strategyTypes/RandomAct/RandomAct.i
 	@echo ... strategyTypes/RandomAct/RandomAct.s

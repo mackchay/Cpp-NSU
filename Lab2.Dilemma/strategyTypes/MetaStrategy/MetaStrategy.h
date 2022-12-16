@@ -1,0 +1,10 @@
+#ifndef LAB2_DILEMMA_METASTRATEGY_H
+#define LAB2_DILEMMA_METASTRATEGY_H
+
+
+class MetaStrategy {
+
+};
+
+
+#endif //LAB2_DILEMMA_METASTRATEGY_H

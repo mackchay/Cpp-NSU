@@ -1,7 +1,8 @@
 #ifndef LAB2_DILEMMA_LOG_H
 #define LAB2_DILEMMA_LOG_H
 
-#include "../GameResult/GameResult.h"
+#include <iostream>
+#include <vector>
 
 class Log {
 private:

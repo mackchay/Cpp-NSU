@@ -3,14 +3,20 @@
 #include "../GameModes/DetailedMode/DetailedMode.h"
 #include "../GameModes/FastMode/FastMode.h"
 #include "../GameBuild/GameBuild.h"
-#include "../Game/Game.h"
 
 class InputData {
 public:
-    InputData(int, char **, Game &);
+    InputData(int, char **);
+    std::vector<Strategy*> getStrategyList();
+    size_t getSteps();
+    std::shared_ptr<GameMode> getGameMode();
+
     ~InputData();
 
 private:
+    std::shared_ptr<GameMode> gameMode;
+    size_t steps;
+    std::vector<Strategy*> strategyList;
     Factory <std::string, GameMode> gameModeFactory;
     Factory<std::string, Strategy> strategyFactory;
 };
