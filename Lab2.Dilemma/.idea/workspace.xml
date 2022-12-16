@@ -11,13 +11,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebfa33f9-dce7-47ed-86d6-33eed9e060a5" name="Changes" comment="Dilemma new version with updated input.">
+    <list default="true" id="ebfa33f9-dce7-47ed-86d6-33eed9e060a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/Game/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Game/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/Game/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Game/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/InputData/InputData.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/InputData/InputData.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/InputData/InputData.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/InputData/InputData.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="testBranch" />
+        <entry key="$PROJECT_DIR$/.." value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -63,8 +68,7 @@
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="settings.editor.splitter.proportion" value="0.2575142" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -87,11 +91,6 @@
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -127,8 +126,7 @@
       <workItem from="1671010051727" duration="10685000" />
       <workItem from="1671085497913" duration="2264000" />
       <workItem from="1671090802481" duration="6363000" />
-      <workItem from="1671112587865" duration="3263000" />
-      <workItem from="1671166903457" duration="1790000" />
+      <workItem from="1671112587865" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="All classes added. GameResult and ScoringMatrix were implementation.">
       <created>1668798400544</created>
@@ -186,21 +184,7 @@
       <option name="project" value="LOCAL" />
       <updated>1669918030024</updated>
     </task>
-    <task id="LOCAL-00009" summary="Dilemma new version.">
-      <created>1671112888486</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1671112888486</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Dilemma new version with updated input.">
-      <created>1671195634432</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1671195634432</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,9 +210,7 @@
     <MESSAGE value="All game modes added." />
     <MESSAGE value="All game modes added without pointer exceptions." />
     <MESSAGE value="Dilemma in pre-released version." />
-    <MESSAGE value="Dilemma new version." />
-    <MESSAGE value="Dilemma new version with updated input." />
-    <option name="LAST_COMMIT_MESSAGE" value="Dilemma new version with updated input." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dilemma in pre-released version." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -252,9 +234,5 @@
         <watch expression="strategyList" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
