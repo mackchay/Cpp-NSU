@@ -14,6 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Lab2.Dilemma.dir/strategyTypes/AlwaysDefect/AlwaysDefect.cpp.obj"
   "CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp.obj"
   "CMakeFiles/Lab2.Dilemma.dir/strategyTypes/CustomAct/CustomAct.cpp.obj"
+  "CMakeFiles/Lab2.Dilemma.dir/strategyTypes/MetaStrategy/MetaStrategy.cpp.obj"
   "CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RandomAct/RandomAct.cpp.obj"
   "CMakeFiles/Lab2.Dilemma.dir/strategyTypes/RatCat/RatAct.cpp.obj"
   "Lab2.Dilemma.exe"
