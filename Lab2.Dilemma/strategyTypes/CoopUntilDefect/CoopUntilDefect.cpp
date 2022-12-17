@@ -2,6 +2,15 @@
 
 CoopUntilDefect::CoopUntilDefect() {
     patience = true;
+    points = 0;
+}
+
+size_t CoopUntilDefect::getPoints() {
+    return points;
+}
+
+void CoopUntilDefect::setPoints(size_t newPoints) {
+    points += newPoints;
 }
 
 void CoopUntilDefect::reset() {

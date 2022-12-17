@@ -8,6 +8,7 @@
 class ScoringMatrix {
 public:
     ScoringMatrix();
+    explicit ScoringMatrix(const std::string &);
     size_t getScore(std::string&, size_t);
 
 private:

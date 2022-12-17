@@ -6,29 +6,30 @@ TournamentMode::TournamentMode() {
 
 void TournamentMode::addData(size_t newSteps, size_t strategies) {
     steps = newSteps;
-    strategyNumber = strategies;
+    if (strategies >= 3) {
+        strategyNumber = strategies;
+    }
+    else {
+       throw std::invalid_argument("Invalid strategy number");
+    }
 }
 
 void TournamentMode::start(GameBuild &game) {
-    std::vector<size_t> listThree, listAll;
     size_t z = 1;
-    for (size_t i = 0; i < strategyNumber; i++) {
-        listAll.push_back(i);
-    }
 
     for (size_t itA = 0; itA < strategyNumber - 2; itA++) {
         for (size_t itB = itA+1; itB < strategyNumber - 1; itB++){
             for (size_t itC = itB + 1; itC < strategyNumber; itC++) {
                 for (size_t j = 0; j < steps; j++) {
                     game.round({itA, itB, itC});
-                    listThree.clear();
                 }
-                std::cout << "Round " << z++ << ":" << std::endl;
-                game.printLastActions({itA, itB, itC}, steps);
+
+                game.printResult({itA, itB, itC});
                 game.reset();
             }
         }
     }
 
-    game.printResult(listAll);
+    game.printResultFinal();
+    game.printWinner();
 }

@@ -10,6 +10,8 @@ public:
     virtual void reset() = 0;
     virtual std::string info() = 0;
     virtual void setIndex(size_t) = 0;
+    virtual void setPoints(size_t) = 0;
+    virtual size_t getPoints() = 0;
 };
 
 

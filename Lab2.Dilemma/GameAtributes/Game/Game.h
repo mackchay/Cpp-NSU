@@ -11,8 +11,10 @@ public:
     void run();
     ~Game();
 
+
 private:
     std::vector<Strategy*> strategyList;
+    GameBuild gameBuild;
     std::shared_ptr<GameMode> mode;
 };
 

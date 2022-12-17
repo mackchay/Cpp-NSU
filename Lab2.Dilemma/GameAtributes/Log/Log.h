@@ -10,12 +10,11 @@ private:
 public:
 
     Log();
-    void add(size_t, char);
+    void add(const std::string &);
     bool isCooperating(size_t);
     bool isDefecting(size_t);
-
+    std::string lastRound();
     size_t opponentNumber();
-    std::vector<std::string> opponentList(size_t);
 
 };
 
