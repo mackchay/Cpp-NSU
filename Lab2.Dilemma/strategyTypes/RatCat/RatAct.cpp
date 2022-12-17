@@ -2,6 +2,15 @@
 RatAct::RatAct() {
     patience = 1;
     defectTime = 3;
+    points = 0;
+}
+
+size_t RatAct::getPoints() {
+    return points;
+}
+
+void RatAct::setPoints(size_t newPoints) {
+    points += newPoints;
 }
 
 void RatAct::reset() {

@@ -1,8 +1,10 @@
 #include "DetailedMode.h"
 
 
-void DetailedMode::addData(size_t, size_t) {
-
+void DetailedMode::addData(size_t newSteps, size_t number) {
+    if (number != 3) {
+        throw std::invalid_argument("Invalid strategy number");
+    }
 }
 
 void DetailedMode::start(GameBuild &game) {
@@ -10,8 +12,8 @@ void DetailedMode::start(GameBuild &game) {
     while (enter != "q") {
         game.round();
         game.printResultCur();
-        game.printResult();
+        game.printResultFinal();
         std::cin >> enter;
     }
-    game.printResult();
+    game.printWinner();
 }

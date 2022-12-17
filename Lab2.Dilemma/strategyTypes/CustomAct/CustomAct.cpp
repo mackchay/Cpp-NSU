@@ -3,6 +3,7 @@
 
 
 CustomAct::CustomAct() {
+    points = 0;
     std::ifstream fin;
     char action;
     fin.open("custom.txt");
@@ -15,6 +16,14 @@ CustomAct::CustomAct() {
     fin.close();
     countCoop = 0;
     countDefect = 0;
+}
+
+void CustomAct::setPoints(size_t newPoints) {
+    points += newPoints;
+}
+
+size_t CustomAct::getPoints() {
+    return points;
 }
 
 void CustomAct::reset() {

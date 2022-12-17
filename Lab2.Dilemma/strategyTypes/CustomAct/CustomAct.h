@@ -10,12 +10,15 @@ public:
     char act(Log &) override;
     void reset() override;
     void setIndex(size_t) override;
+    void setPoints(size_t) override;
+    size_t getPoints() override;
 
 private:
     std::vector<char> instructions;
     int countCoop;
     int countDefect;
     size_t index;
+    size_t points;
 };
 
 

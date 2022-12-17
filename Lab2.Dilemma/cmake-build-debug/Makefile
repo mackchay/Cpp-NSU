@@ -272,30 +272,6 @@ GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.s
 .PHONY : GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.s
 
-GameAtributes/GameResult/GameResult.obj: GameAtributes/GameResult/GameResult.cpp.obj
-.PHONY : GameAtributes/GameResult/GameResult.obj
-
-# target to build an object file
-GameAtributes/GameResult/GameResult.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult/GameResult.cpp.obj
-.PHONY : GameAtributes/GameResult/GameResult.cpp.obj
-
-GameAtributes/GameResult/GameResult.i: GameAtributes/GameResult/GameResult.cpp.i
-.PHONY : GameAtributes/GameResult/GameResult.i
-
-# target to preprocess a source file
-GameAtributes/GameResult/GameResult.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult/GameResult.cpp.i
-.PHONY : GameAtributes/GameResult/GameResult.cpp.i
-
-GameAtributes/GameResult/GameResult.s: GameAtributes/GameResult/GameResult.cpp.s
-.PHONY : GameAtributes/GameResult/GameResult.s
-
-# target to generate assembly for a file
-GameAtributes/GameResult/GameResult.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab2.Dilemma.dir\build.make CMakeFiles/Lab2.Dilemma.dir/GameAtributes/GameResult/GameResult.cpp.s
-.PHONY : GameAtributes/GameResult/GameResult.cpp.s
-
 GameAtributes/InputData/InputData.obj: GameAtributes/InputData/InputData.cpp.obj
 .PHONY : GameAtributes/InputData/InputData.obj
 
@@ -587,9 +563,6 @@ help:
 	@echo ... GameAtributes/GameModes/TournamentMode/TournamentMode.obj
 	@echo ... GameAtributes/GameModes/TournamentMode/TournamentMode.i
 	@echo ... GameAtributes/GameModes/TournamentMode/TournamentMode.s
-	@echo ... GameAtributes/GameResult/GameResult.obj
-	@echo ... GameAtributes/GameResult/GameResult.i
-	@echo ... GameAtributes/GameResult/GameResult.s
 	@echo ... GameAtributes/InputData/InputData.obj
 	@echo ... GameAtributes/InputData/InputData.i
 	@echo ... GameAtributes/InputData/InputData.s

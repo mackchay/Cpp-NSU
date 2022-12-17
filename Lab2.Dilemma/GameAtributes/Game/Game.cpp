@@ -3,17 +3,16 @@
 
 Game::Game(InputData inputData) {
     strategyList = inputData.getStrategyList();
+    gameBuild = GameBuild(strategyList, inputData.getMatrix());
     mode = inputData.getGameMode();
-    mode->addData(inputData.getSteps(), strategyList.size());
+}
+
+void Game::run() {
+    mode->start(gameBuild);
 }
 
 Game::~Game() {
     for (auto it = strategyList.begin(); it < strategyList.end(); it++) {
         delete *it;
     }
-}
-
-void Game::run() {
-    GameBuild gameBuild(strategyList);
-    mode->start(gameBuild);
 }

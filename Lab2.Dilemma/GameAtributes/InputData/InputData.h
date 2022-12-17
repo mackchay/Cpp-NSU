@@ -7,8 +7,8 @@
 class InputData {
 public:
     InputData(int, char **);
-    std::vector<Strategy*> getStrategyList();
-    size_t getSteps();
+    std::vector<Strategy*> &getStrategyList();
+    ScoringMatrix &getMatrix();
     std::shared_ptr<GameMode> getGameMode();
 
     ~InputData();
@@ -17,6 +17,7 @@ private:
     std::shared_ptr<GameMode> gameMode;
     size_t steps;
     std::vector<Strategy*> strategyList;
+    ScoringMatrix scoringMatrix;
     Factory <std::string, GameMode> gameModeFactory;
     Factory<std::string, Strategy> strategyFactory;
 };

@@ -11,10 +11,13 @@ public:
     char act(Log &) override;
     void reset() override;
     void setIndex(size_t) override;
+    void setPoints(size_t) override;
+    size_t getPoints() override;
 
 private:
     int patience;
     int defectTime;
+    size_t points;
     size_t index;
 };
 
