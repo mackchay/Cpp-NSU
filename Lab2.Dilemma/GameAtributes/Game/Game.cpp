@@ -2,8 +2,8 @@
 #include "../GameModes/DetailedMode/DetailedMode.h"
 
 Game::Game(InputData inputData) {
+    gameBuild = GameBuild(inputData.getStrategyList(), inputData.getMatrix());
     strategyList = inputData.getStrategyList();
-    gameBuild = GameBuild(strategyList, inputData.getMatrix());
     mode = inputData.getGameMode();
 }
 

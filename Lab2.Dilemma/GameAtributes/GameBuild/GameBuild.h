@@ -8,9 +8,8 @@
 
 class GameBuild {
 public:
-    typedef std::vector<std::string> VectorString;
     GameBuild();
-    GameBuild(const std::vector<Strategy*> &, const ScoringMatrix &);
+    GameBuild(const std::vector<Strategy*> &, const std::string &);
 
     void reset();
     void round(std::vector<size_t> = {0, 1, 2});
