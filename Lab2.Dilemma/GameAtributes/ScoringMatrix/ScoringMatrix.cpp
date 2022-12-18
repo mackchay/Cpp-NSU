@@ -32,10 +32,11 @@ ScoringMatrix::ScoringMatrix(const std::string &file) {
         std::vector<size_t> score(3);
         std::string pattern;
         fin >> pattern;
-        if (pattern.size() != 3 || pattern.find_first_not_of("cd") == std::string::npos) {
+        if (pattern.size() != 3 || pattern.find_first_not_of("cd") != std::string::npos) {
             throw std::ifstream::failure("Invalid matrix file.");
         }
-        fin >> score[0] >> score[1]  >> score[2];
+        fin >> score[0] >> score[1] >> score[2];
         mapScore.emplace(std::make_pair(pattern, score));
     }
 }
+

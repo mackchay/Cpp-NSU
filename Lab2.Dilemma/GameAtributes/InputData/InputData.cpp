@@ -44,7 +44,7 @@ InputData::InputData(int argc, char *argv[]) {
                 std::cout << data;
                 return;
             } else if (data.substr(0, 9) == "--matrix=") {
-                scoringMatrix = ScoringMatrix(data.substr(9, data.size() - 9));
+                fileName = data.substr(9, data.size() - 9);
             } else if (strategyFactory.contains(data)) {
                 strategyList.push_back(strategyFactory.get(data)());
             } else {
@@ -60,11 +60,14 @@ InputData::InputData(int argc, char *argv[]) {
         std::cerr << e.what();
         exit(1);
     }
+    catch (...) {
+        std::cout << "Unresolved trouble." << std::endl;
+    }
 
 }
 
-ScoringMatrix &InputData::getMatrix() {
-    return scoringMatrix;
+std::string &InputData::getMatrix() {
+    return fileName;
 }
 
 std::vector<Strategy *> &InputData::getStrategyList() {

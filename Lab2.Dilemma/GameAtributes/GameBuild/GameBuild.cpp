@@ -4,10 +4,15 @@ GameBuild::GameBuild() {
     rounds = 0;
 }
 
-GameBuild::GameBuild(const std::vector<Strategy *> &strategyList, const ScoringMatrix &matrix) {
-    rounds = 0;
-    userData = strategyList;
-    scoringMatrix = matrix;
+GameBuild::GameBuild(const std::vector<Strategy *> &strategyList, const std::string &matrix)
+: userData(strategyList), rounds(0) {
+    try {
+        scoringMatrix = ScoringMatrix(matrix);
+    }
+    catch (const std::exception &e) {
+        std::cout << e.what() << std::endl;
+        scoringMatrix = ScoringMatrix();
+    }
     for (size_t i = 0; i < strategyList.size(); i++) {
         result.push_back(0);
     }
@@ -93,6 +98,4 @@ void GameBuild::printResultFinal() {
     std::cout << std::endl;
 }
 
-GameBuild::~GameBuild() {
-
-}
+GameBuild::~GameBuild() = default;
