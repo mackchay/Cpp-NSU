@@ -1,24 +1,22 @@
 #ifndef LAB2_DILEMMA_CUSTOMACT_H
 #define LAB2_DILEMMA_CUSTOMACT_H
 
-#include "../Strategy.h"
+#include "../CustomStrategy/CustomStrategy.h"
 
-class CustomAct: public Strategy {
+class CustomAct: public CustomStrategy {
 public:
     CustomAct();
     std::string info() override;
-    char act(Log &) override;
+    char act() override;
     void reset() override;
-    void setIndex(size_t) override;
-    void setPoints(size_t) override;
-    size_t getPoints() override;
+    void setOpponentActs(const std::string &) override;
+    void setDirName(const std::string &) override;
 
 private:
-    std::vector<char> instructions;
-    int countCoop;
-    int countDefect;
-    size_t index;
-    size_t points;
+    std::string instructions;
+    int countCoop, countDefect;
+    std::string fileName;
+    Log log;
 };
 
 

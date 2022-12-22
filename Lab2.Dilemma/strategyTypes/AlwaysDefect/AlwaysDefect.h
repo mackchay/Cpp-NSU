@@ -5,13 +5,12 @@
 
 class AlwaysDefect: public Strategy {
 public:
-    AlwaysDefect();
+    AlwaysDefect() = default;
     std::string info() override;
-    char act(Log &) override;
+    char act() override;
     void reset() override;
-    void setIndex(size_t) override {};
-    void setPoints(size_t) override;
-    size_t getPoints() override;
+    void setOpponentActs(const std::string &) override {};
+
 private:
     size_t points;
 };

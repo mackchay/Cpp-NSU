@@ -5,13 +5,61 @@
 		<Option title="Lab2.Dilemma"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\googletest-src\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="corelib">
+				<Option output="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/corelib.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 corelib"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="corelib/fast">
+				<Option output="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/corelib.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 corelib/fast"/>
 					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -27,6 +75,54 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="test">
+				<Option output="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Lab2.Dilemma">
 				<Option output="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Lab2.Dilemma.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug"/>
@@ -34,6 +130,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest"/>
 					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
 					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
 					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
@@ -56,6 +154,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest"/>
 					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
 					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
 					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
@@ -71,6 +171,26 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug"/>
 				<Option type="4"/>
@@ -81,114 +201,447 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Factory/Factory.cpp">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Factory/Factory.h">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.cpp">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Game/Game.h">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.cpp">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameBuild/GameBuild.h">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/DetailedMode/DetailedMode.h">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/FastMode/FastMode.cpp">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/FastMode/FastMode.h">
-			<Option target="Lab2.Dilemma"/>
-		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/GameMode.h">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/TournamentMode/TournamentMode.h">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/InputData/InputData.cpp">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/InputData/InputData.h">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log/Log.cpp">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/Log/Log.h">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/ScoringMatrix/ScoringMatrix.cpp">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/ScoringMatrix/ScoringMatrix.h">
+			<Option target="corelib"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/Test/DilemmaTest.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/Test/DilemmaTest.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/GameAtributes/Factory/Factory.cpp.obj">
+			<Option target="test"/>
 			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/GameAtributes/Game/Game.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/GameAtributes/GameBuild/GameBuild.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/GameAtributes/InputData/InputData.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/GameAtributes/Log/Log.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/GameAtributes/ScoringMatrix/ScoringMatrix.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/strategyTypes/AlwaysDefect/AlwaysDefect.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/strategyTypes/CustomAct/CustomAct.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/strategyTypes/MetaStrategy/MetaStrategy.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/strategyTypes/RandomAct/RandomAct.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/strategyTypes/RatCat/RatAct.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/strategyTypes/Strategy.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/main.cpp">
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysCooperate/AlwaysCooperate.h">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysDefect/AlwaysDefect.cpp">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/AlwaysDefect/AlwaysDefect.h">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CoopUntilDefect/CoopUntilDefect.h">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct/CustomAct.cpp">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/CustomAct/CustomAct.h">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/MetaStrategy/MetaStrategy.cpp">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/MetaStrategy/MetaStrategy.h">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RandomAct/RandomAct.cpp">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RandomAct/RandomAct.h">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RatCat/RatAct.cpp">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/RatCat/RatAct.h">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.cpp">
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/strategyTypes/Strategy.h">
-			<Option target="Lab2.Dilemma"/>
+			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/_deps/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

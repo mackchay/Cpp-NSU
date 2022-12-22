@@ -1,0 +1,175 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_fc67c/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_fc67c.dir\build.make CMakeFiles/cmTC_fc67c.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make[1]: *** No rule to make target 'C:/Users/╨Х╨│╨╛╤А/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompilerABI.c', needed by 'CMakeFiles/cmTC_fc67c.dir/CMakeCCompilerABI.c.obj'.  Stop.
+mingw32-make[1]: Leaving directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_fc67c/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b2cfe/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b2cfe.dir\build.make CMakeFiles/cmTC_b2cfe.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+process_begin: CreateProcess(NULL, C:\Users\╨Х╨│╨╛╤А\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe -E cmake_echo_color --switch= --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles --progress-num=1 "Building C object CMakeFiles/cmTC_b2cfe.dir/testCCompiler.c.obj", ...) failed.
+make (e=2): ═х єфрхЄё  эрщЄш єърчрээ√щ Їрщы.
+mingw32-make[1]: *** [CMakeFiles\cmTC_b2cfe.dir\build.make:76: CMakeFiles/cmTC_b2cfe.dir/testCCompiler.c.obj] Error 2
+mingw32-make[1]: Leaving directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_b2cfe/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f07cc/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f07cc.dir\build.make CMakeFiles/cmTC_f07cc.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make[1]: *** No rule to make target 'C:/Users/╨Х╨│╨╛╤А/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompilerABI.c', needed by 'CMakeFiles/cmTC_f07cc.dir/CMakeCCompilerABI.c.obj'.  Stop.
+mingw32-make[1]: Leaving directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_f07cc/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_3dc68/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3dc68.dir\build.make CMakeFiles/cmTC_3dc68.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+process_begin: CreateProcess(NULL, C:\Users\╨Х╨│╨╛╤А\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe -E cmake_echo_color --switch= --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles --progress-num=1 "Building C object CMakeFiles/cmTC_3dc68.dir/testCCompiler.c.obj", ...) failed.
+make (e=2): ═х єфрхЄё  эрщЄш єърчрээ√щ Їрщы.
+mingw32-make[1]: *** [CMakeFiles\cmTC_3dc68.dir\build.make:76: CMakeFiles/cmTC_3dc68.dir/testCCompiler.c.obj] Error 2
+mingw32-make[1]: Leaving directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_3dc68/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_dcbb2/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_dcbb2.dir\build.make CMakeFiles/cmTC_dcbb2.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make[1]: *** No rule to make target 'C:/Users/╨Х╨│╨╛╤А/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompilerABI.c', needed by 'CMakeFiles/cmTC_dcbb2.dir/CMakeCCompilerABI.c.obj'.  Stop.
+mingw32-make[1]: Leaving directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_dcbb2/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d8eec/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d8eec.dir\build.make CMakeFiles/cmTC_d8eec.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+process_begin: CreateProcess(NULL, C:\Users\╨Х╨│╨╛╤А\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe -E cmake_echo_color --switch= --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles --progress-num=1 "Building C object CMakeFiles/cmTC_d8eec.dir/testCCompiler.c.obj", ...) failed.
+make (e=2): ═х єфрхЄё  эрщЄш єърчрээ√щ Їрщы.
+mingw32-make[1]: *** [CMakeFiles\cmTC_d8eec.dir\build.make:76: CMakeFiles/cmTC_d8eec.dir/testCCompiler.c.obj] Error 2
+mingw32-make[1]: Leaving directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_d8eec/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b66ab/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b66ab.dir\build.make CMakeFiles/cmTC_b66ab.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make[1]: *** No rule to make target 'C:/Users/╨Х╨│╨╛╤А/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompilerABI.c', needed by 'CMakeFiles/cmTC_b66ab.dir/CMakeCCompilerABI.c.obj'.  Stop.
+mingw32-make[1]: Leaving directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_b66ab/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_29bee/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_29bee.dir\build.make CMakeFiles/cmTC_29bee.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+process_begin: CreateProcess(NULL, C:\Users\╨Х╨│╨╛╤А\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe -E cmake_echo_color --switch= --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles --progress-num=1 "Building C object CMakeFiles/cmTC_29bee.dir/testCCompiler.c.obj", ...) failed.
+make (e=2): ═х єфрхЄё  эрщЄш єърчрээ√щ Їрщы.
+mingw32-make[1]: *** [CMakeFiles\cmTC_29bee.dir\build.make:76: CMakeFiles/cmTC_29bee.dir/testCCompiler.c.obj] Error 2
+mingw32-make[1]: Leaving directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_29bee/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_5b608/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5b608.dir\build.make CMakeFiles/cmTC_5b608.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make[1]: *** No rule to make target 'C:/Users/╨Х╨│╨╛╤А/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompilerABI.c', needed by 'CMakeFiles/cmTC_5b608.dir/CMakeCCompilerABI.c.obj'.  Stop.
+mingw32-make[1]: Leaving directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_5b608/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f2d9b/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f2d9b.dir\build.make CMakeFiles/cmTC_f2d9b.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+process_begin: CreateProcess(NULL, C:\Users\╨Х╨│╨╛╤А\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe -E cmake_echo_color --switch= --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles --progress-num=1 "Building C object CMakeFiles/cmTC_f2d9b.dir/testCCompiler.c.obj", ...) failed.
+make (e=2): ═х єфрхЄё  эрщЄш єърчрээ√щ Їрщы.
+mingw32-make[1]: *** [CMakeFiles\cmTC_f2d9b.dir\build.make:76: CMakeFiles/cmTC_f2d9b.dir/testCCompiler.c.obj] Error 2
+mingw32-make[1]: Leaving directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_f2d9b/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_3cb45/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3cb45.dir\build.make CMakeFiles/cmTC_3cb45.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make[1]: *** No rule to make target 'C:/Users/╨Х╨│╨╛╤А/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompilerABI.c', needed by 'CMakeFiles/cmTC_3cb45.dir/CMakeCCompilerABI.c.obj'.  Stop.
+mingw32-make[1]: Leaving directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_3cb45/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d4f54/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d4f54.dir\build.make CMakeFiles/cmTC_d4f54.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+process_begin: CreateProcess(NULL, C:\Users\╨Х╨│╨╛╤А\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E cmake_echo_color --switch= --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles --progress-num=1 "Building C object CMakeFiles/cmTC_d4f54.dir/testCCompiler.c.obj", ...) failed.
+make (e=2): ═х єфрхЄё  эрщЄш єърчрээ√щ Їрщы.
+mingw32-make[1]: *** [CMakeFiles\cmTC_d4f54.dir\build.make:76: CMakeFiles/cmTC_d4f54.dir/testCCompiler.c.obj] Error 2
+mingw32-make[1]: Leaving directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_d4f54/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_3d35a/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3d35a.dir\build.make CMakeFiles/cmTC_3d35a.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make[1]: *** No rule to make target 'C:/Users/╨Х╨│╨╛╤А/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompilerABI.c', needed by 'CMakeFiles/cmTC_3d35a.dir/CMakeCCompilerABI.c.obj'.  Stop.
+mingw32-make[1]: Leaving directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_3d35a/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_fa2a4/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_fa2a4.dir\build.make CMakeFiles/cmTC_fa2a4.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+process_begin: CreateProcess(NULL, C:\Users\╨Х╨│╨╛╤А\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E cmake_echo_color --switch= --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles --progress-num=1 "Building C object CMakeFiles/cmTC_fa2a4.dir/testCCompiler.c.obj", ...) failed.
+make (e=2): ═х єфрхЄё  эрщЄш єърчрээ√щ Їрщы.
+mingw32-make[1]: *** [CMakeFiles\cmTC_fa2a4.dir\build.make:76: CMakeFiles/cmTC_fa2a4.dir/testCCompiler.c.obj] Error 2
+mingw32-make[1]: Leaving directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_fa2a4/fast] Error 2
+
+
+

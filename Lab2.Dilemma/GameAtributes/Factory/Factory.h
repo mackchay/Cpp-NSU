@@ -12,7 +12,7 @@ private:
     template<class Derived>
     static Base* create(Args...args) {
         return new Derived(args...);
-    };
+    }
 
 public:
     Factory() = default;

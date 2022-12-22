@@ -5,13 +5,17 @@
 
 class Strategy {
 public:
+    Strategy();
     virtual ~Strategy() = default;
-    virtual char act(Log &) = 0;
+    virtual char act() = 0;
     virtual void reset() = 0;
     virtual std::string info() = 0;
-    virtual void setIndex(size_t) = 0;
-    virtual void setPoints(size_t) = 0;
-    virtual size_t getPoints() = 0;
+    virtual void setOpponentActs(const std::string &);
+    virtual void setPoints(size_t);
+    virtual size_t getPoints();
+
+protected:
+    size_t points;
 };
 
 
