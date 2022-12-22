@@ -1,9 +1,18 @@
 #include "Log.h"
 
-Log::Log() = default;
+Log::Log() {
+    len = SIZE_MAX;
+}
+
+Log::Log(size_t size) {
+    len = size;
+}
 
 void Log::add(const std::string &actions) {
     vectorLog.push_back(actions);
+    if (vectorLog.size() > len) {
+        vectorLog.erase(vectorLog.begin(), vectorLog.begin()+1);
+    }
 }
 
 bool Log::isCooperating(size_t strategyIndex) {

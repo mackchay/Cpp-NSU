@@ -8,16 +8,13 @@ public:
 
     CoopUntilDefect();
     std::string info() override;
-    char act(Log &) override;
+    char act() override;
     void reset() override;
-    void setIndex(size_t) override;
-    void setPoints(size_t) override;
-    size_t getPoints() override;
+    void setOpponentActs(const std::string &) override;
 
 private:
     bool patience;
-    size_t index;
-    size_t points;
+    Log log;
 };
 
 

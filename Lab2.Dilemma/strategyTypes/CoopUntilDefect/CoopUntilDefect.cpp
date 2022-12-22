@@ -2,15 +2,6 @@
 
 CoopUntilDefect::CoopUntilDefect() {
     patience = true;
-    points = 0;
-}
-
-size_t CoopUntilDefect::getPoints() {
-    return points;
-}
-
-void CoopUntilDefect::setPoints(size_t newPoints) {
-    points += newPoints;
 }
 
 void CoopUntilDefect::reset() {
@@ -21,19 +12,19 @@ std::string CoopUntilDefect::info() {
     return "CoopUntilDefect";
 }
 
-void CoopUntilDefect::setIndex(size_t number) {
-    index = number;
+void CoopUntilDefect::setOpponentActs(const std::string &number) {
+    log.add(number);
 }
 
-char CoopUntilDefect::act(Log &newLog) {
+char CoopUntilDefect::act() {
     if (patience == 0) {
         return 'd';
     }
 
-    size_t opponentNumber = newLog.opponentNumber();
+    size_t opponentNumber = log.opponentNumber();
 
     for (size_t i = 0; i < opponentNumber; i++) {
-        if (newLog.isDefecting(i) && i != index) {
+        if (log.isDefecting(i)) {
             patience = false;
             return 'd';
         }

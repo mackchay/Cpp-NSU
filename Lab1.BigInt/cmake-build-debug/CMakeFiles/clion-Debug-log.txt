@@ -1,0 +1,38 @@
+C:\Users\Егор\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt -B C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\cmake-build-debug
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/mingw64/bin/gcc.exe
+-- Check for working C compiler: C:/mingw64/bin/gcc.exe - broken
+CMake Error at C:/Users/Егор/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake:69 (message):
+  The C compiler
+
+    "C:/mingw64/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_fa2a4/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_fa2a4.dir\build.make CMakeFiles/cmTC_fa2a4.dir/build
+    mingw32-make[1]: Entering directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+    process_begin: CreateProcess(NULL, C:\Users\╨Х╨│╨╛╤А\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E cmake_echo_color --switch= --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles --progress-num=1 "Building C object CMakeFiles/cmTC_fa2a4.dir/testCCompiler.c.obj", ...) failed.
+    make (e=2): ═х єфрхЄё  эрщЄш єърчрээ√щ Їрщы.
+    mingw32-make[1]: *** [CMakeFiles\cmTC_fa2a4.dir\build.make:76: CMakeFiles/cmTC_fa2a4.dir/testCCompiler.c.obj] Error 2
+    mingw32-make[1]: Leaving directory 'C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeTmp'
+    mingw32-make: *** [Makefile:126: cmTC_fa2a4/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:7 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeError.log".

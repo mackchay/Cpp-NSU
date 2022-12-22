@@ -24,13 +24,15 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/Makefile&quot;  VERBOSE=1 corelib"/>
@@ -46,13 +48,15 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/Makefile&quot;  VERBOSE=1 corelib/fast"/>
@@ -78,15 +82,15 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
@@ -102,15 +106,15 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
@@ -126,13 +130,15 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab1.BigInt"/>
@@ -148,13 +154,15 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab1.BigInt/fast"/>
@@ -220,17 +228,17 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/include"/>
-					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
-					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
@@ -246,17 +254,17 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/include"/>
-					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
-					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
@@ -272,17 +280,17 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
@@ -298,17 +306,17 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
@@ -324,15 +332,15 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
@@ -348,15 +356,15 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
@@ -372,15 +380,15 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
@@ -396,15 +404,15 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include"/>
 					<Add directory="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
@@ -414,16 +422,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/bigint.cpp">
-			<Option target="corelib"/>
-		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/bigint.h">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/bigint/bigint.cpp">
 			<Option target="corelib"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/bigint_test.cpp">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/corelib.dir/bigint.cpp.obj">
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/cmake-build-debug/CMakeFiles/corelib.dir/bigint/bigint.cpp.obj">
 			<Option target="test"/>
 			<Option target="Lab1.BigInt"/>
 		</Unit>

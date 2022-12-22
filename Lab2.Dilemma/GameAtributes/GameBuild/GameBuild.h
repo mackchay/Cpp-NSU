@@ -22,10 +22,10 @@ public:
 
 private:
     std::vector<Strategy*> userData;
-    Log log;
     size_t rounds;
     ScoringMatrix scoringMatrix;
-    std::vector<size_t> result;
+    std::vector<size_t> score;
+    std::vector<size_t> scoreCur;
 };
 
 

@@ -20,6 +20,8 @@ private:
     std::string fileName;
     Factory <std::string, GameMode> gameModeFactory;
     Factory<std::string, Strategy> strategyFactory;
+    void configCheck(std::string &, Strategy*);
+    void registerFactory();
 };
 
 

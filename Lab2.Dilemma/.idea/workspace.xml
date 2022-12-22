@@ -3,14 +3,21 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Lab2.Dilemma" targetName="test" />
+      <config projectName="Lab2.Dilemma" targetName="gtest_main" />
+      <config projectName="Lab2.Dilemma" targetName="corelib" />
+      <config projectName="Lab2.Dilemma" targetName="gmock" />
+      <config projectName="Lab2.Dilemma" targetName="gmock_main" />
+      <config projectName="Lab2.Dilemma" targetName="gtest" />
+    </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
@@ -19,15 +26,446 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebfa33f9-dce7-47ed-86d6-33eed9e060a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/reply/cache-v2-3029d2749e6b463bb1f1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-a5188edcfffdd434f43f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d3773a44f4d98d8b120a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.googletest-build-Debug-ded26adebee9516e95c3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.googletest-build.googlemock-Debug-c9093084aee2e42a1e1f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.googletest-build.googletest-Debug-a5445f72b19f3d95f48f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-22T14-01-20-0248.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/reply/target-Lab1.BigInt-Debug-61e2b4ad47bbe13697ae.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/reply/target-corelib-Debug-cd49e14720463770094a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/reply/target-gmock-Debug-4429bfd27f8191dbe853.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/reply/target-gmock_main-Debug-8a1f47bcc83e49b302b8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/reply/target-gtest-Debug-90c45527b96569f2a1ab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/reply/target-gtest_main-Debug-645ff4b043a106a6f581.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/reply/target-test-Debug-a86fbf56875e7414911a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-9369f8a19c76fb2645c6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.21.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.21.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.21.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.21.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.21.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.21.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.21.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.21.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.24.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Lab1.BigInt.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Lab1.BigInt.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Lab1.BigInt.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Lab1.BigInt.dir/compiler_depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Lab1.BigInt.dir/compiler_depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Lab1.BigInt.dir/compiler_depend.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Lab1.BigInt.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Lab1.BigInt.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Lab1.BigInt.dir/includes_CXX.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Lab1.BigInt.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Lab1.BigInt.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Lab1.BigInt.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Lab1.BigInt.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/corelib.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/corelib.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/corelib.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/corelib.dir/compiler_depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/corelib.dir/compiler_depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/corelib.dir/compiler_depend.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/corelib.dir/corelib.objlib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/corelib.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/corelib.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/corelib.dir/includes_CXX.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/corelib.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/test.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/test.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/test.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/test.dir/compiler_depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/test.dir/compiler_depend.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/test.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/test.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/test.dir/includes_CXX.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/test.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/test.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/test.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/test.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/compiler_depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/compiler_depend.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/compiler_depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/compiler_depend.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/compiler_depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/compiler_depend.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/compiler_depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/compiler_depend.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/3.21.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/DilemmaTest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/DilemmaTest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategyTypes/CustomStrategy/CustomStrategy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategyTypes/Strategy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/bigint.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/bigint/bigint.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.20.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.20.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.20.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/Lab1.BigInt.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/Lab1.BigInt.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/gmock.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googlemock/gmock.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest-distribution.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest-distribution.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/gtest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-build/googletest/gtest.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/.clang-format" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/.clang-format" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/.github/ISSUE_TEMPLATE/00-bug_report.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/.github/ISSUE_TEMPLATE/00-bug_report.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/.github/ISSUE_TEMPLATE/10-feature_request.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/.github/ISSUE_TEMPLATE/10-feature_request.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/.github/ISSUE_TEMPLATE/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/.github/workflows/gtest-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/.github/workflows/gtest-ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/BUILD.bazel" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/BUILD.bazel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/CONTRIBUTORS" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/CONTRIBUTORS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/WORKSPACE" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/WORKSPACE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/ci/linux-presubmit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/ci/linux-presubmit.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/ci/macos-presubmit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/ci/macos-presubmit.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/_data/navigation.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/_sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/_sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/advanced.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/advanced.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/assets/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/community_created_documentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/community_created_documentation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/faq.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/faq.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/gmock_cheat_sheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/gmock_cheat_sheet.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/gmock_cook_book.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/gmock_cook_book.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/gmock_faq.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/gmock_faq.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/gmock_for_dummies.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/gmock_for_dummies.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/pkgconfig.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/pkgconfig.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/platforms.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/platforms.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/primer.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/primer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/quickstart-bazel.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/quickstart-bazel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/quickstart-cmake.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/quickstart-cmake.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/reference/actions.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/reference/actions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/reference/assertions.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/reference/assertions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/reference/matchers.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/reference/matchers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/reference/mocking.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/reference/mocking.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/reference/testing.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/reference/testing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/samples.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/docs/samples.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock.pc.in" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock.pc.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-matchers.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-matchers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/internal/custom/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/internal/custom/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-all.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-all.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-cardinalities.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-cardinalities.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-internal-utils.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-internal-utils.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-matchers.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-matchers.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-spec-builders.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-spec-builders.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock_main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock_main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/BUILD.bazel" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/BUILD.bazel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-actions_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-actions_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-cardinalities_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-cardinalities_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-function-mocker_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-function-mocker_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-internal-utils_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-internal-utils_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-matchers-arithmetic_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-matchers-arithmetic_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-matchers-comparisons_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-matchers-comparisons_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-matchers-containers_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-matchers-containers_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-matchers-misc_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-matchers-misc_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-matchers_test.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-matchers_test.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-more-actions_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-more-actions_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-nice-strict_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-nice-strict_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-port_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-port_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-pp-string_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-pp-string_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-pp_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-pp_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-spec-builders_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock-spec-builders_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_all_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_all_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_ex_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_ex_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_leak_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_leak_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_leak_test_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_leak_test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_link2_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_link2_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_link_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_link_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_link_test.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_link_test.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_output_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_output_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_output_test_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_output_test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_output_test_golden.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_output_test_golden.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_stress_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_stress_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googlemock/test/gmock_test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/cmake/Config.cmake.in" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/cmake/Config.cmake.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest.pc.in" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest.pc.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest_main.pc.in" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest_main.pc.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/cmake/internal_utils.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/cmake/internal_utils.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/cmake/libgtest.la.in" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/cmake/libgtest.la.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-message.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-message.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-printers.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-printers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-spi.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-spi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest_prod.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest_prod.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/custom/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/custom/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/prime_tables.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/prime_tables.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample1.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample1.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample1.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample1.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample10_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample10_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample1_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample1_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample2.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample2.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample2.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample2_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample2_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample3-inl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample3-inl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample3_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample3_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample4.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample4.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample4.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample4.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample4_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample4_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample5_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample5_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample6_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample6_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample7_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample7_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample8_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample8_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample9_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/samples/sample9_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-all.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-all.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-assertion-result.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-assertion-result.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-death-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-death-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-filepath.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-filepath.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-internal-inl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-internal-inl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-matchers.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-matchers.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-port.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-port.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-printers.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-printers.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-test-part.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-test-part.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-typed-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-typed-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/BUILD.bazel" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/BUILD.bazel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-break-on-failure-unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-break-on-failure-unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-break-on-failure-unittest_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-break-on-failure-unittest_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-catch-exceptions-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-catch-exceptions-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-catch-exceptions-test_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-catch-exceptions-test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-color-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-color-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-color-test_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-color-test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-death-test-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-death-test-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-death-test_ex_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-death-test_ex_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-env-var-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-env-var-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-env-var-test_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-env-var-test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-failfast-unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-failfast-unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-failfast-unittest_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-failfast-unittest_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-filepath-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-filepath-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-filter-unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-filter-unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-filter-unittest_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-filter-unittest_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-global-environment-unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-global-environment-unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-global-environment-unittest_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-global-environment-unittest_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-json-outfiles-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-json-outfiles-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-json-output-unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-json-output-unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-list-tests-unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-list-tests-unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-list-tests-unittest_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-list-tests-unittest_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-listener-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-listener-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-message-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-message-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-options-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-options-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-output-test-golden-lin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-output-test-golden-lin.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-output-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-output-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-output-test_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-output-test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-param-test-invalid-name1-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-param-test-invalid-name1-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-param-test-invalid-name1-test_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-param-test-invalid-name1-test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-param-test-invalid-name2-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-param-test-invalid-name2-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-param-test-invalid-name2-test_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-param-test-invalid-name2-test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-param-test-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-param-test-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-param-test-test.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-param-test-test.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-param-test2-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-param-test2-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-port-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-port-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-printers-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-printers-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-setuptestsuite-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-setuptestsuite-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-setuptestsuite-test_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-setuptestsuite-test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-shuffle-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-shuffle-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-shuffle-test_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-shuffle-test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-test-part-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-test-part-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-throw-on-failure-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-throw-on-failure-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-throw-on-failure-test_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-throw-on-failure-test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-uninitialized-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-uninitialized-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-uninitialized-test_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/googletest-uninitialized-test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest-typed-test2_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest-typed-test2_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest-typed-test_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest-typed-test_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest-typed-test_test.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest-typed-test_test.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest-unittest-api_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest-unittest-api_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_all_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_all_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_assert_by_exception_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_assert_by_exception_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_environment_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_environment_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_help_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_help_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_help_test_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_help_test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_json_test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_json_test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_list_output_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_list_output_unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_list_output_unittest_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_list_output_unittest_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_main_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_main_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_no_test_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_no_test_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_pred_impl_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_pred_impl_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_premature_exit_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_premature_exit_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_prod_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_prod_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_repeat_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_repeat_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_skip_check_output_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_skip_check_output_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_skip_environment_check_output_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_skip_environment_check_output_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_skip_in_environment_setup_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_skip_in_environment_setup_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_skip_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_skip_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_sole_header_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_sole_header_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_stress_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_stress_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_test_macro_stack_footprint_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_test_macro_stack_footprint_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_testbridge_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_testbridge_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_testbridge_test_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_testbridge_test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_throw_on_failure_ex_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_throw_on_failure_ex_test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_unittest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_unittest.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_xml_outfile1_test_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_xml_outfile1_test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_xml_outfile2_test_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_xml_outfile2_test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_xml_outfiles_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_xml_outfiles_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_xml_output_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_xml_output_unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_xml_output_unittest_.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_xml_output_unittest_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_xml_test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/gtest_xml_test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/production.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/production.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/production.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-src/googletest/test/production.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1.BigInt/cmake-build-debug/_deps/googletest-subbuild/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/Factory/Factory.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Factory/Factory.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameAtributes/Game/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Game/Game.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameAtributes/GameBuild/GameBuild.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameBuild/GameBuild.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameAtributes/GameBuild/GameBuild.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameBuild/GameBuild.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameModes/DetailedMode/DetailedMode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameAtributes/InputData/InputData.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/InputData/InputData.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameAtributes/InputData/InputData.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/InputData/InputData.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameAtributes/ScoringMatrix/ScoringMatrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/ScoringMatrix/ScoringMatrix.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/Log/Log.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Log/Log.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameAtributes/Log/Log.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameAtributes/Log/Log.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2.Dilemma.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab2.Dilemma.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab2.Dilemma.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/AlwaysCooperate/AlwaysCooperate.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/AlwaysCooperate/AlwaysCooperate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/AlwaysDefect/AlwaysDefect.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/AlwaysDefect/AlwaysDefect.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/AlwaysDefect/AlwaysDefect.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/AlwaysDefect/AlwaysDefect.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/CoopUntilDefect/CoopUntilDefect.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/CoopUntilDefect/CoopUntilDefect.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/CoopUntilDefect/CoopUntilDefect.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/CustomAct/CustomAct.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/CustomAct/CustomAct.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/CustomAct/CustomAct.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/CustomAct/CustomAct.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/MetaStrategy/MetaStrategy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/MetaStrategy/MetaStrategy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/MetaStrategy/MetaStrategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/MetaStrategy/MetaStrategy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/RandomAct/RandomAct.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/RandomAct/RandomAct.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/RandomAct/RandomAct.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/RandomAct/RandomAct.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/RatCat/RatAct.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/RatCat/RatAct.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/RatCat/RatAct.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/RatCat/RatAct.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategyTypes/Strategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/strategyTypes/Strategy.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +492,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/strategyTypes/MetaStrategy/MetaStrategy.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -74,6 +515,14 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CMakeSettings",
+    "structure.view.defaults.are.configured": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -82,24 +531,59 @@
       <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\cmake-build-debug\DefaultStrategyDir" />
+      <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes" />
       <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\InputData" />
       <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\TournamentMode" />
       <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\FastMode" />
-      <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\GameAtributes\GameModes\DetailedMode" />
-      <recent name="C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab2.Dilemma\strategyTypes\RandomAct" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake Application.Lab2.Dilemma">
+    <configuration name="test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab2.Dilemma" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab2.Dilemma" RUN_TARGET_NAME="test" TEST_MODE="SUITE_TEST">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab2.Dilemma" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--mode=tournament --steps=12 --matrix=scoringMatrix.txt RatAct CoopUntilDefect AlwaysDefect RatAct" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/cmake-build-debug/Lab2.Dilemma.exe" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="Lab2.Dilemma" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--mode=fast --mode=tournament --matrix=scoringMatrix.txt --steps=50 RatAct CoopUntilDefect MetaStrategy CustomAct RandomAct AlwaysCooperate" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/cmake-build-debug/Lab2.Dilemma.exe" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="corelib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab2.Dilemma" TARGET_NAME="corelib" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab2.Dilemma" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab2.Dilemma" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab2.Dilemma" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab2.Dilemma" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.corelib" />
+      <item itemvalue="CMake Application.Lab2.Dilemma" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="Google Test.test" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -141,7 +625,15 @@
       <workItem from="1671241696023" duration="15428000" />
       <workItem from="1671284423554" duration="8365000" />
       <workItem from="1671301228634" duration="4303000" />
-      <workItem from="1671354433162" duration="1000" />
+      <workItem from="1671354433162" duration="247000" />
+      <workItem from="1671510560497" duration="20279000" />
+      <workItem from="1671548184073" duration="1062000" />
+      <workItem from="1671549278068" duration="1000" />
+      <workItem from="1671549288488" duration="8136000" />
+      <workItem from="1671594678190" duration="5680000" />
+      <workItem from="1671641197467" duration="8966000" />
+      <workItem from="1671693897406" duration="8884000" />
+      <workItem from="1671718420093" duration="5328000" />
     </task>
     <task id="LOCAL-00001" summary="All classes added. GameResult and ScoringMatrix were implementation.">
       <created>1668798400544</created>
@@ -206,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671292011885</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Matrix file was added.">
+      <created>1671354460140</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671354460140</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +723,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="All classes added. GameResult and ScoringMatrix were implementation." />
     <MESSAGE value="1 round completed successfully." />
     <MESSAGE value="First non-trivial strategy was added." />
@@ -238,14 +738,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/strategyTypes/CustomAct/CustomAct.cpp</url>
-          <line>51</line>
-          <option name="timeStamp" value="69" />
+          <url>file://$PROJECT_DIR$/GameAtributes/GameBuild/GameBuild.cpp</url>
+          <line>21</line>
+          <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/GameAtributes/ScoringMatrix/ScoringMatrix.cpp</url>
-          <line>34</line>
-          <option name="timeStamp" value="129" />
+          <url>file://$PROJECT_DIR$/GameAtributes/GameBuild/GameBuild.cpp</url>
+          <line>25</line>
+          <option name="timeStamp" value="181" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
