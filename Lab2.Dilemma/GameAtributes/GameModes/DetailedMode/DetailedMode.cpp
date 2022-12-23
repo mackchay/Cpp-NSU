@@ -8,7 +8,7 @@ void DetailedMode::addData(size_t, size_t number) {
     }
 }
 
-void DetailedMode::start(GameBuild &game) {
+std::vector<std::string> DetailedMode::start() {
     unsigned char a = 0;
     while (a != 'q') {
         while (true) {
@@ -17,9 +17,9 @@ void DetailedMode::start(GameBuild &game) {
                 break;
             }
         }
-        game.round();
-        game.printResultCur();
-        game.printResult();
+        gameBuild.round();
+        gameBuild.printResultCur();
+        gameBuild.printResult();
     }
-    game.printWinner();
+    return(gameBuild.printWinner());
 }

@@ -68,22 +68,22 @@ include CMakeFiles/corelib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/corelib.dir/flags.make
 
-CMakeFiles/corelib.dir/bigint.cpp.obj: CMakeFiles/corelib.dir/flags.make
-CMakeFiles/corelib.dir/bigint.cpp.obj: CMakeFiles/corelib.dir/includes_CXX.rsp
-CMakeFiles/corelib.dir/bigint.cpp.obj: ../bigint.cpp
-CMakeFiles/corelib.dir/bigint.cpp.obj: CMakeFiles/corelib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/corelib.dir/bigint.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/corelib.dir/bigint.cpp.obj -MF CMakeFiles\corelib.dir\bigint.cpp.obj.d -o CMakeFiles\corelib.dir\bigint.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\bigint.cpp
+CMakeFiles/corelib.dir/bigint/bigint.cpp.obj: CMakeFiles/corelib.dir/flags.make
+CMakeFiles/corelib.dir/bigint/bigint.cpp.obj: CMakeFiles/corelib.dir/includes_CXX.rsp
+CMakeFiles/corelib.dir/bigint/bigint.cpp.obj: ../bigint/bigint.cpp
+CMakeFiles/corelib.dir/bigint/bigint.cpp.obj: CMakeFiles/corelib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/corelib.dir/bigint/bigint.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/corelib.dir/bigint/bigint.cpp.obj -MF CMakeFiles\corelib.dir\bigint\bigint.cpp.obj.d -o CMakeFiles\corelib.dir\bigint\bigint.cpp.obj -c C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\bigint\bigint.cpp
 
-CMakeFiles/corelib.dir/bigint.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/corelib.dir/bigint.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\bigint.cpp > CMakeFiles\corelib.dir\bigint.cpp.i
+CMakeFiles/corelib.dir/bigint/bigint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/corelib.dir/bigint/bigint.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\bigint\bigint.cpp > CMakeFiles\corelib.dir\bigint\bigint.cpp.i
 
-CMakeFiles/corelib.dir/bigint.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/corelib.dir/bigint.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\bigint.cpp -o CMakeFiles\corelib.dir\bigint.cpp.s
+CMakeFiles/corelib.dir/bigint/bigint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/corelib.dir/bigint/bigint.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\ClionProjects_C++\OOP_cpp\Lab1.BigInt\bigint\bigint.cpp -o CMakeFiles\corelib.dir\bigint\bigint.cpp.s
 
-corelib: CMakeFiles/corelib.dir/bigint.cpp.obj
+corelib: CMakeFiles/corelib.dir/bigint/bigint.cpp.obj
 corelib: CMakeFiles/corelib.dir/build.make
 .PHONY : corelib
 

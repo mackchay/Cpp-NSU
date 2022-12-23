@@ -16,7 +16,7 @@ public:
     void printResult(const std::vector<size_t>& = {0, 1, 2});
     void printResultFinal();
     void printResultCur(const std::vector<size_t>& = {0, 1, 2});
-    void printWinner();
+    std::vector<std::string> printWinner();
 
     ~GameBuild();
 

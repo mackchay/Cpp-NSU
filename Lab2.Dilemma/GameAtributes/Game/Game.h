@@ -1,20 +1,19 @@
 #ifndef LAB2_DILEMMA_GAME_H
 #define LAB2_DILEMMA_GAME_H
 
-#include "../GameModes/GameMode.h"
+#include "../GameModes/GameMode/GameMode.h"
 #include "../InputData/InputData.h"
 
 class Game {
 public:
 
-    Game(InputData);
-    void run();
+    explicit Game(InputData);
+    std::vector<std::string> run();
     ~Game();
 
 
 private:
     std::vector<Strategy*> strategyList;
-    GameBuild gameBuild;
     std::shared_ptr<GameMode> mode;
 };
 

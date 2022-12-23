@@ -251,29 +251,29 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-bigint.obj: bigint.cpp.obj
-.PHONY : bigint.obj
+bigint/bigint.obj: bigint/bigint.cpp.obj
+.PHONY : bigint/bigint.obj
 
 # target to build an object file
-bigint.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\corelib.dir\build.make CMakeFiles/corelib.dir/bigint.cpp.obj
-.PHONY : bigint.cpp.obj
+bigint/bigint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\corelib.dir\build.make CMakeFiles/corelib.dir/bigint/bigint.cpp.obj
+.PHONY : bigint/bigint.cpp.obj
 
-bigint.i: bigint.cpp.i
-.PHONY : bigint.i
+bigint/bigint.i: bigint/bigint.cpp.i
+.PHONY : bigint/bigint.i
 
 # target to preprocess a source file
-bigint.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\corelib.dir\build.make CMakeFiles/corelib.dir/bigint.cpp.i
-.PHONY : bigint.cpp.i
+bigint/bigint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\corelib.dir\build.make CMakeFiles/corelib.dir/bigint/bigint.cpp.i
+.PHONY : bigint/bigint.cpp.i
 
-bigint.s: bigint.cpp.s
-.PHONY : bigint.s
+bigint/bigint.s: bigint/bigint.cpp.s
+.PHONY : bigint/bigint.s
 
 # target to generate assembly for a file
-bigint.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\corelib.dir\build.make CMakeFiles/corelib.dir/bigint.cpp.s
-.PHONY : bigint.cpp.s
+bigint/bigint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\corelib.dir\build.make CMakeFiles/corelib.dir/bigint/bigint.cpp.s
+.PHONY : bigint/bigint.cpp.s
 
 bigint_test.obj: bigint_test.cpp.obj
 .PHONY : bigint_test.obj
@@ -342,9 +342,9 @@ help:
 	@echo ... gtest
 	@echo ... gtest_main
 	@echo ... test
-	@echo ... bigint.obj
-	@echo ... bigint.i
-	@echo ... bigint.s
+	@echo ... bigint/bigint.obj
+	@echo ... bigint/bigint.i
+	@echo ... bigint/bigint.s
 	@echo ... bigint_test.obj
 	@echo ... bigint_test.i
 	@echo ... bigint_test.s

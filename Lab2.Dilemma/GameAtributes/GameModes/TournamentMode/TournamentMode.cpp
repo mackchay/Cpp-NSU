@@ -14,21 +14,21 @@ void TournamentMode::addData(size_t newSteps, size_t strategies) {
     }
 }
 
-void TournamentMode::start(GameBuild &game) {
+std::vector<std::string> TournamentMode::start() {
 
     for (size_t itA = 0; itA < strategyNumber - 2; itA++) {
         for (size_t itB = itA+1; itB < strategyNumber - 1; itB++){
             for (size_t itC = itB + 1; itC < strategyNumber; itC++) {
                 for (size_t j = 0; j < steps; j++) {
-                    game.round({itA, itB, itC});
+                    gameBuild.round({itA, itB, itC});
                 }
 
-                game.printResult({itA, itB, itC});
-                game.reset();
+                gameBuild.printResult({itA, itB, itC});
+                gameBuild.reset();
             }
         }
     }
 
-    game.printResultFinal();
-    game.printWinner();
+    gameBuild.printResultFinal();
+    return(gameBuild.printWinner());
 }

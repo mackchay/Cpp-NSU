@@ -38,7 +38,7 @@ add_library(corelib OBJECT strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp
         strategyTypes/MetaStrategy/MetaStrategy.cpp
         GameAtributes/Game/Game.cpp
         strategyTypes/Strategy.cpp
-        strategyTypes/AlwaysDefect/AlwaysDefect.cpp)
+        strategyTypes/AlwaysDefect/AlwaysDefect.cpp GameAtributes/GameModes/GameMode/GameMode.cpp)
 
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
@@ -54,8 +54,9 @@ include(FetchContent)
 FetchContent_Declare(
         googletest
         # Specify the commit you depend on and update it regularly.
-        URL https://github.com/google/googletest/archive/79d0399dba364a335e3ca621a8cce091ef5706da.zip
+        URL https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip
 )
+
 # For Windows: Prevent overriding the parent project's compiler/linker settings
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
@@ -63,8 +64,6 @@ FetchContent_MakeAvailable(googletest)
 # описываем исполняемый файл программы для запуска тестов: это cpp-файлы тестов + основная библиотека + библиотека gtest_main
 # наш собственный main.cpp здесь не нужен, т.к. функция main реализована в gtest_main
 add_executable(${dilemma_test} Test/DilemmaTest.cpp)
-
-
 target_link_libraries(${dilemma_test} gtest_main)
 target_link_libraries(${dilemma_test} corelib)
 

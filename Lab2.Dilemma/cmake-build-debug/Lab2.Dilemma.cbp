@@ -452,6 +452,12 @@
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/FastMode/FastMode.h">
 			<Option target="corelib"/>
 		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/GameMode/GameMode.cpp">
+			<Option target="corelib"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/GameMode/GameMode.h">
+			<Option target="corelib"/>
+		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp">
 			<Option target="corelib"/>
 		</Unit>
@@ -499,6 +505,10 @@
 			<Option target="Lab2.Dilemma"/>
 		</Unit>
 		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.obj">
+			<Option target="test"/>
+			<Option target="Lab2.Dilemma"/>
+		</Unit>
+		<Unit filename="C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/GameAtributes/GameModes/GameMode/GameMode.cpp.obj">
 			<Option target="test"/>
 			<Option target="Lab2.Dilemma"/>
 		</Unit>

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/bigint.cpp" "CMakeFiles/corelib.dir/bigint.cpp.obj" "gcc" "CMakeFiles/corelib.dir/bigint.cpp.obj.d"
+  "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/bigint/bigint.cpp" "CMakeFiles/corelib.dir/bigint/bigint.cpp.obj" "gcc" "CMakeFiles/corelib.dir/bigint/bigint.cpp.obj.d"
   )
 
 # Targets to which this target links.

@@ -72,7 +72,7 @@ void GameBuild::printResultCur(const std::vector<size_t>& numbers) {
     std::cout << std::endl;
 }
 
-void GameBuild::printWinner() {
+std::vector<std::string> GameBuild::printWinner() {
     size_t max = 0;
     std::vector<std::string> strategyList;
     for (size_t i = 0; i < score.size(); i++) {
@@ -96,6 +96,7 @@ void GameBuild::printWinner() {
         }
         std::cout << std::endl;
     }
+    return strategyList;
 }
 
 void GameBuild::printResultFinal() {
