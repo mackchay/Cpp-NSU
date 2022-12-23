@@ -105,7 +105,8 @@ Lab2_Dilemma_EXTERNAL_OBJECTS = \
 "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.obj" \
 "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/strategyTypes/MetaStrategy/MetaStrategy.cpp.obj" \
 "C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/GameAtributes/Game/Game.cpp.obj" \
-"C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/strategyTypes/Strategy.cpp.obj"
+"C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/strategyTypes/Strategy.cpp.obj" \
+"C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab2.Dilemma/cmake-build-debug/CMakeFiles/corelib.dir/GameAtributes/GameModes/GameMode/GameMode.cpp.obj"
 
 Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/main.cpp.obj
 Lab2.Dilemma.exe: CMakeFiles/corelib.dir/strategyTypes/AlwaysCooperate/AlwaysCooperate.cpp.obj
@@ -125,6 +126,7 @@ Lab2.Dilemma.exe: CMakeFiles/corelib.dir/GameAtributes/GameModes/TournamentMode/
 Lab2.Dilemma.exe: CMakeFiles/corelib.dir/strategyTypes/MetaStrategy/MetaStrategy.cpp.obj
 Lab2.Dilemma.exe: CMakeFiles/corelib.dir/GameAtributes/Game/Game.cpp.obj
 Lab2.Dilemma.exe: CMakeFiles/corelib.dir/strategyTypes/Strategy.cpp.obj
+Lab2.Dilemma.exe: CMakeFiles/corelib.dir/GameAtributes/GameModes/GameMode/GameMode.cpp.obj
 Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/build.make
 Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/linklibs.rsp
 Lab2.Dilemma.exe: CMakeFiles/Lab2.Dilemma.dir/objects1.rsp

@@ -89,10 +89,10 @@ test_OBJECTS = \
 
 # External object files for target test
 test_EXTERNAL_OBJECTS = \
-"C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/build/CMakeFiles/corelib.dir/bigint.cpp.obj"
+"C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/build/CMakeFiles/corelib.dir/bigint/bigint.cpp.obj"
 
 test.exe: CMakeFiles/test.dir/bigint_test.cpp.obj
-test.exe: CMakeFiles/corelib.dir/bigint.cpp.obj
+test.exe: CMakeFiles/corelib.dir/bigint/bigint.cpp.obj
 test.exe: CMakeFiles/test.dir/build.make
 test.exe: lib/libgtest_main.a
 test.exe: lib/libgtest.a

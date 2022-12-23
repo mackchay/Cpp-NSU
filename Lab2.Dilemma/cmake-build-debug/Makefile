@@ -371,6 +371,30 @@ GameAtributes/GameModes/FastMode/FastMode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\corelib.dir\build.make CMakeFiles/corelib.dir/GameAtributes/GameModes/FastMode/FastMode.cpp.s
 .PHONY : GameAtributes/GameModes/FastMode/FastMode.cpp.s
 
+GameAtributes/GameModes/GameMode/GameMode.obj: GameAtributes/GameModes/GameMode/GameMode.cpp.obj
+.PHONY : GameAtributes/GameModes/GameMode/GameMode.obj
+
+# target to build an object file
+GameAtributes/GameModes/GameMode/GameMode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\corelib.dir\build.make CMakeFiles/corelib.dir/GameAtributes/GameModes/GameMode/GameMode.cpp.obj
+.PHONY : GameAtributes/GameModes/GameMode/GameMode.cpp.obj
+
+GameAtributes/GameModes/GameMode/GameMode.i: GameAtributes/GameModes/GameMode/GameMode.cpp.i
+.PHONY : GameAtributes/GameModes/GameMode/GameMode.i
+
+# target to preprocess a source file
+GameAtributes/GameModes/GameMode/GameMode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\corelib.dir\build.make CMakeFiles/corelib.dir/GameAtributes/GameModes/GameMode/GameMode.cpp.i
+.PHONY : GameAtributes/GameModes/GameMode/GameMode.cpp.i
+
+GameAtributes/GameModes/GameMode/GameMode.s: GameAtributes/GameModes/GameMode/GameMode.cpp.s
+.PHONY : GameAtributes/GameModes/GameMode/GameMode.s
+
+# target to generate assembly for a file
+GameAtributes/GameModes/GameMode/GameMode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\corelib.dir\build.make CMakeFiles/corelib.dir/GameAtributes/GameModes/GameMode/GameMode.cpp.s
+.PHONY : GameAtributes/GameModes/GameMode/GameMode.cpp.s
+
 GameAtributes/GameModes/TournamentMode/TournamentMode.obj: GameAtributes/GameModes/TournamentMode/TournamentMode.cpp.obj
 .PHONY : GameAtributes/GameModes/TournamentMode/TournamentMode.obj
 
@@ -741,6 +765,9 @@ help:
 	@echo ... GameAtributes/GameModes/FastMode/FastMode.obj
 	@echo ... GameAtributes/GameModes/FastMode/FastMode.i
 	@echo ... GameAtributes/GameModes/FastMode/FastMode.s
+	@echo ... GameAtributes/GameModes/GameMode/GameMode.obj
+	@echo ... GameAtributes/GameModes/GameMode/GameMode.i
+	@echo ... GameAtributes/GameModes/GameMode/GameMode.s
 	@echo ... GameAtributes/GameModes/TournamentMode/TournamentMode.obj
 	@echo ... GameAtributes/GameModes/TournamentMode/TournamentMode.i
 	@echo ... GameAtributes/GameModes/TournamentMode/TournamentMode.s

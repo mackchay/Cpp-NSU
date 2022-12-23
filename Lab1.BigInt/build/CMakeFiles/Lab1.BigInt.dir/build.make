@@ -89,10 +89,10 @@ Lab1_BigInt_OBJECTS = \
 
 # External object files for target Lab1.BigInt
 Lab1_BigInt_EXTERNAL_OBJECTS = \
-"C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/build/CMakeFiles/corelib.dir/bigint.cpp.obj"
+"C:/Users/Public/ClionProjects_C++/OOP_cpp/Lab1.BigInt/build/CMakeFiles/corelib.dir/bigint/bigint.cpp.obj"
 
 Lab1.BigInt.exe: CMakeFiles/Lab1.BigInt.dir/main.cpp.obj
-Lab1.BigInt.exe: CMakeFiles/corelib.dir/bigint.cpp.obj
+Lab1.BigInt.exe: CMakeFiles/corelib.dir/bigint/bigint.cpp.obj
 Lab1.BigInt.exe: CMakeFiles/Lab1.BigInt.dir/build.make
 Lab1.BigInt.exe: CMakeFiles/Lab1.BigInt.dir/linklibs.rsp
 Lab1.BigInt.exe: CMakeFiles/Lab1.BigInt.dir/objects1.rsp

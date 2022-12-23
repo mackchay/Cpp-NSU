@@ -11,10 +11,10 @@ void FastMode::addData(size_t newSteps, size_t number) {
     }
 }
 
-void FastMode::start(GameBuild &game) {
+std::vector<std::string> FastMode::start() {
     for (size_t i = 0; i < steps; i++) {
-        game.round();
+        gameBuild.round();
     }
-    game.printResultFinal();
-    game.printWinner();
+    gameBuild.printResultFinal();
+    return(gameBuild.printWinner());
 }

@@ -3,14 +3,13 @@
 
 Game::Game(InputData inputData) {
 
-    gameBuild = GameBuild(inputData.getStrategyList(), inputData.getMatrix());
     strategyList = inputData.getStrategyList();
     mode = inputData.getGameMode();
-
+    mode->initGameBuild(inputData.getStrategyList(), inputData.getMatrix());
 }
 
-void Game::run() {
-    mode->start(gameBuild);
+std::vector<std::string> Game::run() {
+    return mode->start();
 }
 
 Game::~Game() {
